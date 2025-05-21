@@ -1,0 +1,173 @@
+0. Project-level foundations
+Concern	Recommendation
+Repo layout	Create a top-level web_agent/ package that houses only Python code and tests (no UI). Keep Streamlit in app.py at the repo root so presentation stays separate.
+Config & secrets	Use Pydantic BaseSettings → settings.py to read .env. API keys, model names, search limits, retry counts all live here—no literals in code.
+Logging & error boundaries	Centralise with loguru. Wrap every external call (cohere.chat, HTTP fetch, OCR) in a decorator that (1) logs parameters, (2) retries, (3) surfaces a friendly message to Streamlit with st.error() while preserving stack-trace in logs.
+Data contracts	Define Pydantic models in models.py for every payload flowing between stages (Prompt, Completion, LinkMetadata, Doc, TriageLabel, HumanRating). This enforces Single-Responsibility and keeps state predictable.
+Testing pyramid	Unit-test each service with pytest and pytest-asyncio; integration-test the whole pipeline with a small fixture data set. Add GitHub Action to run tests + ruff lint on every commit.
+
+1. Prompt Builder tab
+Responsibilities
+Read template + dynamic variables and expand into concrete prompts.
+
+mermaid
+Copy
+Edit
+graph TD
+  A[UI Upload/Select Template] -->|reads| B(prompt_builder.build_prompts)
+  B --> C[CSV/JSON of prompts]
+Implementation notes
+
+Item	Details
+Data in	template.txt, verticals.csv, horizontals.csv
+Engine	Jinja2 (string replacement is brittle)
+Output	List[Prompt] — persisted as prompts_<timestamp>.jsonl via orjson
+UI	st.file_uploader for template & variable files, then st.dataframe preview of rendered prompts.
+
+2. Prompt Executor tab
+Responsibilities
+Send each prompt to Cohere with tool-enabled web search.
+
+Cohere “tool-use” quick start 🠗
+python
+Copy
+Edit
+import cohere, json, os
+co = cohere.Client(os.environ["COHERE_API_KEY"])
+
+# 1. Define the external web-search tool
+TOOLS = [{
+    "name": "web-search",
+    "description": "Run a live internet search and return links.",
+    "parameter_definitions": {
+        "query": {"type": "string", "description": "Search query"}
+    }
+}]
+
+# 2. Call chat with tool support (API v2)
+resp = co.chat(
+    model="command-r-plus",
+    message=prompt.text,
+    tools=TOOLS,
+    tool_choice="auto",       # let the LLM decide when to invoke search
+    temperature=0.2,
+)
+Cohere’s v2 tool-use lets you register a web-search tool the model can invoke autonomously; the SDK then returns a stream containing the search call plus final answer 
+Cohere
+Cohere
+.
+
+Item	Details
+Async	Wrap calls with anyio / asyncio.gather so dozens of prompts don’t freeze the UI.
+Output	Completion objects → stored completions_<timestamp>.jsonl.
+UI	Progress bar + expandable JSON for each completion.
+
+3. Link Probe tab
+Responsibilities
+Detect dead links, redirects, CAPTCHA blocks.
+
+Technique	Why
+aiohttp HEAD request first	Cheap; catches 404/410 instantly.
+Full GET on 2× retry with back-off	Handles flaky hosts.
+MIME sniffing	Save media-type early for later formatter.
+
+Produce a List[LinkMetadata] with fields: url, status, final_url, mime, error.
+
+4. Content Formatter tab
+Responsibilities
+Download surviving links and turn them into clean Markdown.
+
+Input types	Tooling
+HTML	readability-lxml → html2text
+PDF	pymupdf text-only pass → if messy, fall back to Mistral OCR micro-service you already wrote
+DOCX	python-docx
+Tables	Pandas → to_markdown()
+
+Return Doc objects (slug.md, metadata.json). Persist in a /docs/YYYY-MM-DD/ folder so later stages can open lazily.
+
+5. Content Triage tab
+Responsibilities
+Few-shot LLM classifier that assigns usefulness score.
+
+Proposal: 3-point scale → {“Keep”, “Maybe”, “Discard”}.
+
+Prompt template kept in triage_prompt.txt.
+
+Pass doc excerpt (first 512 tokens) + metadata.
+
+Use Cohere Command R+ with temperature ≈ 0.0 for determinism.
+
+Store TriageLabel alongside the doc. In UI show colour-coded DataFrame so you can spot-patterns quickly.
+
+6. Content Evaluator tab
+Responsibilities
+Human review loop to override or confirm triage.
+
+UI widget	Purpose
+st.selectbox("Your rating", options=["Keep","Maybe","Discard"])	Manual label
+st.download_button	Let you save ratings as CSV for future fine-tuning.
+
+7. Putting the layers together
+plaintext
+Copy
+Edit
+streamlit/
+ └── app.py              ← UI only
+src/
+ ├── settings.py         ← Pydantic config
+ ├── models.py           ← Pydantic data contracts
+ ├── services/
+ │    ├── prompt_builder.py
+ │    ├── prompt_executor.py
+ │    ├── link_probe.py
+ │    ├── content_formatter.py
+ │    ├── content_triage.py
+ │    └── content_evaluator.py
+ └── utils/
+      ├── http.py        ← shared async fetch helpers
+      ├── ocr.py         ← your Mistral wrapper
+      └── logger.py
+tests/
+ └── …                   ← pytest units & smoke tests
+Each services/*.py exposes a pure function (or small class) that takes a Pydantic model in, returns another one—no Streamlit inside.
+
+8. Streamlit structure
+python
+Copy
+Edit
+import streamlit as st
+from src import services, models, settings
+
+st.title("Web-Search Agent Debugger")
+
+tabs = st.tabs(
+    ["Prompt Builder", "Prompt Executor",
+     "Link Probe", "Formatter", "Triage", "Evaluator"]
+)
+
+with tabs[0]:
+    prompt_df = prompt_builder_ui()
+
+with tabs[1]:
+    completion_df = prompt_executor_ui(prompt_df)
+
+...
+State: keep only IDs / filenames in st.session_state; reload objects from disk when tabs switch—this avoids mega-pickles and keeps memory low.
+
+9. Roadmap to “Auto-mode”
+CLI harness (python -m web_agent.run --input template.txt) that chains all services → you can run end-to-end in CI.
+
+Add a “Run all” button in Streamlit that spawns the CLI in a separate thread and streams log lines.
+
+Replace tab order with a Dagster/Prefect DAG when you need retries & scheduling.
+
+Final tips
+Dependency Inversion: pass the Cohere client into each service (def execute_prompts(prompts, llm_client): …). Tests can then inject a fake client.
+
+Error boundaries: surface failures per-row in the UI; don’t abort the whole batch.
+
+Version control: commit module-by-module; don’t check in /docs artefacts—use .gitignore.
+
+Docs as design: update a README.md architecture section whenever a module is added.
+
+With this structure you can iterate on each stage independently, unit-test in isolation, and still flip a single switch to go fully autonomous when you’re ready.
