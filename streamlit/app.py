@@ -21,42 +21,79 @@ from services.prompt_builder import (
     load_horizontals,
     build_prompts,
 )
+from services.cohere_client import CohereClient
 
 # ────── Streamlit UI ──────
-st.set_page_config(page_title="Prompt Builder", layout="wide")
-st.title("Prompt Builder")
+st.set_page_config(page_title="Web Search Agent", layout="wide")
+st.title("Web Search Agent")
 
-tmpl_file  = st.file_uploader("Upload prompt template (.txt)", type=["txt"])
-vert_file  = st.file_uploader("Upload verticals CSV", type=["csv"])
-horiz_file = st.file_uploader("Upload horizontals CSV", type=["csv"])
+# ────── Tabs ──────
+tab1, tab2 = st.tabs(["Prompt Builder", "Prompt Executor"])
 
-if st.button(
-    "Generate prompts",
-    type="primary",
-    disabled=not (tmpl_file and vert_file and horiz_file),
-):
-    with st.spinner("Building prompts…"):
-        template_str   = tmpl_file.read().decode("utf-8")
-        # Save uploaded bytes to temporary buffer and load
-        verticals_data = load_verticals(io.StringIO(vert_file.getvalue().decode("utf-8")))
-        horizontals    = load_horizontals(io.StringIO(horiz_file.getvalue().decode("utf-8")))
-        prompts        = build_prompts(template_str, verticals_data, horizontals)
+with tab1:
+    st.header("Prompt Builder")
+    
+    tmpl_file  = st.file_uploader("Upload prompt template (.txt)", type=["txt"])
+    vert_file  = st.file_uploader("Upload verticals CSV", type=["csv"])
+    horiz_file = st.file_uploader("Upload horizontals CSV", type=["csv"])
 
-    st.success(f"Created {len(prompts):,} prompts")
+    if st.button(
+        "Generate prompts",
+        type="primary",
+        disabled=not (tmpl_file and vert_file and horiz_file),
+    ):
+        with st.spinner("Building prompts…"):
+            template_str   = tmpl_file.read().decode("utf-8")
+            verticals_data = load_verticals(io.StringIO(vert_file.getvalue().decode("utf-8")))
+            horizontals    = load_horizontals(io.StringIO(horiz_file.getvalue().decode("utf-8")))
+            prompts        = build_prompts(template_str, verticals_data, horizontals)
 
-    # Preview the first 100 prompts
-    df_prev = pd.DataFrame([p.model_dump() for p in prompts[:100]])
-    st.dataframe(df_prev, use_container_width=True)
+        st.success(f"Created {len(prompts):,} prompts")
 
-    # JSON download
-    json_bytes = json.dumps([p.model_dump() for p in prompts], indent=2).encode("utf-8")
-    st.download_button(
-        "Download full set (JSON)",
-        json_bytes,
-        file_name="prompts.json",
-        mime="application/json",
-    )
+        df_prev = pd.DataFrame([p.model_dump() for p in prompts[:100]])
+        st.dataframe(df_prev, use_container_width=True)
 
-    st.caption(
-        "Note: Preview is limited to 100 prompts. JSON download includes the full set."
-    )
+        json_bytes = json.dumps([p.model_dump() for p in prompts], indent=2).encode("utf-8")
+        st.download_button(
+            "Download full set (JSON)",
+            json_bytes,
+            file_name="prompts.json",
+            mime="application/json",
+        )
+
+        st.caption(
+            "Note: Preview is limited to 100 prompts. JSON download includes the full set."
+        )
+
+with tab2:
+    st.header("Prompt Executor")
+    
+    # API Key Input
+    api_key = st.text_input("Cohere API Key", type="password")
+    
+    if api_key:
+        try:
+            # Initialize client
+            client = CohereClient(api_key)
+            
+            # Test connection
+            if client.test_connection():
+                st.success("✅ Connected to Cohere!")
+                
+                # Chat interface
+                prompt_text = st.text_area("Enter your prompt:", height=200)
+                
+                if st.button("Execute Prompt", type="primary", disabled=not prompt_text.strip()):
+                    with st.spinner("Getting response..."):
+                        try:
+                            response = client.chat(prompt_text.strip())
+                            st.text_area("Response:", value=response, height=400)
+                        except Exception as e:
+                            st.error(f"Error: {str(e)}")
+            else:
+                st.error("❌ Connection failed. Check your API key.")
+                
+        except Exception as e:
+            st.error(f"❌ Initialization failed: {str(e)}")
+    else:
+        st.info("Enter your Cohere API key above")

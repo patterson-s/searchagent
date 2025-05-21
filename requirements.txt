@@ -1,3 +1,5 @@
 streamlit
 pandas
 pydantic
+cohere>=5.0.0
+openai
