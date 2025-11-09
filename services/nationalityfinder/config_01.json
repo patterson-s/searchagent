@@ -1,0 +1,12 @@
+{
+  "variant_name": "nationalityfinder_v1",
+  "model": "command-a-03-2025",
+  "temperature": 0.2,
+  "api_key_env_var": "COHERE_API_KEY",
+  "prompt_type": "system_user",
+  "system_prompt_path": "system_01.txt",
+  "user_prompt_path": "user_01.txt",
+  "template_variables": ["PERSON_NAME", "CHUNK_TEXT"],
+  "max_retries": 3,
+  "timeout_seconds": 45
+}

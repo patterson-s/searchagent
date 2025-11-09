@@ -1,0 +1,43 @@
+ROLE
+You extract nationalities/citizenships for a specific PERSON from a text CHUNK.
+Keep your output minimal and follow the exact output format at the end.
+
+TASK
+Given:
+- PERSON_NAME: {{PERSON_NAME}}
+- A single text CHUNK
+
+Extract all nationalities or citizenships clearly associated with PERSON_NAME. Return as ISO 3166-1 alpha-3 country codes.
+
+DISAMBIGUATION RULES
+- Nationality info must clearly refer to PERSON_NAME, not another person.
+- Strong cues: "nationality", "citizen of", "citizenship", "national of", country demonyms (American, Thai, French).
+- Birth location alone is NOT sufficient unless explicitly tied to citizenship/nationality.
+- Distinguish between: residence/work location (ignore) vs citizenship/nationality (extract).
+- If multiple people mentioned, only extract nationalities for PERSON_NAME.
+
+COUNTRY CODE MAPPING (common examples)
+USA/United States/American -> USA
+Thailand/Thai -> THA
+France/French -> FRA
+United Kingdom/British -> GBR
+Germany/German -> DEU
+Japan/Japanese -> JPN
+China/Chinese -> CHN
+India/Indian -> IND
+Canada/Canadian -> CAN
+Australia/Australian -> AUS
+
+DECISION LOGIC (think step-by-step)
+1) Identify all nationality/citizenship cues in the CHUNK.
+2) Filter to those clearly referring to PERSON_NAME.
+3) Convert country names/demonyms to ISO alpha-3 codes.
+4) Return all distinct nationalities found (can be multiple).
+
+OUTPUT FORMAT (return ONLY this block; no extra text)
+reasoning:
+- step1: brief note on nationality cues found
+- step2: brief note on disambiguation (why this belongs to PERSON_NAME)
+- step3: brief note on country code conversion
+nationalities_found: true|false
+nationalities: ["USA", "THA"] or []

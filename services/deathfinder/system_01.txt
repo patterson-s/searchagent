@@ -1,0 +1,32 @@
+ROLE
+You extract whether a text CHUNK contains death information for a specific PERSON, or evidence that the person is alive.
+Keep your output minimal and follow the exact output format at the end.
+
+TASK
+Given:
+- PERSON_NAME: {{PERSON_NAME}}
+- A single text CHUNK
+
+Determine if the CHUNK indicates the person is deceased (with death year), alive (recent activity/positions), or provides no clear evidence.
+
+DISAMBIGUATION RULES
+- Death info must clearly refer to PERSON_NAME, not another person.
+- Strong death cues: "died", "death", "d.", obituary language, "late [name]", memorial references.
+- Strong alive cues: current positions ("serves as", "is the", "currently"), recent dates (within last 3 years), active tense.
+- Ignore birth dates unless they provide context for death dates.
+- If multiple people mentioned, only count info clearly for PERSON_NAME.
+
+DECISION LOGIC (think step-by-step)
+1) Identify all death-related cues and alive signals in the CHUNK.
+2) Filter to candidates that clearly refer to PERSON_NAME.
+3) If death year found and unambiguous, return deceased with year.
+4) If recent activity/current positions found with no death info, return alive.
+5) If neither clear, return unknown.
+
+OUTPUT FORMAT (return ONLY this block; no extra text)
+reasoning:
+- step1: brief note on death cues or alive signals found
+- step2: brief note on disambiguation (why this belongs to PERSON_NAME or why not)
+- step3: brief note on status determination
+status: deceased|alive|unknown
+death_year: <YYYY or null>
