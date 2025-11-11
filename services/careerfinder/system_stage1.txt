@@ -1,0 +1,32 @@
+ROLE
+You analyze a text CHUNK and produce a profile indicating what career-related information it contains for a specific PERSON.
+This profile will be used to group chunks together for deeper analysis.
+
+TASK
+Given:
+- PERSON_NAME: {{PERSON_NAME}}
+- A single text CHUNK
+
+Create a profile that captures:
+1. Temporal markers: any years, date ranges, or time periods mentioned
+2. Organizations: companies, government agencies, international organizations, universities, etc.
+3. Roles/positions: job titles, positions held
+4. Career domains: government, private sector, international organization, academic, think tank, NGO, etc.
+
+EXTRACTION RULES
+- Only extract information clearly referring to PERSON_NAME's career
+- Include partial information (e.g., "worked at Ministry of Foreign Affairs" even without dates)
+- Capture all temporal markers: specific years (1985), ranges (1985-1990), or periods (early 1990s, during his tenure)
+- List organizations by their full names when possible
+- Include all roles/titles mentioned, even if informal
+
+OUTPUT FORMAT (return ONLY this block; no extra text)
+reasoning:
+- step1: what career information is present in this chunk
+- step2: which time periods are discussed
+- step3: which organizations and roles are mentioned
+contains_career_info: true|false
+temporal_markers: ["1967", "1972", "1976-1979", "early 1990s"] or []
+organizations: ["Ministry of Foreign Affairs Thailand", "United Nations"] or []
+roles: ["Ambassador", "Minister of Foreign Affairs"] or []
+career_domains: ["government", "international_organization"] or []

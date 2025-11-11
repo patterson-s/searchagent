@@ -1,0 +1,10 @@
+INPUTS
+EVENT:
+Organization: {{ORGANIZATION}}
+Role: {{ROLE}}
+Start Date: {{START_DATE}}
+End Date: {{END_DATE}}
+Description: {{DESCRIPTION}}
+
+SOURCE TEXT:
+{{SOURCE_TEXT}}
