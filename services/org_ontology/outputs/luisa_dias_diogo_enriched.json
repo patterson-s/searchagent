@@ -1,0 +1,333 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Mozambique",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mozambique",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Finance Ministry of Mozambique",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Mozambique's Finance Ministry"
+          ],
+          "provenance": {
+            "contributing_events": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              10
+            ],
+            "event_count": 7,
+            "source_chunks": [
+              "src623_ch0",
+              "src629_ch0",
+              "src626_ch0",
+              "src620_ch0",
+              "src629_ch1",
+              "src621_ch0"
+            ],
+            "source_urls": [
+              "https://awpc.cattcenter.iastate.edu/directory/luisa-d-diogo/",
+              "https://www.notablebiographies.com/news/Ca-Ge/Diogo-Luisa.html",
+              "https://www.un.org/spanish/events/panel/html/diogo.html",
+              "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+              "https://newclimateeconomy.net/content/luisa-diogo"
+            ],
+            "date_range_from_events": {
+              "earliest": "1980",
+              "latest": "2000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "FRELIMO Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Absa Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Absa Group Limited",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Barclays Bank Mozambique",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Barclays Bank Mozambique S.A.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Total Energies",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Total Energies Mozambique",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "High Level Panel on UN Coherence",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "High-Level Panel on the United Nations System-wide Coherence"
+          ],
+          "provenance": {
+            "contributing_events": [
+              19,
+              20
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src623_ch0",
+              "src628_ch0"
+            ],
+            "source_urls": [
+              "https://newclimateeconomy.net/content/luisa-diogo",
+              "https://www.councilwomenworldleaders.org/maria-lusa-dias-diogo"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2007"
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "High Level Panel on UN Global Sustainability",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              21
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src620_ch2",
+              "src623_ch0",
+              "src628_ch0"
+            ],
+            "source_urls": [
+              "https://newclimateeconomy.net/content/luisa-diogo",
+              "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+              "https://www.councilwomenworldleaders.org/maria-lusa-dias-diogo"
+            ],
+            "date_range_from_events": {
+              "earliest": "2010",
+              "latest": "2010"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "High Level Panel on the Future of the Development Assistance Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src620_ch2",
+              "src628_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+              "https://www.councilwomenworldleaders.org/maria-lusa-dias-diogo"
+            ],
+            "date_range_from_events": {
+              "earliest": "2016",
+              "latest": "2016"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "EM1",
+      "employer_name": "Maputo’s Eduardo Mondlane University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "NL1",
+      "employer_name": "NOVAFRICA, Universidade Nova de Lisboa",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Portugal",
+      "org_units": [
+        {
+          "unit_id": "NL1_U1",
+          "unit_name": "NOVAFRICA",
+          "unit_type": "research_center",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "UL1",
+      "employer_name": "University of London",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "UL1_U1",
+          "unit_name": "School of Oriental and African Studies",
+          "unit_type": "faculty",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "SOAS"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Luisa Dias Diogo",
+  "processing_report": {
+    "total_orgs_input": 34,
+    "orgs_categorized": 34,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [
+      "NGO: Skipped 12 orgs - JSON parsing failed"
+    ],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 12,
+        "orgs_processed": 0,
+        "orgs_skipped": 12,
+        "complete": false
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

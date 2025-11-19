@@ -104,7 +104,7 @@ def print_provenance_summary(ontology: Dict):
     
     for employer in ontology.get("employers", []):
         employer_name = employer.get("employer_name", "Unknown")
-        print(f"\n📍 {employer_name}")
+        print(f"\n[EMPLOYER] {employer_name}")
         
         for unit in employer.get("org_units", []):
             total_units += 1
@@ -126,7 +126,7 @@ def print_provenance_summary(ontology: Dict):
             latest = date_range.get("latest", "?")
             date_str = f"{earliest}-{latest}" if earliest and latest else "no dates"
             
-            print(f"  ├── {unit_name}")
+            print(f"  - {unit_name}")
             print(f"      Events: {event_count}, Chunks: {chunk_count}, URLs: {url_count}, Dates: {date_str}")
     
     print("\n" + "=" * 100)
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     
     print("Attaching provenance to ontology units...")
     enriched_ontology = attach_provenance_to_units(ontology, org_provenance, events)
-    print("  ✓ Provenance attached")
+    print("  [OK] Provenance attached")
     print()
     
     print_provenance_summary(enriched_ontology)
@@ -192,4 +192,4 @@ if __name__ == "__main__":
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(enriched_ontology, f, indent=2, ensure_ascii=False)
     
-    print(f"\n✓ Enriched ontology saved to: {output_path}")
+    print(f"\n[OK] Enriched ontology saved to: {output_path}")

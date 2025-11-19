@@ -1,0 +1,764 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Norway",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Ministry of Health",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Health Ministry"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src25_ch0"
+            ],
+            "source_urls": [
+              "https://clubmadrid.org/who/members/brundtland-gro-harlem/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1965",
+              "latest": "1965"
+            }
+          }
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Directorate of Health (Helsedirektoratet)",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              2
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src20_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "1966",
+              "latest": "1969"
+            }
+          }
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Storting (Norwegian Parliament)",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Norwegian Parliament"
+          ],
+          "provenance": {
+            "contributing_events": [
+              10,
+              11
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src24_ch2",
+              "src20_ch10",
+              "src21_ch1",
+              "src20_ch0"
+            ],
+            "source_urls": [
+              "https://www.britannica.com/biography/Gro-Harlem-Brundtland",
+              "https://www.ebsco.com/research-starters/biography/gro-harlem-brundtland",
+              "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "1977",
+              "latest": "1997"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "City of Oslo",
+      "employer_type": "local_government",
+      "sector": "govt",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "Oslo City Council",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              41
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src20_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "2023",
+              "latest": "2023"
+            }
+          }
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Oslo Board of Health",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U004",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              3
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src24_ch1"
+            ],
+            "source_urls": [
+              "https://www.ebsco.com/research-starters/biography/gro-harlem-brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "1968",
+              "latest": "1974"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "PepsiCo",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "PepsiCo Board"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "United Nations Conference on Trade and Development (UNCTAD)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNCTAD"
+          ],
+          "provenance": {
+            "contributing_events": [
+              29
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src20_ch3"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2006"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "World Health Organization",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "United Nations World Health Organization (WHO)",
+        "World Health Organisation"
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Brundtland Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Main Commission Body",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Commission on the Environment and Development"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Club of Madrid",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Main Body",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Council of Women World Leaders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Main Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Global Preparedness Monitoring Board (GPMB)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Main Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Hilton Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Main Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "International Commission on Nuclear Non-Proliferation and Disarmament",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "Main Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Palme Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Main Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Socialist International",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "8.1",
+          "unit_name": "Main Body",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Tang Prize",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Taiwan",
+      "org_units": [
+        {
+          "unit_id": "9.1",
+          "unit_name": "Main Prize Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "The Elders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "10.1",
+          "unit_name": "Main Group",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "UN Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "11.1",
+          "unit_name": "Main Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Foundation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              49
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src29_ch0",
+              "src26_ch0"
+            ],
+            "source_urls": [
+              "https://live.worldbank.org/en/experts/g/gro-h-brundtland",
+              "https://www.hiltonfoundation.org/people/gro-brundtland-md-mph/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "UN Secretary General’s Panel on Threats, Challenges and Change",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "12.1",
+          "unit_name": "Main Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "United Nations Secretary-General’s Global Sustainability Panel",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "13.1",
+          "unit_name": "Main Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "UHC Movement",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "14.1",
+          "unit_name": "Main Movement",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "World Commission on the Environment and Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "15.1",
+          "unit_name": "Main Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Brundtland Commission"
+          ],
+          "provenance": {
+            "contributing_events": [
+              23
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src24_ch3"
+            ],
+            "source_urls": [
+              "https://www.ebsco.com/research-starters/biography/gro-harlem-brundtland"
+            ],
+            "date_range_from_events": {
+              "earliest": "1987",
+              "latest": "1987"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "John F. Kennedy School of Government",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard Kennedy School",
+            "JFK School of Government"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "University of Oslo",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Norway",
+      "org_units": []
+    }
+  ],
+  "person_name": "Gro Harlem Brundtland",
+  "processing_report": {
+    "total_orgs_input": 39,
+    "orgs_categorized": 39,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 8,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 16,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

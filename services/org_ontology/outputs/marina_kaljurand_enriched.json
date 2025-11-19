@@ -1,0 +1,815 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Government of Estonia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Estonia",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Ministry of Foreign Affairs of Estonia",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Foreign Affairs",
+            "Estonian Ministry of Foreign Affairs"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              3,
+              4,
+              15,
+              20,
+              28,
+              38,
+              44,
+              47,
+              51,
+              52,
+              79
+            ],
+            "event_count": 12,
+            "source_chunks": [
+              "src220_ch5",
+              "src225_ch3",
+              "src221_ch0",
+              "src222_ch0",
+              "src220_ch8",
+              "src224_ch0",
+              "src227_ch0",
+              "src228_ch0",
+              "src223_ch0",
+              "src220_ch3",
+              "src220_ch1"
+            ],
+            "source_urls": [
+              "https://www.here-she-is.com/marina-kaljurand",
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv",
+              "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/",
+              "https://2019.cybersecforum.eu/en/speakers/ambassador-marina-kaljurand/",
+              "https://fletcher.tufts.edu/news-events/90th-anniversary/fletcher90-stories/forging-estonias-diplomatic-identity",
+              "https://www.aspendigital.org/person/marina-kaljurand/",
+              "https://csrcl.huji.ac.il/people/marina-kaljurand"
+            ],
+            "date_range_from_events": {
+              "earliest": "1991",
+              "latest": "2016"
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Estonian Foreign Service",
+          "unit_type": "other",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              83
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src225_ch0"
+            ],
+            "source_urls": [
+              "https://www.here-she-is.com/marina-kaljurand"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Embassy of Estonia in the United States",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United States",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Estonian Embassy to the United States, Canada, and Mexico",
+            "Embassy of Estonia, United States",
+            "Estonian Embassy in Washington"
+          ],
+          "provenance": {
+            "contributing_events": [
+              21,
+              27,
+              32,
+              34
+            ],
+            "event_count": 4,
+            "source_chunks": [
+              "src225_ch2",
+              "src224_ch0",
+              "src227_ch0",
+              "src220_ch1",
+              "src220_ch0"
+            ],
+            "source_urls": [
+              "https://fletcher.tufts.edu/news-events/90th-anniversary/fletcher90-stories/forging-estonias-diplomatic-identity",
+              "https://www.here-she-is.com/marina-kaljurand",
+              "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+              "https://2019.cybersecforum.eu/en/speakers/ambassador-marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2014"
+            }
+          }
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Embassy of Estonia in Mexico",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United Mexican States",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Embassy of Estonia, Mexico"
+          ],
+          "provenance": {
+            "contributing_events": [
+              35
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src227_ch0",
+              "src220_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+              "https://2019.cybersecforum.eu/en/speakers/ambassador-marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2011",
+              "latest": "2014"
+            }
+          }
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "Embassy of Estonia in Canada",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Canada",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "Embassy of Estonia in Helsinki",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Finland",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u7",
+          "unit_name": "Embassy of Estonia to Russia",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Russian Federation",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u8",
+          "unit_name": "Governmental Delegation for the Negotiations on Land and Maritime Boundary Agreements between Estonia and the Russian Federation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "Russian Federation",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              11
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src221_ch1"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv"
+            ],
+            "date_range_from_events": {
+              "earliest": "1995",
+              "latest": "2005"
+            }
+          }
+        },
+        {
+          "unit_id": "u9",
+          "unit_name": "Governmental Delegation for the Negotiations on the Accession of Estonia to the European Union",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "European Union",
+            "type": "international_organization"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              19
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src221_ch1"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv"
+            ],
+            "date_range_from_events": {
+              "earliest": "2002",
+              "latest": "2004"
+            }
+          }
+        },
+        {
+          "unit_id": "u10",
+          "unit_name": "Governmental Delegation for the Negotiations on the Withdrawal of Troops between Estonia and the Russian Federation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "Russian Federation",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              7
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src221_ch1"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv"
+            ],
+            "date_range_from_events": {
+              "earliest": "1992",
+              "latest": "1995"
+            }
+          }
+        },
+        {
+          "unit_id": "u11",
+          "unit_name": "Riigikogu",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Estonian Parliament (Riigikogu)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              63,
+              71
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src220_ch10",
+              "src222_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2019",
+              "latest": "2027"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Republic of Estonia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Estonia",
+      "org_units": [],
+      "variant_names": [
+        "Estonian Government"
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Republic of Kazakhstan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Kazakhstan",
+      "org_units": [],
+      "variant_names": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Russian Federation",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Russia",
+      "org_units": [],
+      "variant_names": []
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "State of Israel",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Israel",
+      "org_units": [],
+      "variant_names": []
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "United Mexican States",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mexico",
+      "org_units": [],
+      "variant_names": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Organisation for Economic Co-operation and Development (OECD)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2_1",
+          "unit_name": "United Nations General Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              82
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src224_ch0"
+            ],
+            "source_urls": [
+              "https://fletcher.tufts.edu/news-events/90th-anniversary/fletcher90-stories/forging-estonias-diplomatic-identity"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2_2",
+          "unit_name": "UN Advisory Board on Disarmament Matters",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              69
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src222_ch0"
+            ],
+            "source_urls": [
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2020",
+              "latest": "2020"
+            }
+          }
+        },
+        {
+          "unit_id": "U2_3",
+          "unit_name": "UN Group of Governmental Experts on Cyber Security",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Group of Governmental Experts (GGE)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              39,
+              41
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src222_ch0",
+              "src227_ch0",
+              "src221_ch1",
+              "src220_ch6",
+              "src223_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv",
+              "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/",
+              "https://2019.cybersecforum.eu/en/speakers/ambassador-marina-kaljurand/",
+              "https://www.aspendigital.org/person/marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "U2_4",
+          "unit_name": "UN Secretary General’s High-Level Panel on Digital Cooperation",
+          "unit_type": "other",
+          "parent_unit_id": "U2_5",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              57
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src223_ch0",
+              "src222_ch0"
+            ],
+            "source_urls": [
+              "https://www.aspendigital.org/person/marina-kaljurand/",
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "U2_5",
+          "unit_name": "UN Secretary General’s High-level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Secretary-General’s Advisory Board"
+          ],
+          "provenance": {
+            "contributing_events": [
+              56,
+              68
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src221_ch1"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2020"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "International Committee of the Red Cross (ICRC)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "EILA",
+      "employer_name": "Estonian Branch of the International Law Association",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Estonia",
+      "org_units": []
+    },
+    {
+      "employer_id": "ILA_EST",
+      "employer_name": "International Law Association (Estonian branch)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Estonia",
+      "org_units": [],
+      "notes": "This is considered the same organization as the Estonian Branch of the International Law Association, but listed separately in the input."
+    },
+    {
+      "employer_id": "WIIS_EST",
+      "employer_name": "WIIS-EST – Estonian Branch of Women in International Security",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Estonia",
+      "org_units": []
+    },
+    {
+      "employer_id": "WIIS_EST_ALT",
+      "employer_name": "WIIS-EST (Women In International Security - Estonian branch)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Estonia",
+      "org_units": [],
+      "notes": "This is considered the same organization as WIIS-EST – Estonian Branch of Women in International Security, but listed separately in the input."
+    },
+    {
+      "employer_id": "GCG",
+      "employer_name": "Global Cybersecurity Group",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "EIF",
+      "employer_name": "European Internet Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "GCSC",
+      "employer_name": "Global Commission on the Stability of Cyberspace (GCSC)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "University of Salamanca",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Spain",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Advisory Council of Global and International Studies",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Estonian School of Diplomacy",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Estonia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Tufts University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Fletcher School of Law and Diplomacy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "The Fletcher School"
+          ],
+          "provenance": {
+            "contributing_events": [
+              9
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src224_ch0"
+            ],
+            "source_urls": [
+              "https://fletcher.tufts.edu/news-events/90th-anniversary/fletcher90-stories/forging-estonias-diplomatic-identity"
+            ],
+            "date_range_from_events": {
+              "earliest": "1995",
+              "latest": "1995"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Tallinn University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Estonia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "University of Tartu",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Estonia",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Tartu University",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              0
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src223_ch0",
+              "src225_ch3",
+              "src222_ch0"
+            ],
+            "source_urls": [
+              "https://www.aspendigital.org/person/marina-kaljurand/",
+              "https://europeanleadershipnetwork.org/person/marina-kaljurand/",
+              "https://www.here-she-is.com/marina-kaljurand"
+            ],
+            "date_range_from_events": {
+              "earliest": "1986",
+              "latest": "1986"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Tallinn Economic Technical School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Estonia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Center for Strategic and International Studies (CSIS)",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "High-Level Advisory Council to the Lillan and Robert D. Stuart Jr Center in Euro-Atlantic and Northern European Studies",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Marina Kaljurand",
+  "processing_report": {
+    "total_orgs_input": 63,
+    "orgs_categorized": 62,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 25,
+        "orgs_processed": 25,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

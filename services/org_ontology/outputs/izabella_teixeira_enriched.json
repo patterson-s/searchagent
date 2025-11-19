@@ -1,0 +1,466 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Brazil",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of the Environment",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Environment of Brazil",
+            "Ministry of the Environment of Brazil",
+            "Ministry of the Environment, Brazil"
+          ],
+          "provenance": {
+            "contributing_events": [
+              6,
+              7,
+              22
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src395_ch0",
+              "src391_ch4",
+              "src396_ch0",
+              "src398_ch0",
+              "src390_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/sg/en/management/bios/Teixeira.shtml",
+              "https://cebri.org/en/especialista/63/izabella-teixeira",
+              "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+              "https://www.americasquarterly.org/aq-author/izabella-teixeira/",
+              "https://council.science/profile/izabella-teixeira/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2008",
+              "latest": "2016"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Brazilian Environmental Agency",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              2
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src396_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/sg/en/management/bios/Teixeira.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": "1984",
+              "latest": "1984"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Brazilian Institute for the Environment and Renewable Natural Resources (Ibama)",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "IBAMA"
+          ],
+          "provenance": {
+            "contributing_events": [
+              0,
+              1,
+              3
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src393_ch0",
+              "src390_ch0",
+              "src398_ch0",
+              "src395_ch0"
+            ],
+            "source_urls": [
+              "https://www.americasquarterly.org/aq-author/izabella-teixeira/",
+              "https://council.science/profile/izabella-teixeira/",
+              "https://cebri.org/en/especialista/63/izabella-teixeira",
+              "https://www.unep.org/championsofearth/laureates/2013/izabella-teixeira"
+            ],
+            "date_range_from_events": {
+              "earliest": "1984",
+              "latest": "1984"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Brazilian Delegation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              14
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src392_ch0"
+            ],
+            "source_urls": [
+              "https://www.woodwellclimate.org/staff/izabella-teixeira/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2015",
+              "latest": "2015"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Rio de Janeiro State Government",
+      "employer_type": "state_government",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [],
+      "variant_names": [
+        "State Government of Rio de Janeiro"
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "National Bank for Economic and Social Development (BNDES)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [],
+      "variant_names": [
+        "The Brazilian Development Bank (BNDES)"
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Ambipar",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Institute Arapyaú",
+      "employer_type": "ngo",
+      "sector": "private",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Woodwell Climate",
+      "employer_type": "ngo",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "International Renewable Energy Agency (IRENA)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "United Nations Department of Economic and Social Affairs (UN DESA)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "United Nations Environment Programme (UN Environment)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "International Resource Panel (IRP)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IRP/UNEP-ONU",
+            "United Nations' International Resource Panel"
+          ],
+          "provenance": {
+            "contributing_events": [
+              32
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src397_ch0"
+            ],
+            "source_urls": [
+              "https://ambipar.com/usa/news/ambipar-hires-former-brazil-minister-2/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "High-Level Panel of Eminent Persons for the Post-2015 Development Agenda",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              12
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src390_ch0",
+              "src398_ch0"
+            ],
+            "source_urls": [
+              "https://council.science/profile/izabella-teixeira/",
+              "https://cebri.org/en/especialista/63/izabella-teixeira"
+            ],
+            "date_range_from_events": {
+              "earliest": "2012",
+              "latest": "2012"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Global Commission on Science Missions for Sustainability",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "ACRJ’s Environment Council",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Environment Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Brazilian Center for International Relations (CEBRI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Fernando Henrique Cardoso Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Foundation Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Izabella Teixeira",
+  "processing_report": {
+    "total_orgs_input": 29,
+    "orgs_categorized": 29,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

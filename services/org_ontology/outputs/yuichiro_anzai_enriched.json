@@ -1,0 +1,425 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Japan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Brain Science Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              23
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src186_ch1"
+            ],
+            "source_urls": [
+              "http://wi-consortium.org/conferences/amtbi13/amt/index.php?category=invited&speaker=Anzai"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Council for Artificial Intelligence Strategy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              17
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src181_ch0"
+            ],
+            "source_urls": [
+              "https://oxcaigg.oii.ox.ac.uk/people/dr-yuichiro-anzai/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Council for Science and Technology",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              22
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src186_ch1"
+            ],
+            "source_urls": [
+              "http://wi-consortium.org/conferences/amtbi13/amt/index.php?category=invited&speaker=Anzai"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U004",
+          "unit_name": "Council for the Innovation of Learning",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              21
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src186_ch1"
+            ],
+            "source_urls": [
+              "http://wi-consortium.org/conferences/amtbi13/amt/index.php?category=invited&speaker=Anzai"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Central Council for Education",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "sub_units": [
+            {
+              "unit_id": "U006",
+              "unit_name": "University Subcouncil",
+              "unit_type": "other",
+              "parent_unit_id": "U005",
+              "hierarchy_level": 2,
+              "counterparty": null,
+              "variant_names": []
+            }
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ipsj",
+      "employer_name": "Information Processing Society of Japan",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "ipsj_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "jcsc",
+      "employer_name": "Japanese Cognitive Science Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "jcsc_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "kojunsha",
+      "employer_name": "Kojunsha",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "kojunsha_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "tfpr",
+      "employer_name": "Tokyo Foundation for Policy Research",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "tfpr_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Association of Pacific Rim Universities",
+      "employer_type": "international_organization",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Carnegie Mellon University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Trustee Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Hokkaido University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Faculty of Engineering",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Keio University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Graduate School of Media and Governance",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "McGill University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "Faculty of Science",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Science Council of Japan",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "The Japan Society for the Promotion of Science (JSPS)",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": []
+    }
+  ],
+  "person_name": "Yuichiro Anzai",
+  "processing_report": {
+    "total_orgs_input": 19,
+    "orgs_categorized": 19,
+    "sectors_processed": [
+      "govt",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 8,
+        "orgs_processed": 7,
+        "orgs_skipped": 1,
+        "complete": true
+      }
+    ]
+  }
+}

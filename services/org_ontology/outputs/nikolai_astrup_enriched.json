@@ -1,0 +1,561 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Norway",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Solberg Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Solberg cabinet"
+          ],
+          "provenance": {
+            "contributing_events": [
+              30
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Storting",
+          "unit_type": "parliament",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Norwegian Parliament",
+            "Parliament of Norway",
+            "Storting"
+          ],
+          "provenance": {
+            "contributing_events": [
+              19,
+              24,
+              44
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src190_ch7",
+              "src190_ch1",
+              "src190_ch0",
+              "src190_ch6",
+              "src192_ch0",
+              "src190_ch5"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+              "https://www.norwayfintechfestival.no/2025/speakers/nikolai-astrup"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Standing Committee on Energy and the Environment",
+          "unit_type": "committee",
+          "parent_unit_id": "U2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              18
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2015"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Standing Committee on Finance",
+          "unit_type": "committee",
+          "parent_unit_id": "U2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              28
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2017",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Standing Committee on Transport and Communication",
+          "unit_type": "committee",
+          "parent_unit_id": "U2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2016",
+              "latest": "2017"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "City of Oslo",
+      "employer_type": "local_government",
+      "sector": "govt",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Office of the Governing Mayor",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Erling Lae (Governing Mayor of Oslo)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              17
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2008",
+              "latest": "2009"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Pactum AS",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Blomqvist's Auction House and Gallery",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Blomqvist's Kunsthandel"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Arkwright",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Asian Infrastructure Investment Bank (AIIB)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Multilateral Investment Guarantee Agency (MIGA)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "U.N. Secretary-General’s High-level Panel on Digital Cooperation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              48
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src197_ch0"
+            ],
+            "source_urls": [
+              "https://www.devex.com/news/authors/-1446407"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "European Movement in Norway",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Norway",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Conservative Party",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Norway",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Conservative Party (Oslo)",
+          "unit_type": "local_branch",
+          "parent_unit_id": "2",
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              23
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1",
+              "src190_ch4"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2012",
+              "latest": "2018"
+            }
+          }
+        },
+        {
+          "unit_id": "2.2",
+          "unit_name": "Conservative Party Parliamentary Group",
+          "unit_type": "parliamentary_group",
+          "parent_unit_id": "2",
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Conservative Party parliamentary group"
+          ],
+          "provenance": {
+            "contributing_events": [
+              16,
+              25
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2008",
+              "latest": "2018"
+            }
+          }
+        },
+        {
+          "unit_id": "2.3",
+          "unit_name": "Norwegian Young Conservatives (Oslo)",
+          "unit_type": "youth_wing",
+          "parent_unit_id": "2.1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              39
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "2.4",
+          "unit_name": "Oslo Conservatives",
+          "unit_type": "local_branch",
+          "parent_unit_id": "2.1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              22
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src190_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)"
+            ],
+            "date_range_from_events": {
+              "earliest": "2012",
+              "latest": "2018"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Liberal Party",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Norway",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Artists' Association, Kristiania",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Norway",
+      "org_units": []
+    }
+  ],
+  "person_name": "Nikolai Astrup",
+  "processing_report": {
+    "total_orgs_input": 45,
+    "orgs_categorized": 45,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [
+      "ACADEMIC: Skipped 12 orgs - JSON parsing failed"
+    ],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 12,
+        "orgs_processed": 0,
+        "orgs_skipped": 12,
+        "complete": false
+      }
+    ]
+  }
+}

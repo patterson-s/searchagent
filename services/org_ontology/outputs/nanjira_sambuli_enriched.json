@@ -1,0 +1,462 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Department for International Development (DFID)",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Ministry of Electronics and Information Technology (MeitY)",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "govt",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Commission on Science and Technology for Development (CSTD)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN CSTD"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "United Nations Human Settlements Programme (UN HABITAT)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN HABITAT"
+          ],
+          "provenance": {
+            "contributing_events": [
+              38
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src308_ch0"
+            ],
+            "source_urls": [
+              "https://ocsdnet.org/ocsdnet_team/nanjira-sambuli/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "United Nations Environment Programme (UNEP)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNEP"
+          ],
+          "provenance": {
+            "contributing_events": [
+              37
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src308_ch0"
+            ],
+            "source_urls": [
+              "https://ocsdnet.org/ocsdnet_team/nanjira-sambuli/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Daily Nation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Kenya",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "IRIN News",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "The New Humanitarian",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "iHub",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "iHub, Nairobi",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              25
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src306_ch0",
+              "src301_ch0",
+              "src307_ch0"
+            ],
+            "source_urls": [
+              "https://www.concordia.net/community/nanjira-sambuli/",
+              "https://istanbulinnovationdays.org/speaker/nanjira/",
+              "https://carnegieendowment.org/people/nanjira-sambuli?lang=en"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "UN Secretary General's High Level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN SG's High Level Panel"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src300_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Nanjira_Sambuli"
+            ],
+            "date_range_from_events": {
+              "earliest": "2016",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "io_1_unit_2",
+          "unit_name": "United Nations Secretary General’s High-Level Panel for Women’s Economic Empowerment",
+          "unit_type": "other",
+          "parent_unit_id": "io_1_unit_1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "UN SG's High-Level Panel for Women’s Economic Empowerment"
+          ],
+          "provenance": {
+            "contributing_events": [
+              28
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src304_ch0",
+              "src301_ch0",
+              "src307_ch0"
+            ],
+            "source_urls": [
+              "https://istanbulinnovationdays.org/speaker/nanjira/",
+              "https://carnegieendowment.org/people/nanjira-sambuli?lang=en",
+              "https://dial.global/profile/nanjirasambuli/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "io_1_unit_3",
+          "unit_name": "United Nations Secretary General’s High-Level Panel on Digital Cooperation",
+          "unit_type": "other",
+          "parent_unit_id": "io_1_unit_1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "UN SG's High-Level Panel on Digital Cooperation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src304_ch0",
+              "src301_ch0",
+              "src307_ch0"
+            ],
+            "source_urls": [
+              "https://istanbulinnovationdays.org/speaker/nanjira/",
+              "https://carnegieendowment.org/people/nanjira-sambuli?lang=en",
+              "https://dial.global/profile/nanjirasambuli/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Africans Act 4 Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Alliance for Inclusive Algorithms",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Carnegie Council",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Carnegie Council’s AI and Equality Initiative",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              22
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src301_ch0",
+              "src307_ch0"
+            ],
+            "source_urls": [
+              "https://istanbulinnovationdays.org/speaker/nanjira/",
+              "https://carnegieendowment.org/people/nanjira-sambuli?lang=en"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Carnegie Endowment for International Peace",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "Development Gateway",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Digital Impact Alliance (DIAL)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Ford Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e8",
+      "employer_name": "Global Power Shift",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e9",
+      "employer_name": "Lancet & Financial Times Global Commission (Governing Health Futures 2030)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e10",
+      "employer_name": "Omidyar Network",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e11",
+      "employer_name": "Transform Health",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e12",
+      "employer_name": "Transform Health Coalition",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e13",
+      "employer_name": "UK Citizens Online Democracy (mySociety)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e14",
+      "employer_name": "Web Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e15",
+      "employer_name": "World Wide Web Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e16",
+      "employer_name": "Umati",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    }
+  ],
+  "person_name": "Nanjira Sambuli",
+  "processing_report": {
+    "total_orgs_input": 34,
+    "orgs_categorized": 34,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 18,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

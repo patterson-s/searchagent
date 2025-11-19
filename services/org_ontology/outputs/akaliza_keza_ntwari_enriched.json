@@ -1,0 +1,287 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Alibaba Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Microsoft",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Microsoft 4Afrika Advisory Board",
+          "unit_type": "advisory_board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              2
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src278_ch10"
+            ],
+            "source_urls": [
+              "https://www.un.org/en/sg-digital-cooperation-panel"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2014"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Self-founded Companies",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Unnamed Founded Company 1",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Unnamed Founded Company 2",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Shaking Sun",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "kLab",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Rwanda",
+      "org_units": []
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "UN High-Level Panel on Digital Cooperation",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN High-Level Panel on Digital Cooperation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              4
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src274_ch0",
+              "src274_ch1",
+              "src272_ch0"
+            ],
+            "source_urls": [
+              "https://blogs.kent.ac.uk/engineering-news/2018/09/04/kent-alumna-from-rwanda-joins-high-level-un-panel-alongside-melinda-gates-and-jack-ma-and-makes-significant-strides-to-change-the-face-of-technology-in-her-country/",
+              "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2019"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Amnesty International",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Girls in ICT Rwanda",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Rwanda",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Global Shapers",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Community Leadership",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "kic",
+      "employer_name": "Kobe Institute of Computing (KIC)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "kent",
+      "employer_name": "University of Kent",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "kent_seda",
+          "unit_name": "School of Engineering and Digital Arts",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Akaliza Keza Ntwari",
+  "processing_report": {
+    "total_orgs_input": 17,
+    "orgs_categorized": 17,
+    "sectors_processed": [
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 6,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

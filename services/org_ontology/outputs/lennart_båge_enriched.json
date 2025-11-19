@@ -1,0 +1,292 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Government of Sweden",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Ministry for Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Sweden's Ministry for Foreign Affairs",
+            "Swedish Ministry for Foreign Affairs"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              2,
+              4
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src731_ch0",
+              "src735_ch0",
+              "src732_ch1"
+            ],
+            "source_urls": [
+              "https://www.un.org/spanish/events/panel/html/bage.html",
+              "https://www.greenclimate.fund/news/gcf-board-opens-b-19-meeting-elects-lennart-b-229-ge-and-paul-oquist-as-new-co-chairs",
+              "https://www.sifi.se/om-oss/styrgruppen/lennart-bage/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1974",
+              "latest": "2001"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ACBF",
+      "employer_name": "African Capacity Building Foundation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ADB_AFDB_IADB",
+      "employer_name": "Asian, African and Inter-American Development Banks",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "GCF",
+      "employer_name": "Green Climate Fund",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Green Climate Fund (GCF)"
+      ]
+    },
+    {
+      "employer_id": "IDA",
+      "employer_name": "International Development Association",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "IFAD",
+      "employer_name": "International Fund for Agricultural Development",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UN_HLCP",
+      "employer_name": "UN System-wide High Level Committee on Programmes",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "AgriFoSe",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Global Challenge (Global Utmaning)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Global Utmaning"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "SIANI",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Steering Committee",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "sse_stockholm",
+      "employer_name": "Stockholm School of Economics",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "sse_department_economics",
+          "unit_name": "Department of Economics",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "sse_department_finance",
+          "unit_name": "Department of Finance",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "sse_trustee_board",
+          "unit_name": "Trustee Board",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Lennart Båge",
+  "processing_report": {
+    "total_orgs_input": 18,
+    "orgs_categorized": 18,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

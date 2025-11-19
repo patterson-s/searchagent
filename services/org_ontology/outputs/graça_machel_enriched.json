@@ -1,0 +1,617 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Mozambique",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mozambique",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "National Commission of UNESCO (Mozambique)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Mozambique National Commission for UNESCO"
+          ],
+          "provenance": {
+            "contributing_events": [
+              82
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src538_ch1",
+              "src534_ch1"
+            ],
+            "source_urls": [
+              "https://commencement.morgan.edu/speakers/graca-machel/",
+              "https://sahistory.org.za/people/graca-simbine-machel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Government of South Africa",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "South Africa",
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "PME African Infrastructure Opportunities",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Principle Capital Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Whatana Investment Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_001",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_001",
+          "unit_name": "UNICEF",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Children's Fund"
+          ],
+          "provenance": {
+            "contributing_events": [
+              13,
+              65,
+              81
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src532_ch0",
+              "src533_ch1",
+              "src534_ch1"
+            ],
+            "source_urls": [
+              "https://unpartnerships.un.org/graca-machel",
+              "https://www.learningforjustice.org/classroom-resources/texts/graca-machel",
+              "https://commencement.morgan.edu/speakers/graca-machel/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1988",
+              "latest": "1988"
+            }
+          }
+        },
+        {
+          "unit_id": "io_unit_002",
+          "unit_name": "UN Secretary-General’s Sustainable Development Goals Advocacy Group",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              69
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src532_ch0"
+            ],
+            "source_urls": [
+              "https://unpartnerships.un.org/graca-machel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "io_unit_003",
+          "unit_name": "High-Level Panel on the Post-2015 Development Agenda",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              84
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src535_ch0"
+            ],
+            "source_urls": [
+              "https://www.girlsnotbrides.org/about-us/our-champions/mrs-graca-machel/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_002",
+      "employer_name": "UN Foundation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_004",
+          "unit_name": "Global Alliance for Vaccines and Immunization Fund",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "GAVI"
+          ],
+          "provenance": {
+            "contributing_events": [
+              85
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src538_ch2"
+            ],
+            "source_urls": [
+              "https://sahistory.org.za/people/graca-simbine-machel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_003",
+      "employer_name": "Partnership for Maternal, Newborn & Child Health (PMNCH)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_004",
+      "employer_name": "Commonwealth of Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_005",
+          "unit_name": "High-Level Taskforce on Innovative International Financing for Health Systems",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              32
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src530_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel"
+            ],
+            "date_range_from_events": {
+              "earliest": "2008",
+              "latest": "2009"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_005",
+      "employer_name": "High-Level Steering Group for Every Woman Every Child",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "ACCORD",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Africa Child Policy Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Africa Progress Panel (APP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "African Centre for the Constructive Resolution of Disputes",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "African Child Policy Forum (ACPF)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "African Leadership Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Association of European Parliamentarians with Africa (AWEPA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Eastern Africa Centre for Constitutional Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Education Above All",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Forum for African Women Educationalists (FAWE)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Foundation for Community Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Girls Not Brides",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Graça Machel Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "International Crisis Group",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "Mandela Institute for Development Studies",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "Mo Ibrahim Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "17",
+      "employer_name": "National Organization of Children of Mozambique",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "18",
+      "employer_name": "Nelson Mandela Children's Hospital",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "19",
+      "employer_name": "Synergos",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "20",
+      "employer_name": "The Elders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "21",
+      "employer_name": "The Hunger Project",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "22",
+      "employer_name": "United People Global",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "23",
+      "employer_name": "VillageReach",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "24",
+      "employer_name": "World Conference on Education for All",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "25",
+      "employer_name": "Zizile Institute for Child Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ALU",
+      "employer_name": "African Leadership University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "BA",
+      "employer_name": "British Academy",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "FSSB",
+      "employer_name": "Frelimo Secondary School at Bagamoyo",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Tanzania",
+      "org_units": []
+    },
+    {
+      "employer_id": "LU",
+      "employer_name": "Lisbon University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Portugal",
+      "org_units": []
+    },
+    {
+      "employer_id": "SOAS",
+      "employer_name": "School of Oriental and African Studies, University of London",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [],
+      "variant_names": [
+        "SOAS",
+        "SOAS, University of London"
+      ]
+    },
+    {
+      "employer_id": "UCT",
+      "employer_name": "University of Cape Town",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "South Africa",
+      "org_units": [],
+      "variant_names": [
+        "University of Cape Town (UCT)"
+      ]
+    }
+  ],
+  "person_name": "Graça Machel",
+  "processing_report": {
+    "total_orgs_input": 68,
+    "orgs_categorized": 68,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 29,
+        "orgs_processed": 25,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

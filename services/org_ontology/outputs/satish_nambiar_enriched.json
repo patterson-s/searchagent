@@ -1,0 +1,440 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Indian Armed Forces",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Indian Army",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Indian Military"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              4,
+              5,
+              12,
+              15,
+              21,
+              36
+            ],
+            "event_count": 7,
+            "source_chunks": [
+              "src95_ch9",
+              "src90_ch0",
+              "src91_ch0",
+              "src96_ch0",
+              "src95_ch5",
+              "src95_ch0",
+              "src97_ch0",
+              "src95_ch7",
+              "src99_ch0",
+              "src95_ch6",
+              "src95_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Satish_Nambiar",
+              "http://www.fnsr.in/index.php?option=com_content&view=article&id=10985&Itemid=100",
+              "https://www.thecitizen.in/index.php/en/contributor/detail/lt-general-satish-nambiar",
+              "http://www.globalzero.org/about-us/movement-leaders16cf.html?category=military-commander&paged=3",
+              "https://ict4peace.org/team/satish-nambiar/",
+              "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1956",
+              "latest": "1994"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Maratha Light Infantry",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "20th Maratha Light Infantry",
+            "The Maratha Light Infantry"
+          ],
+          "provenance": {
+            "contributing_events": [
+              6,
+              7,
+              35
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src97_ch0",
+              "src95_ch2",
+              "src95_ch1"
+            ],
+            "source_urls": [
+              "http://www.fnsr.in/index.php?option=com_content&view=article&id=10985&Itemid=100",
+              "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1957",
+              "latest": "1958"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "National Cadet Corps",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              0
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src95_ch3"
+            ],
+            "source_urls": [
+              "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1954",
+              "latest": "1954"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Government of India",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Ministry of External Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "High Commission of India in London",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U4",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Government of the United Kingdom",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              14
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src90_ch0",
+              "src91_ch0",
+              "src95_ch8",
+              "src97_ch0",
+              "src99_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Satish_Nambiar",
+              "http://www.fnsr.in/index.php?option=com_content&view=article&id=10985&Itemid=100",
+              "https://www.thecitizen.in/index.php/en/contributor/detail/lt-general-satish-nambiar",
+              "https://ict4peace.org/team/satish-nambiar/",
+              "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1983",
+              "latest": "1987"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Government of Sri Lanka",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Sri Lanka",
+      "org_units": []
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Australian Staff College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Defence Services Staff College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Indian Military Academy",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "United Nations Institute for Training and Research (UNITAR)",
+      "employer_type": "international_organization",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Foundation for National Security Research (FNSR)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "India International Centre",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "International Commission of Jurists (ICJ)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Manohar Parrikar Institute For Defence Studies and Analyses (MP-IDSA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Institute for Defence Studies and Analyses, New Delhi",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "United Service Institution of India",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "Executive Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UN Peacekeeping Forces",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Peacekeeping"
+          ],
+          "provenance": {
+            "contributing_events": [
+              20
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src95_ch8"
+            ],
+            "source_urls": [
+              "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1992",
+              "latest": "1993"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "United Nations Protection Force (UNPROFOR)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNPROFOR"
+          ],
+          "provenance": {
+            "contributing_events": [
+              17,
+              18
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src90_ch0",
+              "src99_ch0",
+              "src90_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Satish_Nambiar",
+              "https://www.thecitizen.in/index.php/en/contributor/detail/lt-general-satish-nambiar"
+            ],
+            "date_range_from_events": {
+              "earliest": "1992",
+              "latest": "1993"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Satish Nambiar",
+  "processing_report": {
+    "total_orgs_input": 26,
+    "orgs_categorized": 26,
+    "sectors_processed": [
+      "govt",
+      "academic",
+      "ngo",
+      "io"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

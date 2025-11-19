@@ -1,0 +1,1067 @@
+{
+  "employers": [
+    {
+      "employer_id": "gov_uae",
+      "employer_name": "Government of the United Arab Emirates",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "uae_cabinet",
+          "unit_name": "UAE Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Arab Emirates Cabinet",
+            "حكومة دولة الإمارات العربية المتحدة"
+          ],
+          "provenance": {
+            "contributing_events": [
+              45,
+              77,
+              90,
+              114
+            ],
+            "event_count": 4,
+            "source_chunks": [
+              "src173_ch1",
+              "src173_ch0",
+              "src172_ch0"
+            ],
+            "source_urls": [
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2020"
+            }
+          }
+        },
+        {
+          "unit_id": "min_cabinet_affairs",
+          "unit_name": "Ministry of Cabinet Affairs - UAE",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Cabinet Affairs, United Arab Emirates"
+          ],
+          "provenance": {
+            "contributing_events": [
+              44,
+              105
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src170_ch4",
+              "src172_ch8"
+            ],
+            "source_urls": [
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2006"
+            }
+          }
+        },
+        {
+          "unit_id": "mdc",
+          "unit_name": "Ministerial Development Council (MDC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              46
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src174_ch0",
+              "src173_ch1",
+              "src179_ch0",
+              "src177_ch0"
+            ],
+            "source_urls": [
+              "https://www.mbrcld.ae/en/about-us/",
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+              "https://live.worldgovernmentsummit.org/about/leadership/mohammad-abdullah-al-gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2006"
+            }
+          }
+        },
+        {
+          "unit_id": "fnmc",
+          "unit_name": "Federal National Media Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              102,
+              125
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src173_ch6",
+              "src170_ch2"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "fcsc",
+          "unit_name": "Federal Competitiveness and Statistics Centre",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              54
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src172_ch8"
+            ],
+            "source_urls": [
+              "https://ae.linkedin.com/in/mohammedalgergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2024"
+            }
+          }
+        },
+        {
+          "unit_id": "fgsc",
+          "unit_name": "Federal Government Services Continuity Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              92
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src173_ch5"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2020",
+              "latest": "2020"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "gov_dubai",
+      "employer_name": "Government of Dubai",
+      "employer_type": "local_government",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "dubai_exec_council",
+          "unit_name": "Dubai Executive Council",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Executive Council of the Emirate of Dubai",
+            "The General Secretariat Of The Executive Council - Government of Dubai"
+          ],
+          "provenance": {
+            "contributing_events": [
+              25,
+              28,
+              32
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src177_ch2",
+              "src172_ch8",
+              "src171_ch1",
+              "src173_ch0",
+              "src174_ch0",
+              "src173_ch3",
+              "src179_ch1"
+            ],
+            "source_urls": [
+              "https://live.worldgovernmentsummit.org/about/leadership/mohammad-abdullah-al-gergawi",
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+              "https://www.worldgovernmentssummit.org/about/leadership/mohammad-gergawi",
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://www.mbrcld.ae/en/about-us/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2002",
+              "latest": "2006"
+            }
+          }
+        },
+        {
+          "unit_id": "ded",
+          "unit_name": "Department of Economic Development (DED) Dubai",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Dubai’s Department of Economic Development"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              10
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src173_ch1",
+              "src173_ch0"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1993",
+              "latest": "1997"
+            }
+          }
+        },
+        {
+          "unit_id": "dubai_fdi",
+          "unit_name": "Dubai’s Investment Development Agency (Dubai FDI)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              24
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src173_ch2"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2002",
+              "latest": "2005"
+            }
+          }
+        },
+        {
+          "unit_id": "ddia",
+          "unit_name": "Dubai Development and Investment Authority (DDIA)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              23,
+              134
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src174_ch0",
+              "src173_ch5",
+              "src173_ch0"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://live.worldgovernmentsummit.org/about/leadership/mohammad-abdullah-al-gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2002",
+              "latest": "2005"
+            }
+          }
+        },
+        {
+          "unit_id": "dubai_municipality",
+          "unit_name": "Dubai Municipality",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              1
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src173_ch1"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1989",
+              "latest": "1989"
+            }
+          }
+        },
+        {
+          "unit_id": "ggep",
+          "unit_name": "Dubai Government Excellence Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              8,
+              9,
+              11
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src172_ch1",
+              "src173_ch0",
+              "src177_ch1",
+              "src171_ch1"
+            ],
+            "source_urls": [
+              "https://www.worldgovernmentssummit.org/about/leadership/mohammad-gergawi",
+              "https://www.mbrcld.ae/en/about-us/",
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1997",
+              "latest": "1997"
+            }
+          }
+        },
+        {
+          "unit_id": "exec_office_sheikh",
+          "unit_name": "The Executive Office of Sheikh Mohammed bin Rashid Al Maktoum",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              16
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src173_ch2",
+              "src170_ch0"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2000",
+              "latest": "2000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ecc",
+      "employer_name": "Emirates Competitiveness Council (ECC)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "50yr_plan",
+      "employer_name": "50-year Development Plan Committee",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Al Ahli Sports Club",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Arab Media Group (AMG)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Dubai Holding",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Dubai Mercantile Exchange (DME)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Dubai Media Incorporated (DMI)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Emirates Media Incorporated",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Mohammed bin Rashid Establishment for Small and Medium Sized Enterprises",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "gcc",
+      "employer_name": "Gulf Cooperation Council (GCC)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "gcc_general_secretariat",
+          "unit_name": "General Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "GCC Secretariat"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "un",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "un_headquarters",
+          "unit_name": "United Nations Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN HQ"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "wef",
+      "employer_name": "World Economic Forum (WEF)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "wef_leadership_council",
+          "unit_name": "World Economic Forum Leadership Council",
+          "unit_type": "other",
+          "parent_unit_id": "wef",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "WEF Leadership Council"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "wef_growth_forum",
+          "unit_name": "World Economic Forum on Growth",
+          "unit_type": "other",
+          "parent_unit_id": "wef",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "WEF Growth Forum"
+          ],
+          "provenance": {
+            "contributing_events": [
+              51
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src173_ch7"
+            ],
+            "source_urls": [
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2007",
+              "latest": "2007"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Mohammed Bin Rashid Al Maktoum Global Initiatives",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Mohammed bin Rashid Al Maktoum Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Mohammed bin Rashid Al Maktoum Foundation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              49
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src170_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2007",
+              "latest": "2007"
+            }
+          }
+        },
+        {
+          "unit_id": "1.2",
+          "unit_name": "Al Maktoum Global Initiatives",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Al Maktoum Global Initiatives"
+          ],
+          "provenance": {
+            "contributing_events": [
+              113
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src171_ch2"
+            ],
+            "source_urls": [
+              "https://www.worldgovernmentssummit.org/about/leadership/mohammad-gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "1.3",
+          "unit_name": "Great Arab Minds",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Great Arab Minds",
+            "نوابغ العرب"
+          ],
+          "provenance": {
+            "contributing_events": [
+              96
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src172_ch1",
+              "src171_ch0",
+              "src177_ch0",
+              "src170_ch1",
+              "src179_ch1"
+            ],
+            "source_urls": [
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+              "https://www.worldgovernmentssummit.org/about/leadership/mohammad-gergawi",
+              "https://www.mbrcld.ae/en/about-us/",
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Dubai Future Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Dubai Future Museum Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Dubai Future Museum Foundation"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Dubai Autism Center",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Dubai Quality Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Mohammed bin Rashid Government Excellence Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "World Government Summit Organization",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "World Government Summit",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Governments Summit (WGS)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              57,
+              58,
+              59
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src172_ch1",
+              "src171_ch0",
+              "src177_ch0",
+              "src172_ch8",
+              "src170_ch0",
+              "src179_ch0",
+              "src170_ch1",
+              "src174_ch0",
+              "src170_ch3",
+              "src173_ch1"
+            ],
+            "source_urls": [
+              "https://live.worldgovernmentsummit.org/about/leadership/mohammad-abdullah-al-gergawi",
+              "https://ae.linkedin.com/in/mohammedalgergawi",
+              "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+              "https://www.worldgovernmentssummit.org/about/leadership/mohammad-gergawi",
+              "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+              "https://www.mbrcld.ae/en/about-us/",
+              "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": "2013",
+              "latest": "2013"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Young Arab Leaders (YAL)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "ADU",
+      "employer_name": "Abu Dhabi University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "AUB",
+      "employer_name": "American University of Beirut",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Lebanon",
+      "org_units": []
+    },
+    {
+      "employer_id": "ESCP",
+      "employer_name": "ESCP Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "LBS",
+      "employer_name": "London Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "MBRSG",
+      "employer_name": "Mohammed bin Rashid School of Government",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "MBRSG_UNIT",
+          "unit_name": "School of Government",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "School of Government (MBRSG)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              136
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src174_ch1"
+            ],
+            "source_urls": [
+              "https://live.worldgovernmentsummit.org/about/leadership/mohammad-abdullah-al-gergawi"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "UAEU",
+      "employer_name": "United Arab Emirates University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [],
+      "variant_names": [
+        "UAE University"
+      ]
+    },
+    {
+      "employer_id": "NDC",
+      "employer_name": "UAE National Defence College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [],
+      "variant_names": [
+        "UAE National Defense College (NDC)"
+      ]
+    }
+  ],
+  "person_name": "Mohammad Abdullah Al Gergawi",
+  "processing_report": {
+    "total_orgs_input": 102,
+    "orgs_categorized": 102,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 23,
+        "orgs_processed": 23,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 17,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

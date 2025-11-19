@@ -1,0 +1,694 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Government of the People's Republic of China",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Ministry of Foreign Trade and Economic Cooperation",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Commerce (after renaming in 2003)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              10
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src160_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "1997",
+              "latest": "1997"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Alibaba Group Holding",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Alibaba Group",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Alibaba"
+          ],
+          "provenance": {
+            "contributing_events": [
+              13,
+              14,
+              16,
+              17,
+              30,
+              42,
+              44,
+              46,
+              51,
+              56
+            ],
+            "event_count": 10,
+            "source_chunks": [
+              "src164_ch0",
+              "src168_ch1",
+              "src160_ch6",
+              "src162_ch0",
+              "src165_ch1",
+              "src160_ch12",
+              "src160_ch8",
+              "src160_ch19",
+              "src160_ch10",
+              "src160_ch5",
+              "src161_ch2",
+              "src160_ch4",
+              "src161_ch0",
+              "src163_ch0",
+              "src167_ch0",
+              "src165_ch0",
+              "src163_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma",
+              "https://www.tc.u-tokyo.ac.jp/en/members/9315/",
+              "https://navigator-paper.com/pl/blog/article/life-jack-ma-alibaba-founder",
+              "https://english.ckgsb.edu.cn/story/jack-ma-leader-of-the-e-commerce-revolution-in-china/",
+              "https://www.amazon.com/Jack-Ma-Biography-Self-Made-Billionaire/dp/171786984X",
+              "https://www.britannica.com/money/Jack-Ma",
+              "https://live.worldbank.org/en/experts/j/jack-ma",
+              "https://www.cnn.com/world/china/jack-ma-fast-facts"
+            ],
+            "date_range_from_events": {
+              "earliest": "1999",
+              "latest": "2024"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Taobao Marketplace",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Taobao"
+          ],
+          "provenance": {
+            "contributing_events": [
+              18,
+              22
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src161_ch1",
+              "src162_ch0",
+              "src160_ch4",
+              "src165_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma",
+              "https://www.cnn.com/world/china/jack-ma-fast-facts",
+              "https://english.ckgsb.edu.cn/story/jack-ma-leader-of-the-e-commerce-revolution-in-china/",
+              "https://www.britannica.com/money/Jack-Ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2003"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Alipay",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              19,
+              28
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src160_ch5",
+              "src162_ch0",
+              "src160_ch4"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma",
+              "https://www.cnn.com/world/china/jack-ma-fast-facts"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2011"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Ant Group",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              31,
+              32,
+              45,
+              47,
+              48
+            ],
+            "event_count": 5,
+            "source_chunks": [
+              "src162_ch0",
+              "src160_ch1",
+              "src160_ch8",
+              "src162_ch1",
+              "src161_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma",
+              "https://www.cnn.com/world/china/jack-ma-fast-facts",
+              "https://www.britannica.com/money/Jack-Ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2023"
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Lynx",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              21
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src160_ch4"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2003"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Hangzhou Hope Computer Services Co., Ltd.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Yunfeng Capital",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Yunfeng",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src162_ch0"
+            ],
+            "source_urls": [
+              "https://www.cnn.com/world/china/jack-ma-fast-facts"
+            ],
+            "date_range_from_events": {
+              "earliest": "2010",
+              "latest": "2010"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "SoftBank Corp.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Huayi Brothers Media Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "China Telecommunications Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U7",
+          "unit_name": "China Pages",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              8
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src160_ch3",
+              "src162_ch0",
+              "src161_ch0",
+              "src165_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Jack_Ma",
+              "https://www.cnn.com/world/china/jack-ma-fast-facts",
+              "https://english.ckgsb.edu.cn/story/jack-ma-leader-of-the-e-commerce-revolution-in-china/",
+              "https://www.britannica.com/money/Jack-Ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "1995",
+              "latest": "1995"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "United Nations Conference on Trade and Development (UNCTAD)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNCTAD"
+          ],
+          "provenance": {
+            "contributing_events": [
+              38
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src167_ch0"
+            ],
+            "source_urls": [
+              "https://live.worldbank.org/en/experts/j/jack-ma"
+            ],
+            "date_range_from_events": {
+              "earliest": "2016",
+              "latest": "2016"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "World Economic Forum",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Alibaba Hong Kong Young Entrepreneurs Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "China Entrepreneur Club",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "General Association of Zhejiang Entrepreneurs",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Jack Ma Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Paradise Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "The Nature Conservancy",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U6_1",
+          "unit_name": "China Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Zhejiang Chamber of Commerce",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Hangzhou Dianzi University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Faculty of Engineering",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Hangzhou Normal University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Department of Education",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Hupan University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Entrepreneurship School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "University of Nairobi",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Kenya",
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "School of Business",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "University of Newcastle",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "u5",
+          "unit_name": "Faculty of Science",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "University of Tokyo",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "u6",
+          "unit_name": "Graduate School of Economics",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "東京カレッジ"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Hangzhou Teachers College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "e8",
+      "employer_name": "Hangzhou Teacher’s Institute",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "e9",
+      "employer_name": "Hangzhou Institute of Electronics and Engineering",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [],
+      "notes": "Now part of Hangzhou Dianzi University"
+    }
+  ],
+  "person_name": "Jack Ma",
+  "processing_report": {
+    "total_orgs_input": 45,
+    "orgs_categorized": 45,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 15,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Microsoft",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Microsoft Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Drugstore.com",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Graham Holdings",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "The Washington Post Company"
+          ],
+          "provenance": {
+            "contributing_events": [
+              31
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src150_ch8"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Melinda_French_Gates"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Pivotal",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Phia",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Bill & Melinda Gates Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Gates Cambridge Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Gates Library Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [],
+      "notes": "Later became Gates Learning Foundation"
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Giving Pledge",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Pivotal Ventures",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "The Good Samaritans",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [],
+      "notes": "Limited information available"
+    },
+    {
+      "employer_id": "duke_university",
+      "employer_name": "Duke University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "fuqua_school_of_business",
+          "unit_name": "The Fuqua School of Business",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Duke University - The Fuqua School of Business",
+            "Duke University, Fuqua School of Business"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              33
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src154_ch1",
+              "src153_ch1"
+            ],
+            "source_urls": [
+              "https://www.biography.com/business-leaders/melinda-gates",
+              "https://www.linkedin.com/in/melindagates"
+            ],
+            "date_range_from_events": {
+              "earliest": "1986",
+              "latest": "1987"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Melinda French Gates",
+  "processing_report": {
+    "total_orgs_input": 23,
+    "orgs_categorized": 23,
+    "sectors_processed": [
+      "private",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 9,
+        "orgs_processed": 6,
+        "orgs_skipped": 3,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

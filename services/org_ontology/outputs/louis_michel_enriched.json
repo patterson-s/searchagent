@@ -1,0 +1,556 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Belgian Federal Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Belgium",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Belgian Federal Parliament",
+          "unit_type": "legislative_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Belgian Federal Parliament"
+          ],
+          "provenance": {
+            "contributing_events": [
+              21,
+              22
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src690_ch1",
+              "src695_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Louis_Michel",
+              "http://en.euabc.com/word/2108"
+            ],
+            "date_range_from_events": {
+              "earliest": "1978",
+              "latest": "1999"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "European Union",
+      "employer_type": "international_organization",
+      "sector": "govt",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "European Commission",
+          "unit_type": "executive_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "European Commission"
+          ],
+          "provenance": {
+            "contributing_events": [
+              31,
+              32,
+              34
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src692_ch0",
+              "src690_ch0",
+              "src690_ch6",
+              "src690_ch3",
+              "src695_ch0",
+              "src690_ch1",
+              "src690_ch4",
+              "src690_ch5"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Louis_Michel",
+              "http://en.euabc.com/word/2108",
+              "https://europeanleadershipnetwork.org/person/louis-michel/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2009"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "European Parliament",
+          "unit_type": "legislative_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "European Parliament"
+          ],
+          "provenance": {
+            "contributing_events": [
+              37,
+              38,
+              39,
+              47,
+              53
+            ],
+            "event_count": 5,
+            "source_chunks": [
+              "src692_ch0",
+              "src690_ch0",
+              "src695_ch0",
+              "src690_ch2",
+              "src690_ch1",
+              "src690_ch5",
+              "src690_ch7",
+              "src697_ch1",
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Louis_Michel",
+              "http://en.euabc.com/word/2108",
+              "https://europeanleadershipnetwork.org/person/louis-michel/",
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Council of the European Union",
+          "unit_type": "decision_making_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Council of the European Union"
+          ],
+          "provenance": {
+            "contributing_events": [
+              62
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src696_ch0"
+            ],
+            "source_urls": [
+              "https://www.fidh.org/en/region/north-africa-middle-east/tunisia/Mr-Louis-Michel-President-of-the"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Committee on Civil Liberties, Justice and Home Affairs",
+          "unit_type": "committee",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Committee on Civil Liberties, Justice and Home Affairs"
+          ],
+          "provenance": {
+            "contributing_events": [
+              40
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Committee on Development",
+          "unit_type": "committee",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Committee on Development"
+          ],
+          "provenance": {
+            "contributing_events": [
+              41,
+              49
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "U7",
+          "unit_name": "Subcommittee on Human Rights",
+          "unit_type": "subcommittee",
+          "parent_unit_id": "U5",
+          "hierarchy_level": 3,
+          "counterparty": null,
+          "variant_names": [
+            "Subcommittee on Human Rights"
+          ],
+          "provenance": {
+            "contributing_events": [
+              42,
+              50
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "U8",
+          "unit_name": "Committee of Inquiry to investigate alleged contraventions and maladministration in the application of Union law in relation to money laundering, tax avoidance and tax evasion",
+          "unit_type": "committee",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Committee of Inquiry on Money Laundering, Tax Avoidance and Tax Evasion"
+          ],
+          "provenance": {
+            "contributing_events": [
+              48
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2016",
+              "latest": "2017"
+            }
+          }
+        },
+        {
+          "unit_id": "U9",
+          "unit_name": "Special committee on financial crimes, tax evasion and tax avoidance",
+          "unit_type": "committee",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Special committee on financial crimes, tax evasion and tax avoidance"
+          ],
+          "provenance": {
+            "contributing_events": [
+              51
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2019"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Government of Belgium",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Belgium",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Transitional Government of the Democratic Republic of the Congo",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Democratic Republic of the Congo",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "ACP–EU Joint Parliamentary Assembly",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Delegation to the ACP-EU Joint Parliamentary Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              45
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src697_ch0"
+            ],
+            "source_urls": [
+              "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8"
+            ],
+            "date_range_from_events": {
+              "earliest": "2014",
+              "latest": "2019"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Fondation Chirac",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Montmartre Women Vigilance Committee",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Société pour la Revendication des Droits Civils de la Femme",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "The Society for the Demand of Civil Rights for Women",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Advisory Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Provincial School of Jodoigne",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Belgium",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "School in Chaumont",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "School in Montmartre",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "School in Paris",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "School in Paris (founded by Louise Michel)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Village Schools",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    }
+  ],
+  "person_name": "Louis Michel",
+  "processing_report": {
+    "total_orgs_input": 48,
+    "orgs_categorized": 48,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

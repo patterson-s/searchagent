@@ -1,0 +1,742 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Federal Republic of Germany",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Federal Government of Germany",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "German Federal Government",
+            "West German Government",
+            "German Government"
+          ],
+          "provenance": {
+            "contributing_events": [
+              21,
+              37,
+              39,
+              72
+            ],
+            "event_count": 4,
+            "source_chunks": [
+              "src440_ch2",
+              "src440_ch1",
+              "src448_ch1",
+              "src449_ch1",
+              "src443_ch0",
+              "src441_ch5",
+              "src443_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+              "https://www.britannica.com/money/Horst-Kohler",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.berlinglobal.org/index.php?horst-koehler-20042010",
+              "https://www.npr.org/2025/02/01/g-s1-45951/former-german-president-horst-kohler-dies-at-81"
+            ],
+            "date_range_from_events": {
+              "earliest": "1990",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Federal Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Finance Ministry of Germany",
+            "German Ministry of Finance",
+            "Finance Ministry",
+            "Ministry of Finance",
+            "Finance Ministry, Bonn"
+          ],
+          "provenance": {
+            "contributing_events": [
+              10,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              24,
+              26,
+              83,
+              84
+            ],
+            "event_count": 13,
+            "source_chunks": [
+              "src442_ch0",
+              "src447_ch0",
+              "src448_ch1",
+              "src441_ch2",
+              "src440_ch0",
+              "src444_ch0",
+              "src449_ch0",
+              "src446_ch0",
+              "src445_ch0",
+              "src441_ch0",
+              "src449_ch1",
+              "src441_ch16"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+              "https://www.imf.org/external/np/omd/bios/hk.htm",
+              "https://www.kielinstitut.de/institute/events/prizes-and-awards/global-economy-prize/global-economy-prize-2017/horst-koehler/",
+              "https://www.horstkoehler.de/en/vita-horst-koehler/",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.berlinglobal.org/index.php?horst-koehler-20042010",
+              "https://www.npr.org/2025/02/01/g-s1-45951/former-german-president-horst-kohler-dies-at-81",
+              "https://www.un.org/sg/en/management/bios/Kohler.shtml",
+              "https://clubmadrid.org/who/members/koehler-horst/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1980",
+              "latest": "1993"
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Federal Ministry of Economics",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Economic Affairs Ministry, Bonn",
+            "Ministry of Economics, Bonn",
+            "German Ministries of Economics and Finance"
+          ],
+          "provenance": {
+            "contributing_events": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ],
+            "event_count": 7,
+            "source_chunks": [
+              "src442_ch0",
+              "src441_ch2",
+              "src440_ch0",
+              "src444_ch0",
+              "src449_ch0",
+              "src446_ch0",
+              "src449_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+              "https://www.imf.org/external/np/omd/bios/hk.htm",
+              "https://www.kielinstitut.de/institute/events/prizes-and-awards/global-economy-prize/global-economy-prize-2017/horst-koehler/",
+              "https://www.horstkoehler.de/en/vita-horst-koehler/",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.berlinglobal.org/index.php?horst-koehler-20042010"
+            ],
+            "date_range_from_events": {
+              "earliest": "1976",
+              "latest": "1989"
+            }
+          }
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Office of the Federal President of Germany",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "German Presidency",
+            "President of Germany"
+          ],
+          "provenance": {
+            "contributing_events": [
+              36,
+              43,
+              46
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src440_ch0",
+              "src446_ch1",
+              "src441_ch7",
+              "src443_ch1"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+              "https://www.britannica.com/money/Horst-Kohler",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.kielinstitut.de/institute/events/prizes-and-awards/global-economy-prize/global-economy-prize-2017/horst-koehler/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "German Bundestag",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              40
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src441_ch12"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "State Chancellery of Schleswig-Holstein",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Staatskanzlei des Landes Schleswig-Holstein"
+          ],
+          "provenance": {
+            "contributing_events": [
+              12,
+              13,
+              73
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src449_ch1",
+              "src440_ch0",
+              "src444_ch0",
+              "src441_ch2"
+            ],
+            "source_urls": [
+              "https://www.berlinglobal.org/index.php?horst-koehler-20042010",
+              "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.horstkoehler.de/en/vita-horst-koehler/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1981",
+              "latest": "1982"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Deutscher Sparkassen- und Giroverband",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "German savings banks",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Regional Savings Bank Association",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Treuhand",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Executive Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "African Development Bank (AfDB)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "European Bank for Reconstruction and Development (EBRD)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_3",
+      "employer_name": "International Monetary Fund (IMF)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_3_unit_1",
+          "unit_name": "Executive Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_4",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_4_unit_1",
+          "unit_name": "United Nations Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_5",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_5_unit_1",
+          "unit_name": "Board of Executive Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "G20",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "G20 Summit",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "G20 Leaders' Summit"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "G20 Finance Ministers and Central Bank Governors",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "G20 Finance Track"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Aktion Deutschland Hilft e.V.",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Club of Madrid",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Club of Rome",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Deutscher Künstlerbund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Eva Luise and Horst Köhler Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "5_1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Friede Springer Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Friedrich August von Hayek Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Hermann Kunst-Stiftung zur Förderung der neutestamentlichen Textforschung",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Konrad Adenauer Foundation (KAS)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Mo Ibrahim Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Opera Village Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Burkina Faso",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Scope Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Stiftung Weltethos (Global Ethics Foundation)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "The Deutsche Nationalstiftung (The German National Foundation)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "The Foundation Weltethos",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "Wittenberg Center for Global Ethics",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "eku_tuebingen",
+      "employer_name": "Eberhard Karls University of Tübingen",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "eku_iae",
+          "unit_name": "Institute for Applied Economic Research",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Institute for Applied Economic Research",
+            "University of Tübingen, Institute for Applied Economic Research"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              3
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src449_ch0",
+              "src440_ch0",
+              "src444_ch0"
+            ],
+            "source_urls": [
+              "https://www.horstkoehler.de/en/vita-horst-koehler/",
+              "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+              "https://www.berlinglobal.org/index.php?horst-koehler-20042010"
+            ],
+            "date_range_from_events": {
+              "earliest": "1969",
+              "latest": "1977"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "lindau_meetings",
+      "employer_name": "Lindau Nobel Laureate Meetings",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Germany",
+      "org_units": []
+    }
+  ],
+  "person_name": "Horst Kohler",
+  "processing_report": {
+    "total_orgs_input": 65,
+    "orgs_categorized": 65,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 21,
+        "orgs_processed": 21,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 16,
+        "orgs_processed": 16,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

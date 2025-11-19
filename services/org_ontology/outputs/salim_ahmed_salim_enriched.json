@@ -1,0 +1,676 @@
+{
+  "employers": [
+    {
+      "employer_id": "gov_tanzania",
+      "employer_name": "Government of Tanzania",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Tanzania",
+      "org_units": [
+        {
+          "unit_id": "min_foreign_affairs",
+          "unit_name": "Ministry of Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Foreign Affairs, Tanzania"
+          ],
+          "provenance": {
+            "contributing_events": [
+              14
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src131_ch3"
+            ],
+            "source_urls": [
+              "https://www.salimahmedsalim.com/about"
+            ],
+            "date_range_from_events": {
+              "earliest": "1968",
+              "latest": "1969"
+            }
+          }
+        },
+        {
+          "unit_id": "embassy_china",
+          "unit_name": "Embassy of Tanzania, China",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "min_foreign_affairs",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "People's Republic of China",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Embassy of Tanzania, China"
+          ],
+          "provenance": {
+            "contributing_events": [
+              15
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src131_ch3"
+            ],
+            "source_urls": [
+              "https://www.salimahmedsalim.com/about"
+            ],
+            "date_range_from_events": {
+              "earliest": "1969",
+              "latest": "1969"
+            }
+          }
+        },
+        {
+          "unit_id": "zanzibar_office_havana",
+          "unit_name": "Zanzibar Office in Havana",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "min_foreign_affairs",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Republic of Cuba",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Zanzibar Office in Havana"
+          ],
+          "provenance": {
+            "contributing_events": [
+              3
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src134_ch1"
+            ],
+            "source_urls": [
+              "https://www.un.org/en/ga/president/bios/bio34.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": "1961",
+              "latest": "1962"
+            }
+          }
+        },
+        {
+          "unit_id": "const_review_commission",
+          "unit_name": "Constitutional Review Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Constitutional Review Commission",
+            "Tanzania Commission for Constitution Review"
+          ],
+          "provenance": {
+            "contributing_events": [
+              59,
+              62
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src132_ch0",
+              "src131_ch7"
+            ],
+            "source_urls": [
+              "https://www.tzembassy.go.tz/ambassadors/view/dr-salim-ahmed-salim",
+              "https://www.salimahmedsalim.com/about"
+            ],
+            "date_range_from_events": {
+              "earliest": "2011",
+              "latest": "2014"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "gov_zanzibar",
+      "employer_name": "People’s Republic of Zanzibar",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Tanzania",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "African Development Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "African Union (AU)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Commonwealth Secretariat",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Organisation of African Unity (OAU)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4_1",
+          "unit_name": "General Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "World Intellectual Property Organization (WIPO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U5_1",
+          "unit_name": "Policy Advisory Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U6_1",
+          "unit_name": "General Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations General Assembly"
+          ],
+          "provenance": {
+            "contributing_events": [
+              13
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src134_ch2"
+            ],
+            "source_urls": [
+              "https://www.un.org/en/ga/president/bios/bio34.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": "1966",
+              "latest": "1966"
+            }
+          }
+        },
+        {
+          "unit_id": "U6_2",
+          "unit_name": "Special Committee on Decolonisation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Special Committee on Decolonisation, United Nations"
+          ],
+          "provenance": {
+            "contributing_events": [
+              19
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src131_ch3"
+            ],
+            "source_urls": [
+              "https://www.salimahmedsalim.com/about"
+            ],
+            "date_range_from_events": {
+              "earliest": "1970",
+              "latest": "1980"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Africa Humanitarian Action (AHA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "International Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "International Board of Trustees of Africa Humanitarian Action"
+          ],
+          "provenance": {
+            "contributing_events": [
+              89
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src133_ch1"
+            ],
+            "source_urls": [
+              "https://www.g-l-f.org/who-we-are/members/salim-ahmed-salim/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "African Water Ambassador",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "All-Zanzibar Journalists Organisation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Tanzania",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "All-Zanzibar Students Union",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Tanzania",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Centre for Humanitarian Dialogue",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Foundation Council",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Foundation Council, Centre of Humanitarian Dialogue"
+          ],
+          "provenance": {
+            "contributing_events": [
+              85
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src133_ch1"
+            ],
+            "source_urls": [
+              "https://www.g-l-f.org/who-we-are/members/salim-ahmed-salim/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Global Leadership Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "High Level Committee of the World Solidarity Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "International Crisis Group",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Julius K. Nyerere Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Tanzania",
+      "org_units": [
+        {
+          "unit_id": "9.1",
+          "unit_name": "Mwalimu Nyerere Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              80
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src131_ch7"
+            ],
+            "source_urls": [
+              "https://www.salimahmedsalim.com/about"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Mo Ibrahim Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Sergio Vieira de Mello Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "South Centre",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "AAU",
+      "employer_name": "Addis Ababa University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ethiopia",
+      "org_units": []
+    },
+    {
+      "employer_id": "CU_SIPA",
+      "employer_name": "Columbia University, School of International and Public Affairs",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "CU_SIPA_UNIT",
+          "unit_name": "School of International and Public Affairs",
+          "unit_type": "faculty",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "HKMU",
+      "employer_name": "Hubert Kairuku Memorial University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Tanzania",
+      "org_units": []
+    },
+    {
+      "employer_id": "AUIPLG",
+      "employer_name": "Institute of Peace, Leadership and Governance, Africa University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Zimbabwe",
+      "org_units": [
+        {
+          "unit_id": "AUIPLG_UNIT",
+          "unit_name": "Institute of Peace, Leadership and Governance",
+          "unit_type": "institute",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ISS",
+      "employer_name": "Institute of Security Studies",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": [],
+      "notes": "Assuming this is a standalone institute, but country is unclear."
+    },
+    {
+      "employer_id": "ISS_DUPE",
+      "employer_name": "Institute of Security Studies (ISS)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": [],
+      "notes": "Duplicate entry, treated as the same as ISS."
+    },
+    {
+      "employer_id": "UNIBO",
+      "employer_name": "University of Bologna",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Italy",
+      "org_units": []
+    },
+    {
+      "employer_id": "UCT",
+      "employer_name": "University of Cape Town",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "South Africa",
+      "org_units": []
+    },
+    {
+      "employer_id": "DELHI_STEPHENS",
+      "employer_name": "University of Delhi, St. Stephen's College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "DELHI_STEPHENS_UNIT",
+          "unit_name": "St. Stephen's College",
+          "unit_type": "college",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "KHARTOUM",
+      "employer_name": "University of Khartoum",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Sudan",
+      "org_units": []
+    },
+    {
+      "employer_id": "MAIDUGURI",
+      "employer_name": "University of Maiduguri",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Nigeria",
+      "org_units": []
+    },
+    {
+      "employer_id": "MAURITIUS",
+      "employer_name": "University of Mauritius",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Mauritius",
+      "org_units": []
+    },
+    {
+      "employer_id": "NEWDELHI",
+      "employer_name": "University of New Delhi",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "PHIL_LOSBANOS",
+      "employer_name": "University of Philippines at Los Baños",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Philippines",
+      "org_units": []
+    }
+  ],
+  "person_name": "Salim Ahmed Salim",
+  "processing_report": {
+    "total_orgs_input": 69,
+    "orgs_categorized": 69,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 11,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 15,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 14,
+        "orgs_processed": 14,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

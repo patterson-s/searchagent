@@ -1,0 +1,452 @@
+{
+  "employers": [
+    {
+      "employer_id": "axa",
+      "employer_name": "AXA",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "adriel",
+      "employer_name": "Adriel",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "adriel_ai",
+          "unit_name": "Adriel AI",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Adriel AI"
+          ],
+          "provenance": {
+            "contributing_events": [
+              13
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src208_ch2",
+              "src208_ch7"
+            ],
+            "source_urls": [
+              "https://www.un.org/en/sg-digital-cooperation-panel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "adriel_inc",
+          "unit_name": "Adriel Inc.",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Adriel Inc."
+          ],
+          "provenance": {
+            "contributing_events": [
+              7
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src207_ch1",
+              "src207_ch0",
+              "src204_ch0",
+              "src208_ch6",
+              "src209_ch2"
+            ],
+            "source_urls": [
+              "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+              "https://koreatechdesk.com/international-womens-day-shine-on-those-leading-the-path-in-the-korean-startup-ecosystem",
+              "https://www.un.org/en/sg-digital-cooperation-panel",
+              "https://rocketreach.co/sophie-soowon-eom-email_715854185"
+            ],
+            "date_range_from_events": {
+              "earliest": "2017",
+              "latest": "2022"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "goldman_sachs",
+      "employer_name": "Goldman Sachs",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "market_kurly",
+      "employer_name": "Market Kurly",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "nexon",
+      "employer_name": "Nexon",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "oliver_wyman",
+      "employer_name": "Oliver Wyman",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "oliver_wyman_fs",
+          "unit_name": "Oliver Wyman Financial Services",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Oliver Wyman Financial Services"
+          ],
+          "provenance": {
+            "contributing_events": [
+              16
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src208_ch7"
+            ],
+            "source_urls": [
+              "https://www.un.org/en/sg-digital-cooperation-panel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "solidware",
+      "employer_name": "Solidware",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "solidware_co_ltd",
+          "unit_name": "Solidware Co., Ltd.",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Solidware Co., Ltd."
+          ],
+          "provenance": {
+            "contributing_events": [
+              11
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src207_ch0"
+            ],
+            "source_urls": [
+              "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ailys_co_ltd",
+      "employer_name": "ailys Co., Ltd.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "unnamed_company",
+      "employer_name": "Unnamed Company",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_GA",
+          "unit_name": "General Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNGA"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "UN_SC",
+          "unit_name": "Security Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNSC"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "UN_ECOSOC",
+          "unit_name": "Economic and Social Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ECOSOC"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "UN_Secretariat",
+          "unit_name": "Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Carnegie Mellon University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "College of Engineering",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "School of Computer Science",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Tepper School of Business",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "HEC Paris",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "Department of Economics and Decision Sciences",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "Department of Management",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "HEC Paris MBA Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Sophie Soowon Eom",
+  "processing_report": {
+    "total_orgs_input": 16,
+    "orgs_categorized": 16,
+    "sectors_processed": [
+      "private",
+      "io",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,990 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Finance, Liberia"
+          ],
+          "provenance": {
+            "contributing_events": [
+              120
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src367_ch24"
+            ],
+            "source_urls": [
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Treasury Department",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Treasury Department (Ministry of Finance)",
+            "Treasury Department (Ministry of Finance), Liberia",
+            "Treasury Department, Liberia"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              3,
+              12,
+              95
+            ],
+            "event_count": 4,
+            "source_chunks": [
+              "src367_ch0",
+              "src364_ch0",
+              "src360_ch2",
+              "src367_ch24"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1965",
+              "latest": "1980"
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Liberian Senate",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              22,
+              23
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src367_ch9",
+              "src367_ch2",
+              "src360_ch4",
+              "src368_ch9"
+            ],
+            "source_urls": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1985",
+              "latest": "1985"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Commission on Good Governance",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              50
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src363_ch2"
+            ],
+            "source_urls": [
+              "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2003"
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Governance Reform Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Governance Reform Commission of the National Transitional Government of Liberia"
+          ],
+          "provenance": {
+            "contributing_events": [
+              49,
+              54,
+              98
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src361_ch0",
+              "src364_ch1",
+              "src360_ch5",
+              "src367_ch3"
+            ],
+            "source_urls": [
+              "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/biographical/",
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2005"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "National Transitional Government of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Governance Reform Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Governance Reform Commission of the National Transitional Government of Liberia"
+          ],
+          "provenance": {
+            "contributing_events": [
+              49,
+              54,
+              98
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src361_ch0",
+              "src364_ch1",
+              "src360_ch5",
+              "src367_ch3"
+            ],
+            "source_urls": [
+              "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/biographical/",
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2005"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Government of Liberia (Tolbert administration)",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Government of the Republic of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Charles Taylor's government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "General Doe's government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Ministry (Liberia)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Liberian Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E9",
+      "employer_name": "U.S. Congress",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [],
+      "counterparty": {
+        "name": "Government of Liberia",
+        "type": "foreign_state"
+      }
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Citibank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Citicorp",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Citicorp, Africa Regional Office",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              105
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src364_ch0"
+            ],
+            "source_urls": [
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "HSBC",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Equator Bank",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "HSBC Equator Bank",
+            "Equator Bank, part of the Hong Kong Bank Group"
+          ],
+          "provenance": {
+            "contributing_events": [
+              27,
+              28,
+              35
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src369_ch1",
+              "src360_ch1",
+              "src367_ch2",
+              "src367_ch10",
+              "src364_ch0",
+              "src368_ch9"
+            ],
+            "source_urls": [
+              "https://www.marquette.edu/university-honors/honorary-degrees/sirleaf.php",
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1986",
+              "latest": "1992"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Kormah Development Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Kormah Development and Investment Corporation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              41
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src364_ch0",
+              "src367_ch3"
+            ],
+            "source_urls": [
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1997",
+              "latest": "1997"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Liberia Bank for Economic Development and Investment",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Auto-repair shop",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "automobile spare parts and repair shop",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              118
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src367_ch23"
+            ],
+            "source_urls": [
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "United Nations Development Programme (UNDP)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Development Programme"
+          ],
+          "provenance": {
+            "contributing_events": [
+              36,
+              113
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src361_ch0",
+              "src367_ch6",
+              "src365_ch1",
+              "src367_ch2",
+              "src363_ch2",
+              "src369_ch0",
+              "src364_ch0",
+              "src360_ch3"
+            ],
+            "source_urls": [
+              "https://mastercardfdn.org/en/people/president-ellen-johnson-sirleaf/",
+              "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf",
+              "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/biographical/",
+              "https://www.marquette.edu/university-honors/honorary-degrees/sirleaf.php",
+              "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1992",
+              "latest": "1997"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "World Health Organization (WHO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Economic Community of West African States (ECOWAS)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Mano River Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Organisation of African Unity (OAU)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Organization of African Unity"
+      ]
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "U.S. International Development Finance Corporation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Independent Panel for Pandemic Preparedness and Response (IPPR)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "AEF",
+      "employer_name": "Africa Europe Foundation (AEF)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "AEF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "BF",
+      "employer_name": "Brenthurst Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "South Africa",
+      "org_units": [
+        {
+          "unit_id": "BF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "CWWL",
+      "employer_name": "Council of Women World Leaders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "EJSPC",
+      "employer_name": "Ellen Johnson Sirleaf Presidential Center for Women and Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "EJSPC_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "ICG",
+      "employer_name": "International Crisis Group (USA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "ICG_Board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "IIWPL",
+      "employer_name": "International Institute for Women in Political Leadership",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "MF",
+      "employer_name": "Mastercard Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "MF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "NF",
+      "employer_name": "Nobel Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "NF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "OSIWA",
+      "employer_name": "Open Society Initiative for West Africa (OSIWA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "OSIWA_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "Synergos",
+      "employer_name": "Synergos",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "Synergos_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "TE",
+      "employer_name": "The Elders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "WWP",
+      "employer_name": "Women Waging Peace (USA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "AAA",
+      "employer_name": "American Academy of Achievement",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "ALUS",
+      "employer_name": "Association of Liberia in the United States",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Dartmouth College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Emory University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Georgetown University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Ghana Institute of Management and Public Administration (GIMPA)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ghana",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Harvard Kennedy School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard University’s John F. Kennedy School of Government"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              4
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src367_ch1",
+              "src360_ch3"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+              "https://achievement.org/achiever/ellen-johnson-sirleaf/"
+            ],
+            "date_range_from_events": {
+              "earliest": "1969",
+              "latest": "1971"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Indiana University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Madison Business College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Marquette University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E9",
+      "employer_name": "The University of Tampa",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E10",
+      "employer_name": "University of Colorado at Boulder",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E11",
+      "employer_name": "University of Wisconsin",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    }
+  ],
+  "person_name": "Ellen Johnson Sirleaf",
+  "processing_report": {
+    "total_orgs_input": 84,
+    "orgs_categorized": 84,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 17,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 14,
+        "orgs_processed": 14,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

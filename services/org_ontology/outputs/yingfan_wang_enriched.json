@@ -1,0 +1,380 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of China",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Foreign Ministry of China",
+            "Ministry of Foreign Affairs of China",
+            "Ministry of Foreign Affairs, China"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              3,
+              6,
+              10,
+              11,
+              12,
+              13,
+              19,
+              25
+            ],
+            "event_count": 9,
+            "source_chunks": [
+              "src403_ch0",
+              "src401_ch0",
+              "src405_ch0",
+              "src404_ch0",
+              "src406_ch0",
+              "src402_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/sg/en/management/bios/Wang.shtml",
+              "https://press.un.org/en/2000/20000301.bio3275.doc.html",
+              "http://www.chinadaily.com.cn/china/2013-03/11/content_16299538.htm",
+              "http://www.asian-affairs.com/biographies/wangyingfan.html",
+              "https://www.fmprc.gov.cn/eng/zy/wjrw/lrfbzjbzzl_665553/202405/t20240531_11367662.html",
+              "https://www.un.org/millenniumgoals/advocates/members/yingfan-wang.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": "1964",
+              "latest": "2013"
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Department of Asian Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Department of Interpretation and Translation",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Chinese Embassy in the Philippines",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Government of the Philippines",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Embassy of China in the Philippines"
+          ],
+          "provenance": {
+            "contributing_events": [
+              4,
+              5,
+              8,
+              23
+            ],
+            "event_count": 4,
+            "source_chunks": [
+              "src403_ch0",
+              "src400_ch0",
+              "src405_ch0",
+              "src404_ch0",
+              "src402_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Wang_Yingfan",
+              "https://press.un.org/en/2000/20000301.bio3275.doc.html",
+              "http://www.asian-affairs.com/biographies/wangyingfan.html",
+              "https://www.fmprc.gov.cn/eng/zy/wjrw/lrfbzjbzzl_665553/202405/t20240531_11367662.html",
+              "https://www.un.org/millenniumgoals/advocates/members/yingfan-wang.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": "1972",
+              "latest": "1990"
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Chinese Embassy in the U.K.",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Government of the United Kingdom",
+            "type": "foreign_state"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              24
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src403_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/millenniumgoals/advocates/members/yingfan-wang.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Office of the Chargé d'Affaires of China in the United Kingdom",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U5",
+          "hierarchy_level": 3,
+          "counterparty": {
+            "name": "Government of the United Kingdom",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Chinese Office of the Chargé d'Affaires in Britain"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              21
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src405_ch0",
+              "src402_ch0"
+            ],
+            "source_urls": [
+              "https://www.fmprc.gov.cn/eng/zy/wjrw/lrfbzjbzzl_665553/202405/t20240531_11367662.html",
+              "https://press.un.org/en/2000/20000301.bio3275.doc.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1964",
+              "latest": "1964"
+            }
+          }
+        },
+        {
+          "unit_id": "U7",
+          "unit_name": "Permanent Mission of China to the United Nations",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United Nations",
+            "type": "international_organization"
+          },
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              15
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src405_ch0"
+            ],
+            "source_urls": [
+              "https://press.un.org/en/2000/20000301.bio3275.doc.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "2000",
+              "latest": "2000"
+            }
+          }
+        },
+        {
+          "unit_id": "U8",
+          "unit_name": "National People's Congress",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U9",
+          "unit_name": "National People's Congress Foreign Affairs Committee",
+          "unit_type": "other",
+          "parent_unit_id": "U8",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              17
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src400_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Wang_Yingfan"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2008"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "bifl",
+      "employer_name": "Beijing Institute of Foreign Languages",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "bifl_faculty_arts",
+          "unit_name": "Faculty of Arts",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "bifl_dept_english",
+          "unit_name": "Department of English",
+          "unit_type": "other",
+          "parent_unit_id": "bifl_faculty_arts",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "bifl_trustee_board",
+          "unit_name": "Trustee Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Yingfan Wang",
+  "processing_report": {
+    "total_orgs_input": 17,
+    "orgs_categorized": 17,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 14,
+        "orgs_processed": 14,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

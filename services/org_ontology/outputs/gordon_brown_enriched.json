@@ -1,0 +1,591 @@
+{
+  "employers": [
+    {
+      "employer_id": "gov_uk",
+      "employer_name": "Government of the United Kingdom",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "hm_treasury",
+          "unit_name": "HM Treasury",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Treasury"
+          ],
+          "provenance": {
+            "contributing_events": [
+              23,
+              24,
+              27
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src644_ch2",
+              "src641_ch1",
+              "src640_ch41",
+              "src644_ch1",
+              "src640_ch8",
+              "src640_ch1"
+            ],
+            "source_urls": [
+              "https://www.britannica.com/biography/Gordon-Brown",
+              "https://www.gov.uk/government/history/past-prime-ministers/gordon-brown",
+              "https://en.wikipedia.org/wiki/Gordon_Brown"
+            ],
+            "date_range_from_events": {
+              "earliest": "1997",
+              "latest": "2007"
+            }
+          }
+        },
+        {
+          "unit_id": "chancellor",
+          "unit_name": "Chancellor of the Exchequer",
+          "unit_type": "executive_office",
+          "parent_unit_id": "hm_treasury",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              70
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src640_ch47"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gordon_Brown"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "house_of_commons",
+          "unit_name": "House of Commons",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              8,
+              13,
+              31
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src644_ch1",
+              "src640_ch1"
+            ],
+            "source_urls": [
+              "https://www.britannica.com/biography/Gordon-Brown",
+              "https://en.wikipedia.org/wiki/Gordon_Brown"
+            ],
+            "date_range_from_events": {
+              "earliest": "1983",
+              "latest": "2015"
+            }
+          }
+        },
+        {
+          "unit_id": "prime_minister_office",
+          "unit_name": "Prime Minister of the United Kingdom",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              62
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src640_ch39",
+              "src640_ch47",
+              "src640_ch32"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Gordon_Brown"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "parliament_uk",
+      "employer_name": "Parliament of the United Kingdom",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "house_of_commons_parliament",
+          "unit_name": "House of Commons",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              8,
+              13,
+              31
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src644_ch1",
+              "src640_ch1"
+            ],
+            "source_urls": [
+              "https://www.britannica.com/biography/Gordon-Brown",
+              "https://en.wikipedia.org/wiki/Gordon_Brown"
+            ],
+            "date_range_from_events": {
+              "earliest": "1983",
+              "latest": "2015"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "EDF Energy",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "PIMCO",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Scottish Television",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Television Production",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "The Herald",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "International Monetary Fund",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_3",
+      "employer_name": "World Health Organization",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Appeal of Conscience Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Burma Campaign UK",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Catalyst Trust for Universal Education",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Commission for Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Education Cannot Wait",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "5_1",
+          "unit_name": "High Level Steering Group for the Education Cannot Wait fund",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              83
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src649_ch1"
+            ],
+            "source_urls": [
+              "https://cepr.org/about/people/gordon-brown"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Graça Machel Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Inquiry on Protecting Children in Conflict",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "International Commission on Financing Global Education Opportunity",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Kofi Annan Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Our Scottish Future",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Parliamentary Outreach Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "The Rockefeller Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "World Wide Web Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "University of Edinburgh",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "School of History, Classics and Archaeology",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Edinburgh University"
+          ],
+          "provenance": {
+            "contributing_events": [
+              3
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src641_ch0"
+            ],
+            "source_urls": [
+              "https://www.gov.uk/government/history/past-prime-ministers/gordon-brown"
+            ],
+            "date_range_from_events": {
+              "earliest": "1972",
+              "latest": "1972"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Glasgow Caledonian University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Glasgow College of Technology",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Kennedy School of Government",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard University’s Kennedy School of Government"
+          ],
+          "provenance": {
+            "contributing_events": [
+              73
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src642_ch0"
+            ],
+            "source_urls": [
+              "https://educationenvoy.org/what-we-do/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "New York University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Newcastle University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Open University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e8",
+      "employer_name": "University of Glasgow",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e9",
+      "employer_name": "University of Huddersfield",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e10",
+      "employer_name": "Royal Society of Edinburgh",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [],
+      "variant_names": [
+        "The Royal Society of Edinburgh"
+      ]
+    }
+  ],
+  "person_name": "Gordon Brown",
+  "processing_report": {
+    "total_orgs_input": 52,
+    "orgs_categorized": 52,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 14,
+        "orgs_processed": 14,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

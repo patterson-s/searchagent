@@ -1,0 +1,589 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Tennessee Valley Authority",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "PAUAR_Oil",
+      "employer_name": "Pan-American-U.A.R. Oil Company",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "PAUAR_HQ",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_001",
+      "employer_name": "Global Environment Facility (GEF)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_001",
+          "unit_name": "GEF Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "GEF Secretariat"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_002",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_002",
+          "unit_name": "World Bank",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Bank",
+            "The World Bank"
+          ],
+          "provenance": {
+            "contributing_events": [
+              3,
+              6,
+              12
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src656_ch0",
+              "src657_ch0",
+              "src658_ch0",
+              "src650_ch0",
+              "src653_ch0",
+              "src654_ch0"
+            ],
+            "source_urls": [
+              "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+              "https://www.unep.org/championsofearth/laureates/2006/dr-mohamed-el-ashry",
+              "https://www.un.org/spanish/events/panel/html/elashry.html",
+              "https://www.interacademies.org/person/mohamed-el-ashry",
+              "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry"
+            ],
+            "date_range_from_events": {
+              "earliest": "1990",
+              "latest": "2003"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_003",
+      "employer_name": "United Nations Development Programme (UNDP)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_003",
+          "unit_name": "UNDP Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNDP",
+            "United Nations Development Programme"
+          ],
+          "provenance": {
+            "contributing_events": [
+              2,
+              48,
+              49
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src659_ch1",
+              "src656_ch0",
+              "src657_ch0",
+              "src658_ch0",
+              "src659_ch0",
+              "src653_ch0",
+              "src654_ch0"
+            ],
+            "source_urls": [
+              "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+              "https://www.unep.org/championsofearth/laureates/2006/dr-mohamed-el-ashry",
+              "https://www.un.org/spanish/events/panel/html/elashry.html",
+              "https://www.interacademies.org/person/mohamed-el-ashry",
+              "https://www.marketscreener.com/insider/MOHAMED-T-EL-ASHRY-A0SPRL/",
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry"
+            ],
+            "date_range_from_events": {
+              "earliest": "1990",
+              "latest": "1999"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_004",
+      "employer_name": "United Nations Foundation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_004",
+          "unit_name": "UN Foundation Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Foundation",
+            "United Nations Foundation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              23,
+              28,
+              34
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src657_ch0",
+              "src650_ch1",
+              "src650_ch0",
+              "src654_ch0",
+              "src653_ch0",
+              "src659_ch0"
+            ],
+            "source_urls": [
+              "https://www.unep.org/championsofearth/laureates/2006/dr-mohamed-el-ashry",
+              "https://www.un.org/spanish/events/panel/html/elashry.html",
+              "https://www.marketscreener.com/insider/MOHAMED-T-EL-ASHRY-A0SPRL/",
+              "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_005",
+      "employer_name": "U.N. Conference on Environment and Development (UNCED)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_005",
+          "unit_name": "UNCED Secretariat",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNCED",
+            "United Nations Conference on Environment and Development",
+            "1992 U.N. Conference on Environment and Development (UNCED)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              9
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src653_ch0",
+              "src657_ch0",
+              "src658_ch0",
+              "src656_ch0"
+            ],
+            "source_urls": [
+              "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry",
+              "https://www.unep.org/championsofearth/laureates/2006/dr-mohamed-el-ashry",
+              "https://www.interacademies.org/person/mohamed-el-ashry"
+            ],
+            "date_range_from_events": {
+              "earliest": "1992",
+              "latest": "1992"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Arab Forum for Environment & Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Center for the Global South",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "EarthVoice",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Egyptian-American Organization",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Energy Future Coalition",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Environmental Defense Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "6_1",
+          "unit_name": "Environmental Defense Fund, Inc.",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              46,
+              51
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src659_ch1",
+              "src659_ch0"
+            ],
+            "source_urls": [
+              "https://www.marketscreener.com/insider/MOHAMED-T-EL-ASHRY-A0SPRL/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "National Council for Science and the Environment",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Renewable Energy Policy Network for the 21st Century",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Resources for the Future",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "9_1",
+          "unit_name": "Resources for the Future, Inc.",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              39,
+              56
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src659_ch1",
+              "src657_ch0",
+              "src659_ch0"
+            ],
+            "source_urls": [
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry",
+              "https://www.marketscreener.com/insider/MOHAMED-T-EL-ASHRY-A0SPRL/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "World Resources Institute (WRI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "World Water Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "World Wide Fund for Nature",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "12_1",
+          "unit_name": "World Wildlife Fund, Inc.",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              43,
+              55
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src659_ch1",
+              "src659_ch0"
+            ],
+            "source_urls": [
+              "https://www.marketscreener.com/insider/MOHAMED-T-EL-ASHRY-A0SPRL/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "University of Cairo",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Egypt",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "University of Illinois",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Illinois Geological Survey",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              31
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src653_ch0",
+              "src657_ch0",
+              "src656_ch0",
+              "src654_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/spanish/events/panel/html/elashry.html",
+              "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+              "https://www.sourcewatch.org/index.php/Mohamed_T._El-Ashry",
+              "https://www.unep.org/championsofearth/laureates/2006/dr-mohamed-el-ashry"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Wilkes University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "African Academy of Sciences",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "American Academy of Arts and Sciences",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "American Association for the Advancement of Science",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Hungarian Academy of Sciences",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Hungary",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Third World Academy of Sciences",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    }
+  ],
+  "person_name": "Mohamed T. El-Ashry",
+  "processing_report": {
+    "total_orgs_input": 40,
+    "orgs_categorized": 40,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 15,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

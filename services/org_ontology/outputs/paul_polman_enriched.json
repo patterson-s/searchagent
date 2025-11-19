@@ -1,0 +1,549 @@
+{
+  "employers": [
+    {
+      "employer_id": "1",
+      "employer_name": "Alcon",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Allianz",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Dow",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "EQT Future",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Nestlé",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Nestle",
+        "Nestlé S.A."
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Procter & Gamble",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Procter & Gamble (P&G)"
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "SMBC Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "SMBC"
+      ]
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Systemiq",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Systemiq Capital",
+        "Systemiq Ltd."
+      ]
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "TPG Rise",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Temasek",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Unilever",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "11-1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UN Global Compact",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNGC"
+          ],
+          "provenance": {
+            "contributing_events": [
+              47,
+              70,
+              91
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src507_ch0",
+              "src504_ch0",
+              "src508_ch0",
+              "src500_ch3",
+              "src505_ch0",
+              "src503_ch0"
+            ],
+            "source_urls": [
+              "https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2015/paul-polman",
+              "https://thehowinstitute.org/paul-polman/",
+              "https://www.fcltglobal.org/team-member/paul-polman/",
+              "https://en.wikipedia.org/wiki/Paul_Polman",
+              "https://graham.uchicago.edu/bio/paul-polman/",
+              "https://www.chartwellspeakers.com/speaker/paul-polman/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "COP26 - UN Climate Change Conference",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "COP26"
+          ],
+          "provenance": {
+            "contributing_events": [
+              32
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src502_ch4"
+            ],
+            "source_urls": [
+              "https://uk.linkedin.com/in/paulpolman"
+            ],
+            "date_range_from_events": {
+              "earliest": "2020",
+              "latest": "2020"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Trade Organization",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Aurora Humanitarian Initiative",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Dutch Sustainable Growth Coalition",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Netherlands",
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "European Climate Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Food Planet Prize",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Food and Land Use Coalition (FOLU)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Global Commission for the Economy and Climate",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Global Commission on the Economy and Climate",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [],
+      "notes": "This appears to be a duplicate or alternative name for Global Commission for the Economy and Climate. Retained as separate for completeness."
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "IMAGINE Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Kilimanjaro Blind Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Net Positive",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "One Young World",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Planetary Guardians",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Race to Resilience",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "Race to Zero",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "Systemiq",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "Systemiq / Imagine World",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [],
+      "notes": "This appears to be a joint initiative or subsidiary of Systemiq. Retained as separate for completeness."
+    },
+    {
+      "employer_id": "17",
+      "employer_name": "The B Team",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "18",
+      "employer_name": "The Fashion Pact",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "19",
+      "employer_name": "The HOW Institute for Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "20",
+      "employer_name": "The Kilimanjaro Blind Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [],
+      "notes": "This appears to be a duplicate of Kilimanjaro Blind Trust. Retained as separate for completeness."
+    },
+    {
+      "employer_id": "21",
+      "employer_name": "The Mo Ibrahim Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "22",
+      "employer_name": "The Rockefeller Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "23",
+      "employer_name": "The Valuable 500",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "24",
+      "employer_name": "Valuable 500",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [],
+      "notes": "This appears to be a duplicate of The Valuable 500. Retained as separate for completeness."
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "IESE Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Spain",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Faculty of Management",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "INSEAD",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Faculty of Business Administration",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "University of Oxford",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Saïd Business School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Oxford University Saïd Business School"
+          ],
+          "provenance": {
+            "contributing_events": [
+              25,
+              71,
+              93
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src507_ch0",
+              "src504_ch0",
+              "src500_ch8",
+              "src508_ch0",
+              "src503_ch0"
+            ],
+            "source_urls": [
+              "https://thehowinstitute.org/paul-polman/",
+              "https://www.fcltglobal.org/team-member/paul-polman/",
+              "https://en.wikipedia.org/wiki/Paul_Polman",
+              "https://graham.uchicago.edu/bio/paul-polman/",
+              "https://www.chartwellspeakers.com/speaker/paul-polman/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2019",
+              "latest": "2019"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Paul Polman",
+  "processing_report": {
+    "total_orgs_input": 71,
+    "orgs_categorized": 71,
+    "sectors_processed": [
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 16,
+        "orgs_processed": 16,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 24,
+        "orgs_processed": 24,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

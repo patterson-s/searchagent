@@ -1,0 +1,836 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Canada",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Canadian International Development Agency (CIDA)",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "CIDA",
+            "Canadian International Development Agency"
+          ],
+          "provenance": {
+            "contributing_events": [
+              19,
+              40
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src669_ch0",
+              "src665_ch0",
+              "src660_ch2",
+              "src660_ch0",
+              "src667_ch0",
+              "src666_ch0"
+            ],
+            "source_urls": [
+              "https://foreignpolicy.com/author/robert-greenhill/",
+              "https://debategraph.org/details.aspx?nid=701604&lan=EN",
+              "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+              "https://www.un.org/spanish/events/panel/html/greenhill.html",
+              "https://globalleadershipsummit.ca/speakers/robert-greenhill/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2005",
+              "latest": "2005"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Bombardier Inc.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Bombardier International",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "International Operations",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Greenhill & Co.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "McKinsey & Company",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Global Management Consulting",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Morgan Stanley",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": "U5",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Smith Barney",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U7",
+          "unit_name": "Wealth Management",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_GA",
+          "unit_name": "General Assembly",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNGA"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "UN_SC",
+          "unit_name": "Security Council",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "UN_ECOSOC",
+          "unit_name": "Economic and Social Council",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ECOSOC"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "WBG",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "WBG_IBRD",
+          "unit_name": "International Bank for Reconstruction and Development",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IBRD"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "WBG_IDA",
+          "unit_name": "International Development Association",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IDA"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "WBG_IFC",
+          "unit_name": "International Finance Corporation",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IFC"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "WBG_MIGA",
+          "unit_name": "Multilateral Investment Guarantee Agency",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "MIGA"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "WBG_ICSID",
+          "unit_name": "International Centre for Settlement of Investment Disputes",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ICSID"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "AEI",
+      "employer_name": "American Enterprise Institute",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "AEI_Board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "Banff_Forum",
+      "employer_name": "Banff Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "CIGI",
+      "employer_name": "Centre for International Governance Innovation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "CIGI_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "Global_Canada",
+      "employer_name": "Global Canada",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "Global_Canada_Initiative",
+      "employer_name": "Global Canada Initiative",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "IDRC",
+      "employer_name": "International Development Research Centre",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "IDRC_Board",
+          "unit_name": "Board of Governors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "KBF_Canada",
+      "employer_name": "King Baudouin Foundation - Canada",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "KBF_Canada_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "WEF",
+      "employer_name": "World Economic Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "WEF_Board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Economic Forum (WEF)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              24
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src660_ch1",
+              "src667_ch0",
+              "src665_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+              "https://globalleadershipsummit.ca/speakers/robert-greenhill/",
+              "https://debategraph.org/details.aspx?nid=701604&lan=EN"
+            ],
+            "date_range_from_events": {
+              "earliest": "2008",
+              "latest": "2008"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "INSEAD",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France, Singapore, Abu Dhabi",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Faculty of Economics",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "London School of Economics",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Department of Economics",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Court of Governors",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "McGill University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Desautels Faculty of Management",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Board of Governors",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "University of Alberta",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U7",
+          "unit_name": "Alberta School of Business",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U8",
+          "unit_name": "Board of Governors",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Robert Greenhill",
+  "processing_report": {
+    "total_orgs_input": 25,
+    "orgs_categorized": 25,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Yugoslavian Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Yugoslavia",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Federal Ministry of Foreign Affairs"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Embassy of Yugoslavia in Malta",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Government of Malta",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Yugoslav Embassy in Valletta"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "UN High-level Panel on Digital Cooperation",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Secretariat of the UN High-level Panel on Digital Cooperation",
+            "United Nations (UN) High-level Panel on Digital Cooperation"
+          ],
+          "provenance": {
+            "contributing_events": [
+              10,
+              11
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src342_ch0",
+              "src346_ch0",
+              "src343_ch0",
+              "src341_ch1",
+              "src340_ch0"
+            ],
+            "source_urls": [
+              "https://aiforgood.itu.int/speaker/jovan-kurbalija/",
+              "https://www.diplomacy.edu/people/jovan-kurbalija/",
+              "https://moderndiplomacy.eu/author/jovankurbalija/",
+              "https://itif.org/person/jovan-kurbalija/",
+              "https://unstats.un.org/unsd/undataforum/dubai-2018/speakers/jovan-kurbalija/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2018",
+              "latest": "2019"
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "UN Internet Governance Forum",
+          "unit_type": "forum_or_working_group",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              4
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src342_ch0",
+              "src349_ch0",
+              "src343_ch0",
+              "src341_ch1",
+              "src340_ch0"
+            ],
+            "source_urls": [
+              "https://aiforgood.itu.int/speaker/jovan-kurbalija/",
+              "https://www.diplomacy.edu/people/jovan-kurbalija/",
+              "https://www.itapa.sk/speakers/jovan-kurbalija/",
+              "https://itif.org/person/jovan-kurbalija/",
+              "https://unstats.un.org/unsd/undataforum/dubai-2018/speakers/jovan-kurbalija/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2006",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "UN Working Group on Internet Governance",
+          "unit_type": "working_group",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations (UN) Working Group on Internet Governance"
+          ],
+          "provenance": {
+            "contributing_events": [
+              3
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src342_ch0",
+              "src349_ch0",
+              "src343_ch0",
+              "src341_ch1",
+              "src340_ch0"
+            ],
+            "source_urls": [
+              "https://aiforgood.itu.int/speaker/jovan-kurbalija/",
+              "https://www.diplomacy.edu/people/jovan-kurbalija/",
+              "https://www.itapa.sk/speakers/jovan-kurbalija/",
+              "https://itif.org/person/jovan-kurbalija/",
+              "https://unstats.un.org/unsd/undataforum/dubai-2018/speakers/jovan-kurbalija/"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2005"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "DiploFoundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Geneva Internet Platform (GIP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "High-Level Multistakeholder Committee for NETmundial",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Modern Diplomacy",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Editorial Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "NETmundial",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "College of Europe",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Belgium",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Department of European Political and Administrative Studies",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Department of European Economic Studies",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Mediterranean Academy of Diplomatic Studies",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Malta",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Department of Diplomacy",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Department of International Relations",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Jovan Kurbalija",
+  "processing_report": {
+    "total_orgs_input": 12,
+    "orgs_categorized": 12,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

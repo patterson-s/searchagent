@@ -1,0 +1,374 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Japan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Cabinet of Prime Minister Ryutaro Hashimoto",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Hashimoto Cabinet"
+          ],
+          "provenance": {
+            "contributing_events": [
+              11
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src450_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Naoto_Kan"
+            ],
+            "date_range_from_events": {
+              "earliest": "1996",
+              "latest": "1996"
+            }
+          }
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Hatoyama Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Hatoyama administration"
+          ],
+          "provenance": {
+            "contributing_events": [
+              27,
+              28,
+              40
+            ],
+            "event_count": 3,
+            "source_chunks": [
+              "src459_ch0",
+              "src458_ch1"
+            ],
+            "source_urls": [
+              "https://www.asahi.com/ajw/articles/15035503",
+              "https://www.aljazeera.com/news/2010/6/4/profile-naoto-kan"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Ministry of Health and Welfare",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              16
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src455_ch0"
+            ],
+            "source_urls": [
+              "https://japan.kantei.go.jp/hatoyama/meibo/daijin/kan_e.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1996",
+              "latest": "1996"
+            }
+          }
+        },
+        {
+          "unit_id": "U004",
+          "unit_name": "National Strategy Bureau",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              26
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src453_ch1"
+            ],
+            "source_urls": [
+              "https://www.bbc.com/news/10228471"
+            ],
+            "date_range_from_events": {
+              "earliest": "2009",
+              "latest": "2010"
+            }
+          }
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Patent Office",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              0
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src450_ch2"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Naoto_Kan"
+            ],
+            "date_range_from_events": {
+              "earliest": "1971",
+              "latest": "1975"
+            }
+          }
+        },
+        {
+          "unit_id": "U006",
+          "unit_name": "Prime Minister's Office of Japan",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              49
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src450_ch9"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Naoto_Kan"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U007",
+          "unit_name": "Japan's Technical Committee on Renewable Energy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              52
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src452_ch0"
+            ],
+            "source_urls": [
+              "https://www.un.org/sg/en/management/bios/Kan.shtml"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Diet of Japan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U008",
+          "unit_name": "House of Representatives",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "House of Representatives (Japan)"
+          ],
+          "provenance": {
+            "contributing_events": [
+              1,
+              5,
+              8,
+              9,
+              22,
+              30,
+              42,
+              44
+            ],
+            "event_count": 8,
+            "source_chunks": [
+              "src450_ch17",
+              "src455_ch0",
+              "src450_ch16",
+              "src450_ch1",
+              "src450_ch14"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Naoto_Kan",
+              "https://japan.kantei.go.jp/hatoyama/meibo/daijin/kan_e.html"
+            ],
+            "date_range_from_events": {
+              "earliest": "1980",
+              "latest": "2024"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "LDP-led coalition government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Patent Firm",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Patent Department",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Asia-Pacific Economic Cooperation (APEC)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "APEC Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "APEC Secretariat"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U002",
+          "unit_name": "United Nations Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Secretariat"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Naoto Kan",
+  "processing_report": {
+    "total_orgs_input": 29,
+    "orgs_categorized": 29,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 15,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

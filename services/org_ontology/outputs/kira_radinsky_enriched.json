@@ -1,0 +1,587 @@
+{
+  "employers": [
+    {
+      "employer_id": "1",
+      "employer_name": "State of Israel",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Israel",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Israel Securities Authority",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ISA"
+          ],
+          "provenance": {
+            "contributing_events": [
+              29,
+              39
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src296_ch0",
+              "src295_ch0",
+              "src297_ch1",
+              "src290_ch0"
+            ],
+            "source_urls": [
+              "https://www.diagnosticrobotics.com/kira-radinsky-dr",
+              "https://pmwcintl.com/speaker/kira-radinsky-484_manabio_2025sv/",
+              "https://en.wikipedia.org/wiki/Kira_Radinsky",
+              "https://otd.harvard.edu/events/biomedical-informatics-entrepreneurs-salon-kira-radinsky-diagnostic-robotics/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "1.2",
+          "unit_name": "Israeli Intelligence Community",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "1.2.1",
+          "unit_name": "Intelligence Unit 8200",
+          "unit_type": "other",
+          "parent_unit_id": "1.2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Unit 8200",
+            "Central Collection Unit"
+          ],
+          "provenance": {
+            "contributing_events": [
+              0
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src290_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Kira_Radinsky"
+            ],
+            "date_range_from_events": {
+              "earliest": "2004",
+              "latest": "2007"
+            }
+          }
+        },
+        {
+          "unit_id": "1.2.2",
+          "unit_name": "Israeli Intelligence",
+          "unit_type": "other",
+          "parent_unit_id": "1.2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Mossad"
+          ],
+          "provenance": {
+            "contributing_events": [
+              50
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src299_ch0"
+            ],
+            "source_urls": [
+              "https://jwa.org/encyclopedia/article/radinsky-kira"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Diagnostic Robotics",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Esh Digital Bank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Facebook",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Globes",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Globes NewsPaper",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              11
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src291_ch2"
+            ],
+            "source_urls": [
+              "https://www.linkedin.com/in/kira-radinsky"
+            ],
+            "date_range_from_events": {
+              "earliest": "2013",
+              "latest": "2013"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Google",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "HSBC",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "HSBC Bank",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              44
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src296_ch0"
+            ],
+            "source_urls": [
+              "https://otd.harvard.edu/events/biomedical-informatics-entrepreneurs-salon-kira-radinsky-diagnostic-robotics/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "7.2",
+          "unit_name": "HSBC Technology Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              34,
+              41
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src295_ch0",
+              "src292_ch0"
+            ],
+            "source_urls": [
+              "https://www.diagnosticrobotics.com/kira-radinsky-dr",
+              "https://nebius.com/board-of-directors/kira-radinsky"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Mana Bio",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Nebius",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "11.1",
+          "unit_name": "Nebius (NASDAQ: NBIS)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              45
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src297_ch1"
+            ],
+            "source_urls": [
+              "https://pmwcintl.com/speaker/kira-radinsky-484_manabio_2025sv/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "SalesPredict",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "Yahoo!",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "eBay",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "15.1",
+          "unit_name": "eBay Israel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src290_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Kira_Radinsky"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "we_forum",
+      "employer_name": "World Economic Forum",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "we_forum_hq",
+          "unit_name": "Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "WEF Headquarters",
+            "World Economic Forum HQ"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "we_forum_board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": "we_forum_hq",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Board of Trustees",
+            "WEF Board"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "we_forum_global_agenda_councils",
+          "unit_name": "Global Agenda Councils",
+          "unit_type": "other",
+          "parent_unit_id": "we_forum_hq",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Global Agenda Councils",
+            "GACs"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "good_magazine",
+      "employer_name": "GOOD Magazine",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "good_magazine_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "MIT Technology Review",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Technion - Israel Institute of Technology",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Israel",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Maccabi Health Care Data Science Institute",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Maccabi Health Data Science Institute"
+          ],
+          "provenance": {
+            "contributing_events": [
+              33,
+              49
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src292_ch0",
+              "src298_ch0"
+            ],
+            "source_urls": [
+              "https://ats.org/about/faces-of-the-technion/kira-radinsky/",
+              "https://nebius.com/board-of-directors/kira-radinsky"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Maccabi Research Institute",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              40
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src296_ch0",
+              "src295_ch0"
+            ],
+            "source_urls": [
+              "https://www.diagnosticrobotics.com/kira-radinsky-dr",
+              "https://otd.harvard.edu/events/biomedical-informatics-entrepreneurs-salon-kira-radinsky-diagnostic-robotics/"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Microsoft Research",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "person_name": "Kira Radinsky",
+  "processing_report": {
+    "total_orgs_input": 33,
+    "orgs_categorized": 33,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 16,
+        "orgs_processed": 16,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 8,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

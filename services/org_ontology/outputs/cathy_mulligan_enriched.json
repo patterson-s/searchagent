@@ -1,0 +1,442 @@
+{
+  "employers": [
+    {
+      "employer_id": "1",
+      "employer_name": "Cold Technology Services",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Ericsson",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Fujitsu",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Motivational Speakers Agency",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "The Cyber Security Speakers Agency",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Vodafone",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "major technology firm in North West Europe",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "North West Europe",
+      "org_units": []
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_HLP",
+          "unit_name": "United Nations Secretary-General's High-Level Panel on Digital Cooperation",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNSG HLP",
+            "High-Level Panel on Digital Cooperation"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "WEF",
+      "employer_name": "World Economic Forum",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Canadian Geotechnical Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Canadian Society for Civil Engineering",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "EU Blockchain Observatory & Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "European Union",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Robert Bosch Academy",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Sustainable Society Digital Collective",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Core Team",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Concordia University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Concordia Institute for Water, Energy and Sustainable Systems",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              17
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src260_ch0"
+            ],
+            "source_urls": [
+              "https://en.wikipedia.org/wiki/Catherine_Mulligan"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Falmouth University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Folkuniversitetet",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Sweden",
+      "org_units": []
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "Imperial College London",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U002",
+          "unit_name": "Imperial College Business School",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              37
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src269_ch2"
+            ],
+            "source_urls": [
+              "https://motivationalspeakersagency.co.uk/technology/cathy-mulligan"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E005",
+      "employer_name": "Instituto Superior Técnico",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Portugal",
+      "org_units": [],
+      "variant_names": [
+        "Instituto Superior Técnico, University of Lisbon"
+      ]
+    },
+    {
+      "employer_id": "E006",
+      "employer_name": "Massachusetts Institute of Technology (MIT)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U003",
+          "unit_name": "MIT Schwarzman College of Computing",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              14
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src263_ch2"
+            ],
+            "source_urls": [
+              "https://se.linkedin.com/in/cathymulligan"
+            ],
+            "date_range_from_events": {
+              "earliest": "2025",
+              "latest": "2025"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E007",
+      "employer_name": "McGill University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "E008",
+      "employer_name": "University College London (UCL)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E009",
+      "employer_name": "University of New South Wales (UNSW)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E010",
+      "employer_name": "University of Cambridge",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    }
+  ],
+  "person_name": "Cathy Mulligan",
+  "processing_report": {
+    "total_orgs_input": 32,
+    "orgs_categorized": 32,
+    "sectors_processed": [
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 15,
+        "orgs_processed": 15,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

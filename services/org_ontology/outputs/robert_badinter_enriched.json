@@ -1,0 +1,585 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of France",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Council of Ministers",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Council of Ministers of France"
+          ],
+          "provenance": {
+            "contributing_events": [
+              29
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src12_ch0"
+            ],
+            "source_urls": [
+              "https://theconversation.com/who-was-robert-badinter-the-most-important-frenchman-of-whom-you-never-heard-223841"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Ministry of Justice",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "French Ministry of Justice"
+          ],
+          "provenance": {
+            "contributing_events": [
+              31
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src12_ch3"
+            ],
+            "source_urls": [
+              "https://theconversation.com/who-was-robert-badinter-the-most-important-frenchman-of-whom-you-never-heard-223841"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Constitutional Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Constitutional Council of France",
+            "French Constitutional Council"
+          ],
+          "provenance": {
+            "contributing_events": [
+              10,
+              11
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src18_ch1",
+              "src14_ch0",
+              "src10_ch2",
+              "src10_ch0",
+              "src17_ch4",
+              "src11_ch1",
+              "src17_ch0",
+              "src10_ch9",
+              "src10_ch5",
+              "src16_ch2"
+            ],
+            "source_urls": [
+              "https://deathpenaltyinfo.org/robert-badinter-former-french-justice-minister-and-death-penalty-abolitionist-dies-at-95",
+              "https://hamecblog.wordpress.com/2024/02/24/remembering-robert-badinter-frances-minister-of-justice-who-was-shaped-by-the-holocaust/",
+              "https://www.osce.org/node/450118",
+              "https://www.france24.com/en/france/20251009-left-fatherless-by-the-holocaust-robert-badinter-waged-a-lifelong-fight-for-justice",
+              "https://www.theguardian.com/world/2024/feb/12/robert-badinter-obituary",
+              "https://en.wikipedia.org/wiki/Robert_Badinter"
+            ],
+            "date_range_from_events": {
+              "earliest": "1986",
+              "latest": "1995"
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "National Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              28
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src12_ch0"
+            ],
+            "source_urls": [
+              "https://theconversation.com/who-was-robert-badinter-the-most-important-frenchman-of-whom-you-never-heard-223841"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Senate",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Senate of France",
+            "French Senate"
+          ],
+          "provenance": {
+            "contributing_events": [
+              13,
+              14,
+              15,
+              16,
+              36
+            ],
+            "event_count": 5,
+            "source_chunks": [
+              "src14_ch0",
+              "src10_ch0",
+              "src10_ch3",
+              "src11_ch1",
+              "src10_ch5",
+              "src16_ch2",
+              "src17_ch3"
+            ],
+            "source_urls": [
+              "https://deathpenaltyinfo.org/robert-badinter-former-french-justice-minister-and-death-penalty-abolitionist-dies-at-95",
+              "https://www.osce.org/node/450118",
+              "https://www.france24.com/en/france/20251009-left-fatherless-by-the-holocaust-robert-badinter-waged-a-lifelong-fight-for-justice",
+              "https://www.theguardian.com/world/2024/feb/12/robert-badinter-obituary",
+              "https://en.wikipedia.org/wiki/Robert_Badinter"
+            ],
+            "date_range_from_events": {
+              "earliest": "1995",
+              "latest": "2011"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Badinter, Bredin et partenaires",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Bredin Prat",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Badinter, Bredin et partenaires (current name: Bredin Prat)"
+          ],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Law Firm (Henri Torrès)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Law Firm",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "UN Executive Committee",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Executive Committee"
+          ],
+          "provenance": {
+            "contributing_events": [
+              21
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src11_ch1"
+            ],
+            "source_urls": [
+              "https://www.osce.org/node/450118"
+            ],
+            "date_range_from_events": {
+              "earliest": "2003",
+              "latest": "2004"
+            }
+          }
+        },
+        {
+          "unit_id": "io_1_unit_2",
+          "unit_name": "Arbitration Commission of the Peace Conference on the former Yugoslavia",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Arbitration Commission of the Peace Conference on the former Yugoslavia"
+          ],
+          "provenance": {
+            "contributing_events": [
+              12
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src10_ch3",
+              "src11_ch1"
+            ],
+            "source_urls": [
+              "https://www.osce.org/node/450118",
+              "https://en.wikipedia.org/wiki/Robert_Badinter"
+            ],
+            "date_range_from_events": {
+              "earliest": "1991",
+              "latest": "1991"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "Organization for Security and Co-operation in Europe (OSCE)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_2_unit_1",
+          "unit_name": "Court of Conciliation and Arbitration",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Court of Conciliation and Arbitration of the Organization for Security and Co-operation in Europe (OSCE)",
+            "OSCE Court of Conciliation and Arbitration"
+          ],
+          "provenance": {
+            "contributing_events": [
+              17,
+              19
+            ],
+            "event_count": 2,
+            "source_chunks": [
+              "src10_ch3",
+              "src11_ch2",
+              "src11_ch1"
+            ],
+            "source_urls": [
+              "https://www.osce.org/node/450118",
+              "https://en.wikipedia.org/wiki/Robert_Badinter"
+            ],
+            "date_range_from_events": {
+              "earliest": "1995",
+              "latest": "2013"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "io_3",
+      "employer_name": "European Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_3_unit_1",
+          "unit_name": "European Union",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "European Union"
+          ],
+          "provenance": {
+            "contributing_events": [
+              20
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src11_ch1"
+            ],
+            "source_urls": [
+              "https://www.osce.org/node/450118"
+            ],
+            "date_range_from_events": {
+              "earliest": "2002",
+              "latest": "2002"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "aps",
+      "employer_name": "American Philosophical Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "aps_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "icadp",
+      "employer_name": "International Commission Against the Death Penalty",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "icadp_commission",
+          "unit_name": "Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "wjp",
+      "employer_name": "World Justice Project",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "wjp_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [],
+            "event_count": 0,
+            "source_chunks": [],
+            "source_urls": [],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Columbia University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Sorbonne University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Sorbonne Faculty of Law",
+          "unit_type": "faculty",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "provenance": {
+            "contributing_events": [
+              27
+            ],
+            "event_count": 1,
+            "source_chunks": [
+              "src11_ch1"
+            ],
+            "source_urls": [
+              "https://www.osce.org/node/450118"
+            ],
+            "date_range_from_events": {
+              "earliest": null,
+              "latest": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "University of Burgundy (Dijon)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "University of Franche-Comté (Besançon)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "University of Picardie Jules Verne (Amiens)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "University of Paris",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    }
+  ],
+  "person_name": "Robert Badinter",
+  "processing_report": {
+    "total_orgs_input": 30,
+    "orgs_categorized": 30,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}
