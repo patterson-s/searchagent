@@ -1,0 +1,12 @@
+{
+  "input_files": {
+    "birthfinder": "../../data/birthfinder_verified_v2.jsonl",
+    "deathfinder": "../../data/deathfinder_verified.jsonl",
+    "nationalityfinder": "../../data/nationalityfinder_verified.jsonl",
+    "educationfinder": "../../data/educationfinder_results.jsonl",
+    "careerfinder": "../../data/careerfinder_results.jsonl",
+    "hlp": "../../../consultocracy_dashboard/data/career_trajectories_03_dates_normalized_with_hlp.json"
+  },
+  "output_dir": "C:\\Users\\spatt\\Desktop\\searchagent\\services\\aggregation\\output",
+  "output_prefix": "aggregated"
+}
