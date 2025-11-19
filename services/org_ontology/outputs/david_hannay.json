@@ -1,0 +1,478 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "British Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Foreign and Commonwealth Office",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Foreign Office",
+            "Foreign Office, London"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "British Diplomatic Service",
+          "unit_type": "other",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "British Embassy in Washington, DC",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United States Government",
+            "type": "foreign_state"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "British Consulate, Barcelona",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Spanish Government",
+            "type": "foreign_state"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "UK Negotiating Team for Entry into the EC",
+          "unit_type": "other",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "European Commission",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "House of Lords",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u7",
+          "unit_name": "Lord’s International Relations and Defence Committee",
+          "unit_type": "other",
+          "parent_unit_id": "u6",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u8",
+          "unit_name": "All Party Group on Global Security and Non-Proliferation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "UK Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "u9",
+          "unit_name": "Foreign and Commonwealth Office",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Foreign Office",
+            "Foreign Office, London"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Bliss, Sands and Foster",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "C. Scribner's sons",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Harper & brothers",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Holt",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Longmans, Green and co.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Macmillan and Co",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "W. Scott",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "W. Scott; W.J. Gage",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "8a",
+          "unit_name": "W. Scott",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "8b",
+          "unit_name": "W.J. Gage",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UN High Level Panel on Threats, Challenges and Change",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "European Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "European Commission",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Commission of the EC",
+            "The European Commission"
+          ]
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "European Economic Community",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "All-Party Parliamentary Group on the United Nations",
+      "employer_type": "other",
+      "sector": "io",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Navy Records Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "United Nations Association UK",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Executive Committee",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "New College, Oxford",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Faculty of Arts and Humanities",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Faculty of Social Sciences",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Trustee Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Royal Naval College, Greenwich",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "Department of Maritime Studies",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Department of Naval Architecture",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "University of Birmingham",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U006",
+          "unit_name": "College of Arts and Law",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U007",
+          "unit_name": "College of Engineering and Physical Sciences",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U008",
+          "unit_name": "Trustee Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "Westminster School, London",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U009",
+          "unit_name": "Senior School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U010",
+          "unit_name": "Junior School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U011",
+          "unit_name": "Board of Governors",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "David Hannay",
+  "processing_report": {
+    "total_orgs_input": 42,
+    "orgs_categorized": 42,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 8,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

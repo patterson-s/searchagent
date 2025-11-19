@@ -1,0 +1,279 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Japan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "House of Councillors",
+          "unit_type": "legislative_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "House of Councillors of the Japanese Diet"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Ministry of Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Ministry of Health, Labour and Welfare",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Health, Labour, and Welfare"
+          ]
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Committee on Audit",
+          "unit_type": "committee",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Joint Meeting of Both Houses on the Reform of Pension and Other Social Security Systems",
+          "unit_type": "committee",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Medical Care Committee for Research of the Social Security System",
+          "unit_type": "committee",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U7",
+          "unit_name": "Research Commission on the Constitution",
+          "unit_type": "committee",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U8",
+          "unit_name": "Special Committee on Ocean Matters",
+          "unit_type": "committee",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations Development Programme (UNDP)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "International Advisory Group for the UNDP Human Development Report",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "International Advisory Group for the Human Development Report"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "International Conference on Population and Development",
+          "unit_type": "conference_or_assembly",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "World Health Organization (WHO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Chatham House",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Japan Center for International Exchange (JCIE)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "School of Politics for Women",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Advisory Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Harvard School of Public Health",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard T.H. Chan School of Public Health"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Takemi Program",
+          "unit_type": "program",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Tokai University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Various Universities in Japan",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Japan",
+      "org_units": [],
+      "variant_names": [
+        "Multiple Japanese Universities"
+      ]
+    }
+  ],
+  "person_name": "Keizo Takemi",
+  "processing_report": {
+    "total_orgs_input": 28,
+    "orgs_categorized": 28,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

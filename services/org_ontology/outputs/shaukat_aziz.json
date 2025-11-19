@@ -1,0 +1,291 @@
+{
+  "employers": [
+    {
+      "employer_id": "govt_pak_01",
+      "employer_name": "Government of Pakistan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Pakistan",
+      "org_units": [
+        {
+          "unit_id": "govt_pak_unit_01",
+          "unit_name": "Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Finance Ministry"
+          ]
+        },
+        {
+          "unit_id": "govt_pak_unit_02",
+          "unit_name": "Embassy of Pakistan, Washington D.C.",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "United States of America",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Pakistan Embassy in USA"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "govt_pak_02",
+      "employer_name": "National Assembly of Pakistan",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Pakistan",
+      "org_units": [
+        {
+          "unit_id": "govt_pak_unit_03",
+          "unit_name": "Standing Committee on Finance",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Finance Committee"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Citigroup",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Citi Private Bank",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Citi Private Bank"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "CitiBank",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "CitiBank",
+            "Citibank"
+          ]
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "CitiBank Pakistan",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "CitiBank Pakistan"
+          ]
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Citibank Singapore",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Citibank Singapore"
+          ]
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "Citicorp",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Citicorp"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Millennium & Copthorne Hotels plc",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "The Blackstone Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_HQ",
+          "unit_name": "United Nations Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN HQ",
+            "United Nations Secretariat"
+          ]
+        },
+        {
+          "unit_id": "UN_ESCWA",
+          "unit_name": "United Nations Economic and Social Commission for Western Asia",
+          "unit_type": "other",
+          "parent_unit_id": "UN_HQ",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "ESCWA"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "21st Century Council",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Center for International Relations and Sustainable Development (CIRSD)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Serbia",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "EAU_BKK",
+      "employer_name": "East Asia University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Thailand",
+      "org_units": []
+    },
+    {
+      "employer_id": "GTC_OXFORD",
+      "employer_name": "Green Templeton College, Oxford University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "IBA_KARACHI",
+      "employer_name": "Institute of Business Administration, University of Karachi",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Pakistan",
+      "org_units": [
+        {
+          "unit_id": "IBA_UNIT",
+          "unit_name": "Institute of Business Administration",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Shaukat Aziz",
+  "processing_report": {
+    "total_orgs_input": 18,
+    "orgs_categorized": 18,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

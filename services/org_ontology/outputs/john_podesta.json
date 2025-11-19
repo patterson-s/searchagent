@@ -1,0 +1,379 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "U.S. Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "White House",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "White House Office"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "White House (Bill Clinton Administration)",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Department of Justice",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "U.S. Department of Justice"
+          ]
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "U.S. State Department",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "National Security Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "United States Senate",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [],
+          "sub_units": [
+            {
+              "unit_id": "u7",
+              "unit_name": "Senate Judiciary Committee",
+              "unit_type": "other",
+              "parent_unit_id": "u6",
+              "hierarchy_level": 2,
+              "counterparty": null,
+              "variant_names": [],
+              "sub_units": [
+                {
+                  "unit_id": "u8",
+                  "unit_name": "Senate Judiciary Subcommittee on Patents, Copyrights, and Trademarks",
+                  "unit_type": "other",
+                  "parent_unit_id": "u7",
+                  "hierarchy_level": 3,
+                  "counterparty": null,
+                  "variant_names": []
+                }
+              ]
+            },
+            {
+              "unit_id": "u9",
+              "unit_name": "Senate Agriculture Committee",
+              "unit_type": "other",
+              "parent_unit_id": "u6",
+              "hierarchy_level": 2,
+              "counterparty": null,
+              "variant_names": [
+                "Senate Committee on Agriculture"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Clinton Administration",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u10",
+          "unit_name": "White House",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "White House (Bill Clinton Administration)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Obama Administration",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u11",
+          "unit_name": "White House",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Biden Administration",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u12",
+          "unit_name": "White House",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Equilibrium Capital",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Joule Unlimited",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Podesta Associates, Inc.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U3_1",
+          "unit_name": "Podesta Group",
+          "unit_type": "successor_entity",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Podesta Group"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Podesta Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "The Washington Post",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "U.N. Secretary General’s High-Level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN High-Level Panel"
+          ]
+        },
+        {
+          "unit_id": "io_1_unit_2",
+          "unit_name": "United Nations Development Programme",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "ACTION",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Center for American Progress",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "China–United States Exchange Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Hong Kong",
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Constitution Project",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "HJW Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Georgetown University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Georgetown University Law Center",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Georgetown University Law Center"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "University Law Center",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    }
+  ],
+  "person_name": "John Podesta",
+  "processing_report": {
+    "total_orgs_input": 43,
+    "orgs_categorized": 43,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 17,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 6,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

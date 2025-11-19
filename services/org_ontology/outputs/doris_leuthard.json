@@ -1,0 +1,463 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Swiss Confederation",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Federal Department of Economic Affairs (FDEA)",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Federal Department of Economic Affairs"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Federal Department of Environment, Transport, Energy and Communications (DETEC)",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Federal Department of Environment, Transport, Energy and Communications"
+          ]
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Swiss Federal Council",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Swiss National Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "National Council of Switzerland"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Canton of Aargau",
+      "employer_type": "subnational_government",
+      "sector": "govt",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Bell Food Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Coop Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Coop Group Cooperative",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "2.2",
+          "unit_name": "Coop Pronto AG",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Fricker Attorneys-at-Law",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Law Firm",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Stadler Rail AG",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Transgourmet Holding AG",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "8.1",
+          "unit_name": "Transgourmet International",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Venture",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "European Free Trade Association (EFTA)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "EFTA Council",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "EFTA Council"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Food and Agriculture Organization (FAO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "FAO Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "FAO"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Organisation for Economic Co-operation and Development (OECD)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "OECD Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "OECD"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "United Nations (UN)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "UN Secretary General’s High-Level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Secretary General’s High-Level Panel"
+          ]
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "United Nations Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "World Trade Organization (WTO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "WTO Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "WTO"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U7",
+          "unit_name": "World Bank Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Bank"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Association National Exhibition Svizra27",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "ETH Zurich Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Green Business Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Award Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Jury for the Business Environment Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Kofi Annan Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Board of Foundation",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Lucerne Dialogue",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Swiss Digital Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Swiss Digital Initiative",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Swiss Digital Initiative Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "9.1",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Ulrico Hoepli Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": [
+        {
+          "unit_id": "10.1",
+          "unit_name": "Foundation Council",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Doris Leuthard",
+  "processing_report": {
+    "total_orgs_input": 40,
+    "orgs_categorized": 40,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

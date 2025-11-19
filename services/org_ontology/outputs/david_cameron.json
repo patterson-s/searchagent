@@ -1,0 +1,489 @@
+{
+  "employers": [
+    {
+      "employer_id": "UK_GOV",
+      "employer_name": "United Kingdom Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "UK_GOV_CABINET",
+          "unit_name": "Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Second Cameron Cabinet",
+            "Sunak Cabinet"
+          ]
+        },
+        {
+          "unit_id": "UK_GOV_PRIVY_COUNCIL",
+          "unit_name": "Privy Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_PRIVY_COUNCIL_OFFICE",
+          "unit_name": "Privy Council Office",
+          "unit_type": "other",
+          "parent_unit_id": "UK_GOV_PRIVY_COUNCIL",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_DOWNING_STREET",
+          "unit_name": "Downing Street",
+          "unit_type": "executive_office",
+          "parent_unit_id": "UK_GOV_CABINET",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_TREASURY",
+          "unit_name": "HM Treasury",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_HOME_OFFICE",
+          "unit_name": "Home Office",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_FCDO",
+          "unit_name": "Foreign, Commonwealth and Development Office",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_PARLIAMENT",
+          "unit_name": "Parliament of the United Kingdom",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UK Parliament",
+            "United Kingdom Parliament"
+          ]
+        },
+        {
+          "unit_id": "UK_PARLIAMENT_COMMONS",
+          "unit_name": "House of Commons",
+          "unit_type": "other",
+          "parent_unit_id": "UK_PARLIAMENT",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_PARLIAMENT_LORDS",
+          "unit_name": "House of Lords",
+          "unit_type": "other",
+          "parent_unit_id": "UK_PARLIAMENT",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UK_GOV_SHADOW_CABINET",
+          "unit_name": "Shadow Cabinet",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "CONSERVATIVE_GOV",
+      "employer_name": "Conservative Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "CONSERVATIVE_GOV_CABINET",
+          "unit_name": "Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Second Cameron Cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Carlton Communications",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "DLA Piper",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "First Data Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Greensill",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Greensill Capital",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Greensill Capital",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "HarperCollins",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Illumina",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Illumina Inc.",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Illumina Inc.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Jardine Matheson",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Key Capital Partners",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Urbium PLC",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Washington Speakers Bureau",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "G8",
+      "employer_name": "Group of 8 (G8)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "G8_Summit",
+          "unit_name": "G8 Summit",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "G8 Annual Summit"
+          ]
+        },
+        {
+          "unit_id": "G8_Sherpa",
+          "unit_name": "G8 Sherpa Group",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ngo_1",
+      "employer_name": "Alzheimer's Research UK",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_2",
+      "employer_name": "Council on Foreign Relations",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_3",
+      "employer_name": "Jewish National Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Israel",
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_4",
+      "employer_name": "LSE-Oxford Commission on Growth in Fragile States",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_5",
+      "employer_name": "ONE",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_6",
+      "employer_name": "Oxford-Harrington Rare Disease Centre",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_7",
+      "employer_name": "Public Chairs Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "ngo_8",
+      "employer_name": "UK-China Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Abu Dhabi University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Brasenose College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "University of Oxford",
+          "unit_type": "parent_institution",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Brasenose College, University of Oxford"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Eton College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Mississippi State University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "New York University Abu Dhabi",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "New York University",
+          "unit_type": "parent_institution",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "NYU Abu Dhabi"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Texas A&M University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "University of Oxford",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Brasenose College",
+          "unit_type": "college",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Brasenose College, University of Oxford"
+          ]
+        }
+      ]
+    }
+  ],
+  "person_name": "David Cameron",
+  "processing_report": {
+    "total_orgs_input": 58,
+    "orgs_categorized": 58,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 18,
+        "orgs_processed": 18,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 8,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

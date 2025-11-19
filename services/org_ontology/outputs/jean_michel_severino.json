@@ -1,0 +1,331 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of France",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Cooperation and Development",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "French Ministry of Cooperation",
+            "French Ministry of Development",
+            "Cabinet of the Minister of Cooperation and Development"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Cabinet of the Minister of Cooperation and Development, Jacques Pelletier",
+          "unit_type": "executive_office",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Ministry of Economy and Finances",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "French Ministry of Economy and Finances",
+            "French Ministry of Finance and Economy",
+            "French Ministry of Finances",
+            "French Ministry of Economy, Finance and Industry"
+          ]
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Inspection Générale des finances",
+          "unit_type": "other",
+          "parent_unit_id": "U3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Inspection Générale des finances (French Ministry of Economy and Finances)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "CFAO",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Danone",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "EBI SA Groupe Ecobank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Togo",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Ecobank International",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Togo",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "France Telecom",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": [],
+      "notes": "Now known as Orange S.A."
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Orange S.A.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "I&P",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U7.1",
+          "unit_name": "I&P Conseil",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ],
+      "notes": "I&P, Investisseurs & Partenaires, and Investisseurs et Partenaires are considered the same entity with variant names."
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "PhiTrust Impact Investors",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E9",
+      "employer_name": "PROPARCO",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Carrefour Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Convergences",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Critical Ecosystem Partnership Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Global Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Fondation Grameen Crédit Agricole",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Foundation for the Study and Research of International Development (FERDI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Scientific Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "German Marshall Fund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "French Academy of Technologies",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Executive Committee",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Jean-Michel Severino",
+  "processing_report": {
+    "total_orgs_input": 40,
+    "orgs_categorized": 40,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [
+      "IO: Skipped 3 orgs - JSON parsing failed"
+    ],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 3,
+        "orgs_processed": 0,
+        "orgs_skipped": 3,
+        "complete": false
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

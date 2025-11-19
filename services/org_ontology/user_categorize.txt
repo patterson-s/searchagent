@@ -1,0 +1,6 @@
+PERSON: {{PERSON_NAME}}
+
+ORGANIZATIONS TO CATEGORIZE:
+{{ORGANIZATION_LIST}}
+
+Categorize each organization into the appropriate sector.

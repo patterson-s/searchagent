@@ -1,0 +1,290 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Brazil",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of the Environment",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Environment of Brazil",
+            "Ministry of the Environment of Brazil",
+            "Ministry of the Environment, Brazil"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Brazilian Environmental Agency",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Brazilian Institute for the Environment and Renewable Natural Resources (Ibama)",
+          "unit_type": "other",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "IBAMA"
+          ]
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Brazilian Delegation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Rio de Janeiro State Government",
+      "employer_type": "state_government",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [],
+      "variant_names": [
+        "State Government of Rio de Janeiro"
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "National Bank for Economic and Social Development (BNDES)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "Brazil",
+      "org_units": [],
+      "variant_names": [
+        "The Brazilian Development Bank (BNDES)"
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Ambipar",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Institute Arapyaú",
+      "employer_type": "ngo",
+      "sector": "private",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Woodwell Climate",
+      "employer_type": "ngo",
+      "sector": "private",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "International Renewable Energy Agency (IRENA)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "United Nations Department of Economic and Social Affairs (UN DESA)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "United Nations Environment Programme (UN Environment)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "International Resource Panel (IRP)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IRP/UNEP-ONU",
+            "United Nations' International Resource Panel"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "High-Level Panel of Eminent Persons for the Post-2015 Development Agenda",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Global Commission on Science Missions for Sustainability",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "ACRJ’s Environment Council",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Environment Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Brazilian Center for International Relations (CEBRI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Fernando Henrique Cardoso Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Brazil",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Foundation Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Izabella Teixeira",
+  "processing_report": {
+    "total_orgs_input": 29,
+    "orgs_categorized": 29,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

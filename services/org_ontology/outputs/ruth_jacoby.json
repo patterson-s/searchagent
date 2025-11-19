@@ -1,0 +1,428 @@
+{
+  "employers": [
+    {
+      "employer_id": "govt_sweden",
+      "employer_name": "Government of Sweden",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "mfa_stockholm",
+          "unit_name": "Ministry for Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry for Foreign Affairs Stockholm",
+            "Ministry for Foreign Affairs, Stockholm",
+            "Ministry of Foreign Affairs",
+            "Ministry of Foreign Affairs, Stockholm",
+            "Swedish Ministry for Foreign Affairs"
+          ]
+        },
+        {
+          "unit_id": "embassy_germany",
+          "unit_name": "Embassy of Sweden in Germany",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "mfa_stockholm",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Government of Germany",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Embassy of Sweden, Germany"
+          ]
+        },
+        {
+          "unit_id": "perm_mission_un",
+          "unit_name": "Permanent Mission of Sweden to the United Nations",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "mfa_stockholm",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United Nations",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "ministry_commerce",
+          "unit_name": "Ministry of Commerce",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "ministry_finance",
+          "unit_name": "Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Finance, Stockholm",
+            "Swedish Ministry of Finance"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "govt_usa",
+      "employer_name": "Government of the United States of America",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "state_dept_usa",
+          "unit_name": "State Department",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ESG_001",
+      "employer_name": "Education Speakers Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "MCMCS_002",
+      "employer_name": "Miami Children’s Museum Charter School",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "PA_003",
+      "employer_name": "Pinecrest Academy",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "SA_004",
+      "employer_name": "Somerset Academy",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "SACS_005",
+      "employer_name": "Somerset Academy Charter Schools",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "SA_UNIT_001",
+          "unit_name": "Somerset Academy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "VPS_006",
+      "employer_name": "Various Private Schools",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "USA",
+      "org_units": [],
+      "notes": "This entry is a placeholder for multiple unnamed private schools. Specific details cannot be provided without further information."
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Organisation for Economic Co-operation and Development (OECD)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "OECD Delegation in Paris",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "OECD Paris Delegation"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Government of Sweden",
+      "employer_type": "national_government",
+      "sector": "io",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Swedish Delegation to the OECD",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "Organisation for Economic Co-operation and Development (OECD)",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Swedish Delegation to the UN",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "United Nations",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "UN High-level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Panel",
+            "High-level Panel at the UN"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "World Bank",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "World Bank and Affiliates, Washington D.C.",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Bank Washington D.C."
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "ecdpm",
+      "employer_name": "ECDPM",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "ecdpm_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Nova Southeastern University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "College of Education",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Charter School Consortium",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Charter School Personnel Training",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Florida Consortium of Public Charter Schools",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Governing Boards for Charter Schools in Miami-Dade County",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Four Charter Schools",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Multi-age Multi-level Classrooms",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Special Needs Programs",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Various Colleges in Florida",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Various Early Childhood Centers",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "SACS Accreditation Review Team",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "USA",
+      "org_units": []
+    }
+  ],
+  "person_name": "Ruth Jacoby",
+  "processing_report": {
+    "total_orgs_input": 39,
+    "orgs_categorized": 39,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

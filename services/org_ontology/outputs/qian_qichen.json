@@ -1,0 +1,329 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Government of China",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "State Council of the People's Republic of China",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "7th State Council of China",
+            "8th Cabinet",
+            "PRC State Council",
+            "State Council of the People's Republic of China"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Ministry of Foreign Affairs of the People's Republic of China",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Foreign Ministry",
+            "Foreign Ministry of China",
+            "Ministry of Foreign Affairs",
+            "Ministry of Foreign Affairs of China",
+            "Ministry of Foreign Affairs of the People's Republic of China"
+          ]
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "National People's Congress (NPC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "National People's Congress (NPC)"
+          ]
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Ministry of Higher Education",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Higher Education"
+          ]
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "Chinese Embassy in Moscow",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Russia",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Chinese Embassy in Moscow",
+            "Chinese Embassy in the Soviet Union"
+          ]
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "Embassy of the People's Republic of China in Guinea",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Guinea",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Chinese Embassy in Guinea",
+            "Embassy in Guinea and Guinea-Bissau",
+            "Embassy of the People's Republic of China in Guinea"
+          ]
+        },
+        {
+          "unit_id": "u7",
+          "unit_name": "Embassy of the People's Republic of China in Guinea-Bissau",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Guinea-Bissau",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Embassy of the People's Republic of China in Guinea-Bissau"
+          ]
+        },
+        {
+          "unit_id": "u8",
+          "unit_name": "Preparatory Committee for Hong Kong SAR",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Macao SAR Preparatory Committee",
+            "Preparatory Committee for Hong Kong SAR",
+            "Preparatory Committee for the Hong Kong Special Administrative Region of the National People's Congress",
+            "Preparatory Committee of the National People's Congress for Macao Special Administrative Region",
+            "Preparatory Committee of the Standing Committee of the National People's Congress for Hong Kong Special Administrative Region"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Communist Party of China",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u9",
+          "unit_name": "CPC Central Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "CCP Central Committee",
+            "CPC Central Committee",
+            "General Office of Central Committee of the Communist Youth League"
+          ]
+        },
+        {
+          "unit_id": "u10",
+          "unit_name": "CCP Politburo",
+          "unit_type": "other",
+          "parent_unit_id": "u9",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "14th Politburo of the Chinese Communist Party",
+            "CCP Politburo",
+            "Political Bureau of the 15th CPC Central Committee"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Dagong Bao (L'impartial)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Editorial Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Ta (newspaper)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Editorial Department",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Ta Kung Pao",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Editorial Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "CYL_China",
+      "employer_name": "Communist Youth League of China",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "CYL_Central_Committee",
+          "unit_name": "Central Committee of the Communist Youth League",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Central Committee"
+          ]
+        },
+        {
+          "unit_id": "CYL_Local_Branches",
+          "unit_name": "Local Branches",
+          "unit_type": "other",
+          "parent_unit_id": "CYL_Central_Committee",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Provincial Committees",
+            "Municipal Committees"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Central Communist Youth League School of the Soviet Union",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Soviet Union",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Komsomol Central School",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Soviet Union",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "May Seventh Cadre School",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "China",
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Peking University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "China",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Department of International Relations",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Qian Qichen",
+  "processing_report": {
+    "total_orgs_input": 44,
+    "orgs_categorized": 44,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 31,
+        "orgs_processed": 31,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

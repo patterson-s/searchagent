@@ -1,0 +1,591 @@
+{
+  "employers": [
+    {
+      "employer_id": "gov_uae",
+      "employer_name": "Government of the United Arab Emirates",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "uae_cabinet",
+          "unit_name": "UAE Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Arab Emirates Cabinet",
+            "حكومة دولة الإمارات العربية المتحدة"
+          ]
+        },
+        {
+          "unit_id": "min_cabinet_affairs",
+          "unit_name": "Ministry of Cabinet Affairs - UAE",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Cabinet Affairs, United Arab Emirates"
+          ]
+        },
+        {
+          "unit_id": "mdc",
+          "unit_name": "Ministerial Development Council (MDC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "fnmc",
+          "unit_name": "Federal National Media Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "fcsc",
+          "unit_name": "Federal Competitiveness and Statistics Centre",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "fgsc",
+          "unit_name": "Federal Government Services Continuity Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "gov_dubai",
+      "employer_name": "Government of Dubai",
+      "employer_type": "local_government",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "dubai_exec_council",
+          "unit_name": "Dubai Executive Council",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Executive Council of the Emirate of Dubai",
+            "The General Secretariat Of The Executive Council - Government of Dubai"
+          ]
+        },
+        {
+          "unit_id": "ded",
+          "unit_name": "Department of Economic Development (DED) Dubai",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Dubai’s Department of Economic Development"
+          ]
+        },
+        {
+          "unit_id": "dubai_fdi",
+          "unit_name": "Dubai’s Investment Development Agency (Dubai FDI)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "ddia",
+          "unit_name": "Dubai Development and Investment Authority (DDIA)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "dubai_municipality",
+          "unit_name": "Dubai Municipality",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "ggep",
+          "unit_name": "Dubai Government Excellence Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "exec_office_sheikh",
+          "unit_name": "The Executive Office of Sheikh Mohammed bin Rashid Al Maktoum",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ecc",
+      "employer_name": "Emirates Competitiveness Council (ECC)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "50yr_plan",
+      "employer_name": "50-year Development Plan Committee",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Al Ahli Sports Club",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Arab Media Group (AMG)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Dubai Holding",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Dubai Mercantile Exchange (DME)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Dubai Media Incorporated (DMI)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Emirates Media Incorporated",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Mohammed bin Rashid Establishment for Small and Medium Sized Enterprises",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "7.1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "gcc",
+      "employer_name": "Gulf Cooperation Council (GCC)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "gcc_general_secretariat",
+          "unit_name": "General Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "GCC Secretariat"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "un",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "un_headquarters",
+          "unit_name": "United Nations Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN HQ"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "wef",
+      "employer_name": "World Economic Forum (WEF)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "wef_leadership_council",
+          "unit_name": "World Economic Forum Leadership Council",
+          "unit_type": "other",
+          "parent_unit_id": "wef",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "WEF Leadership Council"
+          ]
+        },
+        {
+          "unit_id": "wef_growth_forum",
+          "unit_name": "World Economic Forum on Growth",
+          "unit_type": "other",
+          "parent_unit_id": "wef",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "WEF Growth Forum"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Mohammed Bin Rashid Al Maktoum Global Initiatives",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Mohammed bin Rashid Al Maktoum Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Mohammed bin Rashid Al Maktoum Foundation"
+          ]
+        },
+        {
+          "unit_id": "1.2",
+          "unit_name": "Al Maktoum Global Initiatives",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Al Maktoum Global Initiatives"
+          ]
+        },
+        {
+          "unit_id": "1.3",
+          "unit_name": "Great Arab Minds",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Great Arab Minds",
+            "نوابغ العرب"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Dubai Future Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Dubai Future Museum Foundation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Dubai Future Museum Foundation"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Dubai Autism Center",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Dubai Quality Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Mohammed bin Rashid Government Excellence Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "World Government Summit Organization",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "6.1",
+          "unit_name": "World Government Summit",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Governments Summit (WGS)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Young Arab Leaders (YAL)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "ADU",
+      "employer_name": "Abu Dhabi University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": []
+    },
+    {
+      "employer_id": "AUB",
+      "employer_name": "American University of Beirut",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Lebanon",
+      "org_units": []
+    },
+    {
+      "employer_id": "ESCP",
+      "employer_name": "ESCP Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "LBS",
+      "employer_name": "London Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "MBRSG",
+      "employer_name": "Mohammed bin Rashid School of Government",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [
+        {
+          "unit_id": "MBRSG_UNIT",
+          "unit_name": "School of Government",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "School of Government (MBRSG)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "UAEU",
+      "employer_name": "United Arab Emirates University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [],
+      "variant_names": [
+        "UAE University"
+      ]
+    },
+    {
+      "employer_id": "NDC",
+      "employer_name": "UAE National Defence College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Arab Emirates",
+      "org_units": [],
+      "variant_names": [
+        "UAE National Defense College (NDC)"
+      ]
+    }
+  ],
+  "person_name": "Mohammad Abdullah Al Gergawi",
+  "processing_report": {
+    "total_orgs_input": 102,
+    "orgs_categorized": 102,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 23,
+        "orgs_processed": 23,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 17,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

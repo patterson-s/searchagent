@@ -1,0 +1,316 @@
+{
+  "employers": [
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_GA",
+          "unit_name": "General Assembly",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN General Assembly"
+          ]
+        },
+        {
+          "unit_id": "UN_SC",
+          "unit_name": "Security Council",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Security Council"
+          ]
+        },
+        {
+          "unit_id": "UN_ECOSOC",
+          "unit_name": "Economic and Social Council",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN ECOSOC"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "gd_1",
+      "employer_name": "GiveDirectly",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "gd_board_1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "stc_1",
+      "employer_name": "Save the Children USA",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "stc_board_1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Department of Economics",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Massachusetts Institute of Technology (MIT)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "MIT School of Humanities, Arts, and Social Sciences",
+          "unit_type": "school",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "MIT School of Humanities, Arts, and Social Sciences"
+          ]
+        },
+        {
+          "unit_id": "2.2",
+          "unit_name": "Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+          "unit_type": "research_center",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "J-PAL",
+            "Poverty Action Lab",
+            "J-PAL Europe"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "University of Calcutta",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Presidency College",
+          "unit_type": "college",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Presidency College, Calcutta",
+            "Presidency College, Kolkata"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Jawaharlal Nehru University (JNU)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Delhi School of Economics",
+          "unit_type": "school",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Delhi School of Economics"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Indian Statistical Institute",
+      "employer_type": "research_institute",
+      "sector": "academic",
+      "country": "India",
+      "org_units": [
+        {
+          "unit_id": "5.1",
+          "unit_name": "Kolkata Campus",
+          "unit_type": "campus",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Indian Statistical Institute, Kolkata"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Princeton University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "University of Zurich",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Plaksha University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "India",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "National Bureau of Economic Research (NBER)",
+      "employer_type": "research_institute",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Centre for Economic Policy Research (CEPR)",
+      "employer_type": "research_center",
+      "sector": "academic",
+      "country": "International",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Kiel Institute",
+      "employer_type": "research_institute",
+      "sector": "academic",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "American Academy of Arts and Sciences",
+      "employer_type": "academy",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Econometric Society",
+      "employer_type": "society",
+      "sector": "academic",
+      "country": "International",
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "Global Education Evidence Advisory Panel",
+      "employer_type": "advisory_panel",
+      "sector": "academic",
+      "country": "International",
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "Lemann Center for Development, Education and Public Policy",
+      "employer_type": "research_center",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "Bureau for the Research in the Economic Analysis of Development",
+      "employer_type": "research_bureau",
+      "sector": "academic",
+      "country": "International",
+      "org_units": []
+    }
+  ],
+  "person_name": "Abhijit Banerjee",
+  "processing_report": {
+    "total_orgs_input": 39,
+    "orgs_categorized": 39,
+    "sectors_processed": [
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 31,
+        "orgs_processed": 31,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Mozambique",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mozambique",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Finance Ministry of Mozambique",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Mozambique's Finance Ministry"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "FRELIMO Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Absa Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Absa Group Limited",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Barclays Bank Mozambique",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Barclays Bank Mozambique S.A.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Total Energies",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Total Energies Mozambique",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "High Level Panel on UN Coherence",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "High-Level Panel on the United Nations System-wide Coherence"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "High Level Panel on UN Global Sustainability",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "High Level Panel on the Future of the Development Assistance Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "EM1",
+      "employer_name": "Maputo’s Eduardo Mondlane University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Mozambique",
+      "org_units": []
+    },
+    {
+      "employer_id": "NL1",
+      "employer_name": "NOVAFRICA, Universidade Nova de Lisboa",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Portugal",
+      "org_units": [
+        {
+          "unit_id": "NL1_U1",
+          "unit_name": "NOVAFRICA",
+          "unit_type": "research_center",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "UL1",
+      "employer_name": "University of London",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "UL1_U1",
+          "unit_name": "School of Oriental and African Studies",
+          "unit_type": "faculty",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "SOAS"
+          ]
+        }
+      ]
+    }
+  ],
+  "person_name": "Luisa Dias Diogo",
+  "processing_report": {
+    "total_orgs_input": 34,
+    "orgs_categorized": 34,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [
+      "NGO: Skipped 12 orgs - JSON parsing failed"
+    ],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 12,
+        "orgs_processed": 0,
+        "orgs_skipped": 12,
+        "complete": false
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

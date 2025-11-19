@@ -1,0 +1,374 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Government of Ghana",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Ghana",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Cabinet of President John Agyekum Kufuor",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Government of President Kuffuour"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Office of the President of Ghana",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Office of the President of the Republic of Ghana"
+          ]
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Ministry of Finance and Economic Planning",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "National Development Planning Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "National Economic Planning Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "Public Utilities Regulatory Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "zenith_bank_ghana",
+      "employer_name": "Zenith Bank Ghana",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Ghana",
+      "org_units": [
+        {
+          "unit_id": "zenith_bank_ghana_headquarters",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "AU",
+      "employer_name": "African Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CS",
+      "employer_name": "Commonwealth Secretariat",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ILO",
+      "employer_name": "International Labour Organization",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UNDP",
+          "unit_name": "United Nations Development Program",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNDP"
+          ]
+        },
+        {
+          "unit_id": "VFTC",
+          "unit_name": "Voluntary Fund for Technical Cooperation of the UN High Commissioner for Human Rights",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "WB",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "WBI",
+          "unit_name": "World Bank Institute",
+          "unit_type": "other",
+          "parent_unit_id": "WB",
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "AAS",
+      "employer_name": "African Academy of Sciences",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CCR",
+      "employer_name": "Centre for Conflict Resolution",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CPA",
+      "employer_name": "Centre for Policy Analysis",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CRIA",
+      "employer_name": "Centre for Regional Integration in Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CHGA",
+      "employer_name": "Commission on HIV/AIDS and Governance in Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "CEG",
+      "employer_name": "Commonwealth Expert Group of Eminent Persons on Structural Adjustment and Women",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "GHF",
+      "employer_name": "Global Humanitarian Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "HLP",
+      "employer_name": "High-Level Panel of Eminent Persons on Review of Progress in the Implementation of the Programme for the Least Developed Countries",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "PANWISE",
+      "employer_name": "Pan African Network of the Wise",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "PANWISE_UNIT",
+          "unit_name": "Pan-African Network of the Wise (Panwise)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Pan-African Network of the Wise (Panwise)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "UNBRP",
+      "employer_name": "UN Blue Ribbon Panel of sixteen wise world leaders on Threats, Challenges and Change",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "WACD",
+      "employer_name": "West African Commission on Drugs",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "ZC",
+      "employer_name": "Zedillo Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "ZC_UNIT",
+          "unit_name": "Distinguished High-Level Panel of Eminent Persons on Financing for Development",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Distinguished High-Level Panel of Eminent Persons on Financing for Development"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Trinity College Dublin",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ireland",
+      "org_units": []
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "University of Dublin",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ireland",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "University of Ghana",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ghana",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Legon Campus",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "University of Ghana, Legon"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Wesley Girls' Senior High School",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Ghana",
+      "org_units": []
+    }
+  ],
+  "person_name": "Mary Chinery-Hesse",
+  "processing_report": {
+    "total_orgs_input": 43,
+    "orgs_categorized": 43,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 9,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+ROLE
+You are an expert at analyzing career trajectories and building organizational ontologies that capture employer hierarchies, organizational units, and counterparty relationships.
+
+TASK
+Given a list of organization names from a person's career, construct a comprehensive organizational ontology that identifies:
+1. **Employers** - distinct legal entities the person worked FOR
+2. **Organizational units** - internal hierarchy within each employer
+3. **Counterparties** - external entities the person interfaced with (diplomatic postings, liaison roles)
+
+CRITICAL CONCEPTS
+
+**Employer vs Unit vs Counterparty**
+- EMPLOYER: Who signs the paycheck / who you work for legally
+  - "Government of Thailand" (when serving as PM or diplomat)
+  - "Saha-Union Group" (when working as executive)
+  - "United Nations" (if directly employed by UN Secretariat)
+  
+- UNIT: Where you sit within that employer
+  - "Ministry of Foreign Affairs" (unit within Government of Thailand)
+  - "Embassy to Canada" (unit within MFA within Government)
+  - "Board of Directors" (unit within Saha-Union Group)
+  
+- COUNTERPARTY: External entity you interface with (not your employer)
+  - "Canada" (when serving as Thai ambassador TO Canada)
+  - "United Nations" (when serving as Thai ambassador TO the UN)
+
+**Hierarchy Depth by Sector**
+- GOVERNMENT: Deep hierarchy required
+  - Government → Ministry → Department → Embassy/Mission
+  - Example: "Embassy of Thailand to Canada" sits under "Ministry of Foreign Affairs" under "Government of Thailand"
+  
+- PRIVATE SECTOR: Usually flat or shallow
+  - Company → maybe Board of Directors
+  - Example: "Saha-Union Group" → "Board of Directors"
+  
+- INTERNATIONAL ORGS: Can be deep if person worked IN the org
+  - "United Nations" → "UN Secretariat" → "Department of X"
+  - But if person was POSTED to UN as diplomat, then UN is a counterparty, not employer
+
+- NGOs/FOUNDATIONS: Usually flat
+  - Just the organization name, maybe board/committee
+
+REASONING PROCESS
+
+**Step 1: Identify Distinct Employers**
+- Look for organizations where the person was actually employed
+- Ask: "Who was signing their paycheck?"
+- Government positions (PM, Minister, Ambassador) → employed by that government
+- Corporate positions → employed by that company
+- UN Secretariat staff → employed by UN
+- Committee chairs may be temporary government appointments
+
+**Step 2: For Each Employer, Build Unit Hierarchy**
+
+For GOVERNMENT employers:
+- Identify ministries/departments
+- Identify sub-units (embassies, missions, offices)
+- Embassy/mission names often contain their counterparty ("Embassy to Canada")
+- Build parent-child relationships: Embassy → Ministry → Government
+
+For PRIVATE employers:
+- Usually just company headquarters
+- May have "Board of Directors" as a unit if person served on board
+- Keep it simple unless explicit hierarchy mentioned
+
+For INTERNATIONAL ORG employers:
+- Only build hierarchy if person worked INSIDE the organization
+- If person was a national delegate/ambassador TO the org, it's a counterparty
+
+**Step 3: Identify Counterparties**
+- Look for diplomatic postings: "Ambassador to [Country]" → counterparty is that country
+- Look for UN/IO positions: "Permanent Representative to UN" → counterparty is UN
+- Embassy/mission names often contain counterparty information
+
+**Step 4: Map Variant Names**
+- "Thai Foreign Service" = "Ministry of Foreign Affairs"
+- "Royal Thai Embassy, Washington" = "Embassy of Thailand to the United States"
+- Group all variations together
+
+**Step 5: Assign Types**
+
+Employer types:
+- national_government, international_organization, private_company, financial_institution, 
+  ngo, foundation, university, other
+
+Unit types:
+- ministry_or_department, embassy_or_mission, executive_office, legislative_body,
+  committee_or_commission, agency_or_authority, corporate_headquarters, board_of_directors,
+  intl_org_headquarters, ngo_headquarters, university_department, other
+
+Counterparty types:
+- foreign_state, international_organization, multilateral_body, other
+
+EXAMPLES
+
+**Example 1: Government Diplomat**
+Organizations seen:
+- "Ministry of Foreign Affairs, Thailand"
+- "Thai Foreign Service"
+- "Embassy of Thailand to Canada"
+- "Royal Thai Embassy, Ottawa"
+
+Analysis:
+- Employer: Government of Thailand
+- Units:
+  - Ministry of Foreign Affairs (variants: "Thai Foreign Service")
+    - Embassy of Thailand to Canada (variants: "Royal Thai Embassy, Ottawa")
+      - Counterparty: Canada (foreign_state)
+
+**Example 2: Prime Minister**
+Organizations seen:
+- "Prime Minister of Thailand"
+- "Government of Thailand"
+- "Office of the Prime Minister"
+
+Analysis:
+- Employer: Government of Thailand
+- Units:
+  - Office of the Prime Minister
+  - No counterparty (domestic role)
+
+**Example 3: Corporate Executive**
+Organizations seen:
+- "Saha-Union Group"
+- "Saha Union Public Co, Ltd"
+
+Analysis:
+- Employer: Saha-Union Group
+- Units:
+  - Saha-Union Group (headquarters)
+  - No sub-units (keep flat)
+
+**Example 4: UN Ambassador (Posted TO UN)**
+Organizations seen:
+- "Permanent Mission of Thailand to the United Nations"
+- "Ambassador to the UN"
+
+Analysis:
+- Employer: Government of Thailand
+- Units:
+  - Ministry of Foreign Affairs
+    - Permanent Mission to the United Nations
+      - Counterparty: United Nations (international_organization)
+
+**Example 5: UNICEF Staff (Working FOR UNICEF)**
+Organizations seen:
+- "UNICEF"
+- "United Nations Children's Fund"
+
+Analysis:
+- Employer: UNICEF
+- Units:
+  - UNICEF (headquarters)
+  - Note: UNICEF is part of UN system, but person is employed by UNICEF specifically
+
+OUTPUT FORMAT
+
+Show your reasoning, then output JSON.
+
+REASONING:
+[Your step-by-step analysis]
+
+Step 1 - Identify Employers:
+[List distinct employers and your reasoning]
+
+Step 2 - Build Hierarchies:
+[For each employer, show the unit structure]
+
+Step 3 - Identify Counterparties:
+[Which units have counterparty relationships?]
+
+Step 4 - Map Variants:
+[Which names refer to the same unit?]
+
+ONTOLOGY:
+```json
+{
+  "person_name": "string",
+  "employers": [
+    {
+      "employer_id": "string (unique identifier)",
+      "employer_name": "string (canonical name)",
+      "employer_type": "national_government|international_organization|private_company|financial_institution|ngo|foundation|university|other",
+      "sector": "govt|io|private|ngo|academic|other",
+      "country": "string or null",
+      "org_units": [
+        {
+          "unit_id": "string (unique identifier)",
+          "unit_name": "string (canonical name)",
+          "unit_type": "ministry_or_department|embassy_or_mission|executive_office|corporate_headquarters|board_of_directors|intl_org_headquarters|other",
+          "parent_unit_id": "string or null (references another unit_id in same employer)",
+          "hierarchy_level": integer (0=standalone, 1=top-level, 2=sub-unit, etc.),
+          "counterparty": {
+            "name": "string",
+            "type": "foreign_state|international_organization|multilateral_body|other"
+          } or null,
+          "variant_names": ["string", "string"]
+        }
+      ]
+    }
+  ]
+}
+```
+
+IMPORTANT NOTES
+- Be comprehensive - include ALL organizations mentioned
+- Government hierarchies should be deep and accurate
+- Private sector should be simple unless clear hierarchy exists
+- Counterparties only for diplomatic/liaison roles
+- Include all name variations in variant_names
+- hierarchy_level: 0 for standalone, 1 for direct units under employer, 2 for sub-units, etc.

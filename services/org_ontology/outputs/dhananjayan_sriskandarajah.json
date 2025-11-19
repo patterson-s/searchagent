@@ -1,0 +1,230 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UN Secretary General's High Level Panel on Digital Cooperation",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN High-Level Panel on Digital Cooperation",
+            "High-Level Panel on Digital Cooperation"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Baring Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "CIVICUS",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "International",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "CIVICUS: World Alliance for Citizen Participation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "CIVICUS: World Alliance for Citizen Participation"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Comic Relief",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "Commonwealth Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "International",
+      "org_units": []
+    },
+    {
+      "employer_id": "E005",
+      "employer_name": "Disasters Emergency Committee",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E006",
+      "employer_name": "Guy’s and St Thomas’ Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E007",
+      "employer_name": "Institute for Public Policy Research",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E008",
+      "employer_name": "International Alert",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E009",
+      "employer_name": "New Economics Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U002",
+          "unit_name": "New Economics Foundation (NEF)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "New Economics Foundation (NEF)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E010",
+      "employer_name": "Oxfam GB",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "U003",
+          "unit_name": "Oxfam Great Britain",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Oxfam Great Britain"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E011",
+      "employer_name": "Praxis Community Projects",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E012",
+      "employer_name": "Quadrature Climate Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E013",
+      "employer_name": "Royal Commonwealth Society",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "International",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "London School of Economics and Political Science (LSE)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Department of International Development",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "International Development Department"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "LSE Trustee Board",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Board of Trustees"
+          ]
+        }
+      ]
+    }
+  ],
+  "person_name": "Dhananjayan Sriskandarajah",
+  "processing_report": {
+    "total_orgs_input": 20,
+    "orgs_categorized": 20,
+    "sectors_processed": [
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "io",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 16,
+        "orgs_processed": 16,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

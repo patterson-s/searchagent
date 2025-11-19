@@ -1,0 +1,422 @@
+{
+  "employers": [
+    {
+      "employer_id": "egypt_govt",
+      "employer_name": "Arab Republic of Egypt",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "mfa_egypt",
+          "unit_name": "Ministry of Foreign Affairs of Egypt",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Egyptian Ministry of Foreign Affairs"
+          ]
+        },
+        {
+          "unit_id": "embassy_india",
+          "unit_name": "Embassy of Egypt in India",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "mfa_egypt",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Republic of India",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Egyptian Embassy in India"
+          ]
+        },
+        {
+          "unit_id": "mission_un",
+          "unit_name": "Egyptian Mission to the UN",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "mfa_egypt",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United Nations",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "const_assembly",
+          "unit_name": "Constitutional Assembly of Egypt",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "const_committee",
+          "unit_name": "Constitutional Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Constituent Committee"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "African Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_1_unit_1",
+          "unit_name": "Commission of the African Union",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "Arab League",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_2_unit_1",
+          "unit_name": "Secretariat-General of the Arab League",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "League of Arab States"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "io_3",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_3_unit_1",
+          "unit_name": "United Nations Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "io_3_unit_2",
+          "unit_name": "United Nations Alliance of Civilizations",
+          "unit_type": "other",
+          "parent_unit_id": "io_3_unit_1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Association to Protect the Constitution",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Conference Party",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "U002",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Congress Party of Egypt",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "U003",
+          "unit_name": "Central Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "Interpeace",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "International",
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "Board of Foundation",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E005",
+      "employer_name": "National Salvation Front",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "U005",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E006",
+      "employer_name": "Nizami Ganjavi International Center",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "International",
+      "org_units": [
+        {
+          "unit_id": "U006",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "CU",
+      "employer_name": "Cairo University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "CU_FAC",
+          "unit_name": "Faculty of Arts",
+          "unit_type": "faculty",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Faculty of Arts and Sciences"
+          ]
+        },
+        {
+          "unit_id": "CU_BOARD",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "EBU",
+      "employer_name": "Egyptian British University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "EBU_BUS",
+          "unit_name": "School of Business",
+          "unit_type": "school",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "EBU_BOARD",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "LOA",
+      "employer_name": "Library of Alexandria",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "LOA_MANUS",
+          "unit_name": "Manuscripts Department",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "LOA_BOARD",
+          "unit_name": "Advisory Board",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "NU",
+      "employer_name": "Nile University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Egypt",
+      "org_units": [
+        {
+          "unit_id": "NU_ENG",
+          "unit_name": "School of Engineering",
+          "unit_type": "school",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "NU_BOARD",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "SAU",
+      "employer_name": "The Sulaimania American University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Iraq",
+      "org_units": [
+        {
+          "unit_id": "SAU_ARTS",
+          "unit_name": "College of Arts and Sciences",
+          "unit_type": "college",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "SAU_BOARD",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Amre Moussa",
+  "processing_report": {
+    "total_orgs_input": 29,
+    "orgs_categorized": 29,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

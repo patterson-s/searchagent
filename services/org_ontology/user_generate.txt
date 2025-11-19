@@ -1,0 +1,7 @@
+PERSON: {{PERSON_NAME}}
+
+ORGANIZATIONS FROM CAREER:
+{{ORGANIZATION_LIST}}
+
+Analyze these organizations and construct a comprehensive organizational ontology.
+Show your reasoning process, then output the complete ontology in JSON format.

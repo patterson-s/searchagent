@@ -1,0 +1,443 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Sweden",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Ministry for Foreign Affairs",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Swedish International Development Cooperation Agency (SIDA)",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Sida"
+          ]
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Swedish initiated Commission on Climate Change and Development",
+          "unit_type": "other",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Swedish Parliament",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "Riksdag",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Swedish Riksdag"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Annexin Pharmaceuticals",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Bitprop",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "IFS AB",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "NGS Group AB",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Tundra Fonder",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_001",
+      "employer_name": "African Development Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_002",
+      "employer_name": "European Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_003",
+      "employer_name": "Gavi, the Vaccine Alliance",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_003_unit_001",
+          "unit_name": "GAVI Alliance",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "GAVI"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "io_004",
+      "employer_name": "Global Fund to Fight AIDS, Tuberculosis and Malaria",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_005",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_005_unit_001",
+          "unit_name": "UN High-Level Panel for Global Development Goals",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Secretary-General’s High-Level Panel"
+          ]
+        },
+        {
+          "unit_id": "io_005_unit_002",
+          "unit_name": "UNAIDS",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "io_005_unit_003",
+          "unit_name": "United Nations System Staff College (UNSSC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_006",
+      "employer_name": "World Bank Group",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_006_unit_001",
+          "unit_name": "World Bank",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ae",
+      "employer_name": "Africa Europe Foundation (AEF)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "ae_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "bmgf_eu",
+      "employer_name": "Bill & Melinda Gates Foundation Europe",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "bmgf_eu_board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "cgd",
+      "employer_name": "Center for Global Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "cgd_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ecfr",
+      "employer_name": "European Council on Foreign Relations (ECFR)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "ecfr_board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "gcsp",
+      "employer_name": "Geneva Centre for Security Policy (GCSP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "gcsp_board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Geneva Center for Security Policy (GCSP)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "unaids_lancet",
+      "employer_name": "UNAIDS - Lancet Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "unaids_lancet_commission",
+          "unit_name": "Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ies_employer",
+      "employer_name": "Internationella Engelska Skolan (IES)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "ies_board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_trustees",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IES Board"
+          ]
+        },
+        {
+          "unit_id": "ies_faculty",
+          "unit_name": "Faculty of Education",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IES Faculty"
+          ]
+        }
+      ]
+    }
+  ],
+  "person_name": "Gunilla Carlsson",
+  "processing_report": {
+    "total_orgs_input": 42,
+    "orgs_categorized": 42,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 8,
+        "orgs_processed": 8,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

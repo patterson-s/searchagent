@@ -1,0 +1,8 @@
+PERSON: {{PERSON_NAME}}
+SECTOR: {{SECTOR}}
+
+ORGANIZATIONS IN THIS SECTOR:
+{{ORGANIZATION_LIST}}
+
+Build a complete ontology for this sector. Include ALL organizations listed above.
+Track completion status carefully.

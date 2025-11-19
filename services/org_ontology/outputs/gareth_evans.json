@@ -1,0 +1,867 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Australian Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Aboriginal Affairs Minister",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Aboriginal Affairs Minister (Gordon Bryant)"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Attorney-General",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Attorney-General (Lionel Murphy)"
+          ]
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Australian House of Representatives",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Australian Senate",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Parliament House Competition Assessment Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Supreme Court",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Supreme Court (Vic. and ACT)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Parliament of Australia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U7",
+          "unit_name": "Australian House of Representatives",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U8",
+          "unit_name": "Australian Senate",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Australian Labor Governments",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U9",
+          "unit_name": "Aboriginal Affairs Minister",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Aboriginal Affairs Minister (Gordon Bryant)"
+          ]
+        },
+        {
+          "unit_id": "U10",
+          "unit_name": "Attorney-General",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Attorney-General (Lionel Murphy)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Allen & Unwin",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Publishing Division",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Apostle",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U002",
+          "unit_name": "Production Team",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Christine Hakim Films",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U003",
+          "unit_name": "Film Production",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E004",
+      "employer_name": "Footsteps",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "Production Team",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E005",
+      "employer_name": "Havoc",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U005",
+          "unit_name": "Production Team",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E006",
+      "employer_name": "Melbourne University Press",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U006",
+          "unit_name": "Publishing Division",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E007",
+      "employer_name": "Merantau",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U007",
+          "unit_name": "Film Production",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E008",
+      "employer_name": "Monash University Publishing",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "U008",
+          "unit_name": "Publishing Division",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E009",
+      "employer_name": "Pre Vis Action",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U009",
+          "unit_name": "Pre-Visualization Team",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E010",
+      "employer_name": "The Raid 2",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U010",
+          "unit_name": "Film Production",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E011",
+      "employer_name": "The Raid: Redemption",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U011",
+          "unit_name": "Film Production",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E012",
+      "employer_name": "V/H/S/2",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U012",
+          "unit_name": "Film Production",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "icnnd",
+      "employer_name": "International Commission on Nuclear Non-proliferation and Disarmament",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "icnnd_commission",
+          "unit_name": "Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "un_advisory_genocide",
+      "employer_name": "UN Secretary-General's Advisory Committee on Genocide Prevention",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "un_advisory_genocide_committee",
+          "unit_name": "Advisory Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "un_high_level_panel",
+      "employer_name": "UN Secretary-General's High Level Panel on Threats, Challenges and Change",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "un_high_level_panel_panel",
+          "unit_name": "High Level Panel",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "unesco",
+      "employer_name": "United Nations Educational, Scientific and Cultural Organisation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "unesco_conference",
+          "unit_name": "Conference",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Educational, Scientific and Cultural Organisation Conference"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "ANZAC Peace Prize",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Architects Without Frontiers",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Asia Pacific Leadership Network for Nuclear Non-Proliferation and Disarmament",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3a",
+          "unit_name": "Asia Pacific Leadership Network for Nuclear Non-Proliferation and Disarmament (APLN)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Asia-Pacific Leadership Network",
+            "Asia-Pacific Leadership Network (APLN)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Asialink",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Blix Commission on Weapons of Mass Destruction",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Campaign for Constitutional Change",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Canadian International Commission on Intervention and State Sovereign",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Council of Australian Humanist Societies",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Crimes Against Humanity Initiative Advisory Council",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Global Centre for the Responsibility to Protect",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Global Leadership Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Hiroshima Prefecture Round Table",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Independent Diplomat",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "Institute for Economics and Peace",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "Institute for Integrated Transitions",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "International Crisis Group",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "16a",
+          "unit_name": "International Crisis Group (ICG)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "17",
+      "employer_name": "International Luxembourg Forum on Preventing Nuclear Catastrophe",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "18",
+      "employer_name": "International Task Force on Global Public Goods",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "19",
+      "employer_name": "Jeju Forum",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "South Korea",
+      "org_units": []
+    },
+    {
+      "employer_id": "20",
+      "employer_name": "Nuclear Threat Initiative",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "21",
+      "employer_name": "Rationalist Society of Australia",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "22",
+      "employer_name": "ROK Jeju 4.3 Peace Award",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "South Korea",
+      "org_units": []
+    },
+    {
+      "employer_id": "23",
+      "employer_name": "UN Youth Australia",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "24",
+      "employer_name": "Victorian Aboriginal Legal Service",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "25",
+      "employer_name": "Victorian Council for Civil Liberties",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "26",
+      "employer_name": "Zedillo Commission of Eminent Persons on The Role of the IAEA to 2020 and Beyond",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Australian National University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "ANU Centre for Asian-Australian Leadership",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "ANU Centre for Nuclear Non-Proliferation and Disarmament",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "ANU Crawford School of Public Policy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Asia-Pacific College of Diplomacy",
+          "unit_type": "other",
+          "parent_unit_id": "u3",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Academy of the Social Sciences in Australia",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Australian Institute of International Affairs",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Brookings Institution Press",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "Cambridge Review of International Affairs",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Carleton University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Centre for Research in the Arts, Social Sciences and Humanities (CRASSH)",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e8",
+      "employer_name": "Crimes Against Humanity Initiative, Washington University",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e9",
+      "employer_name": "London School of Economics",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e10",
+      "employer_name": "Magdalen College, Oxford",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e11",
+      "employer_name": "Queen's University, Ontario",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "e12",
+      "employer_name": "The University of Melbourne",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e13",
+      "employer_name": "University of Glamorgan",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "e14",
+      "employer_name": "University of Louisville",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e15",
+      "employer_name": "University of Sydney",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Australia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e16",
+      "employer_name": "University of Wales Trinity Saint David",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    }
+  ],
+  "person_name": "Gareth Evans",
+  "processing_report": {
+    "total_orgs_input": 106,
+    "orgs_categorized": 106,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 12,
+        "orgs_processed": 12,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 30,
+        "orgs_processed": 30,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 22,
+        "orgs_processed": 22,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

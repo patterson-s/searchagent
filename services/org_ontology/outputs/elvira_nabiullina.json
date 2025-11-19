@@ -1,0 +1,345 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of the Russian Federation",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Economic Development and Trade",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Economic Development",
+            "Ministry of Economic Development and Trade of the Russian Federation",
+            "Ministry of Economic Development and Trade, Russia",
+            "Ministry of Economy of Russia",
+            "Ministry of Economy of the Russian Federation"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Central Bank of Russia",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Bank of Russia",
+            "Central Bank of the Russian Federation",
+            "Central Bank of Russia (CBR)"
+          ]
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Office of the President of Russia",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Office of the President of the Russian Federation",
+            "Kremlin administration"
+          ]
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Expert Council for the Implementation of Priority National Projects and Demographic Policy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "National Financial Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U6",
+          "unit_name": "Organizing Committee for Preparing and Ensuring the Russian Federation's Chairmanship of the Group of Eight",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": {
+            "name": "Group of Eight (G8)",
+            "type": "international_organization"
+          },
+          "variant_names": [
+            "Organising Committee for Russia’s Presidency of the G8 in 2006"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "EARS",
+      "employer_name": "Euro-Asian Rating Service",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": []
+    },
+    {
+      "employer_id": "GAZPROM",
+      "employer_name": "Gazprom",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "GAZPROM_BOARD",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "PROMTORGBANK",
+      "employer_name": "Promtorgbank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": []
+    },
+    {
+      "employer_id": "RAO_UES",
+      "employer_name": "RAO UES",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "RAO_UES_BOARD",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ROSNEFT",
+      "employer_name": "Rosneft",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "ROSNEFT_BOARD",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "SBERBANK",
+      "employer_name": "Sberbank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "SBERBANK_BOARD",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "UNNAMED_BANK",
+      "employer_name": "Unnamed Bank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Russia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Center for Strategic Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Center for Strategic Research (TsSR)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Research Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "TsSR Research Committee"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Center for Strategic Research Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Foundation Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "Centre for Strategic Research",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "Russian Union of Industrialists and Entrepreneurs",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u5",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Russian Union of Industrialists and Entrepreneurs (RSPP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u6",
+          "unit_name": "RSPP Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "RSPP Executive Board"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Skolkovo Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Russia",
+      "org_units": [
+        {
+          "unit_id": "u7",
+          "unit_name": "Skolkovo Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Elvira Nabiullina",
+  "processing_report": {
+    "total_orgs_input": 40,
+    "orgs_categorized": 40,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "ngo"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 19,
+        "orgs_processed": 19,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

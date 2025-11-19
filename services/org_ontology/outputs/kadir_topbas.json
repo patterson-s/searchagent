@@ -1,0 +1,289 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Republic of Turkey",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Ministry of Culture",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Istanbul Metropolitan Municipality",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Istanbul Metropolitan Municipality (IBB)",
+            "Istanbul Metropolitan Municipality (İBB)",
+            "İstanbul Metropolitan Municipality",
+            "Istanbul Municipality"
+          ]
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Beyoğlu Municipality",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "u2",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Beyoglu District, Istanbul"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Union of Municipalities of Turkey",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "Turkey",
+      "org_units": []
+    },
+    {
+      "employer_id": "E001",
+      "employer_name": "Freelance",
+      "employer_type": "other",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Saray Muhallebicisi",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Cities and Local Governments (UCLG)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UCLG Middle East and West Asia",
+          "unit_type": "regional_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UCLG MWA"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Economic Forum",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "MEWA",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Milli Selamet Partisi (MSP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Executive Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Executive Board"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Refah Partisi (RP)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Central Decision-Making Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Central Council"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "WALD",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Istanbul University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Faculty of Architecture",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Board of Trustees",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Marmara University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Turkey",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Faculty of Fine Arts",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Board of Trustees",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Kadir Topbas",
+  "processing_report": {
+    "total_orgs_input": 26,
+    "orgs_categorized": 26,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 9,
+        "orgs_processed": 9,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

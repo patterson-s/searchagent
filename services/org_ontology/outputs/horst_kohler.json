@@ -1,0 +1,458 @@
+{
+  "employers": [
+    {
+      "employer_id": "e1",
+      "employer_name": "Federal Republic of Germany",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Federal Government of Germany",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "German Federal Government",
+            "West German Government",
+            "German Government"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "Federal Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Finance Ministry of Germany",
+            "German Ministry of Finance",
+            "Finance Ministry",
+            "Ministry of Finance",
+            "Finance Ministry, Bonn"
+          ]
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Federal Ministry of Economics",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "u1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Economic Affairs Ministry, Bonn",
+            "Ministry of Economics, Bonn",
+            "German Ministries of Economics and Finance"
+          ]
+        },
+        {
+          "unit_id": "u4",
+          "unit_name": "Office of the Federal President of Germany",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "German Presidency",
+            "President of Germany"
+          ]
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "German Bundestag",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "State Chancellery of Schleswig-Holstein",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Staatskanzlei des Landes Schleswig-Holstein"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Deutscher Sparkassen- und Giroverband",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "German savings banks",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Regional Savings Bank Association",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Treuhand",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Executive Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_1",
+      "employer_name": "African Development Bank (AfDB)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_2",
+      "employer_name": "European Bank for Reconstruction and Development (EBRD)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "io_3",
+      "employer_name": "International Monetary Fund (IMF)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_3_unit_1",
+          "unit_name": "Executive Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_4",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_4_unit_1",
+          "unit_name": "United Nations Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_5",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_5_unit_1",
+          "unit_name": "Board of Executive Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "G20",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "G20 Summit",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "G20 Leaders' Summit"
+          ]
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "G20 Finance Ministers and Central Bank Governors",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "G20 Finance Track"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Aktion Deutschland Hilft e.V.",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Club of Madrid",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Club of Rome",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Deutscher Künstlerbund",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "Eva Luise and Horst Köhler Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "5_1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Friede Springer Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Friedrich August von Hayek Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Hermann Kunst-Stiftung zur Förderung der neutestamentlichen Textforschung",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Konrad Adenauer Foundation (KAS)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "Mo Ibrahim Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "Opera Village Africa",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Burkina Faso",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Scope Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "Stiftung Weltethos (Global Ethics Foundation)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "The Deutsche Nationalstiftung (The German National Foundation)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "The Foundation Weltethos",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "Wittenberg Center for Global Ethics",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "eku_tuebingen",
+      "employer_name": "Eberhard Karls University of Tübingen",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Germany",
+      "org_units": [
+        {
+          "unit_id": "eku_iae",
+          "unit_name": "Institute for Applied Economic Research",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Institute for Applied Economic Research",
+            "University of Tübingen, Institute for Applied Economic Research"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "lindau_meetings",
+      "employer_name": "Lindau Nobel Laureate Meetings",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Germany",
+      "org_units": []
+    }
+  ],
+  "person_name": "Horst Kohler",
+  "processing_report": {
+    "total_orgs_input": 65,
+    "orgs_categorized": 65,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 21,
+        "orgs_processed": 21,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 16,
+        "orgs_processed": 16,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

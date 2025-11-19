@@ -1,0 +1,280 @@
+{
+  "employers": [
+    {
+      "employer_id": "axa",
+      "employer_name": "AXA",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "adriel",
+      "employer_name": "Adriel",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "adriel_ai",
+          "unit_name": "Adriel AI",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Adriel AI"
+          ]
+        },
+        {
+          "unit_id": "adriel_inc",
+          "unit_name": "Adriel Inc.",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Adriel Inc."
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "goldman_sachs",
+      "employer_name": "Goldman Sachs",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "market_kurly",
+      "employer_name": "Market Kurly",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "nexon",
+      "employer_name": "Nexon",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "oliver_wyman",
+      "employer_name": "Oliver Wyman",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "oliver_wyman_fs",
+          "unit_name": "Oliver Wyman Financial Services",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Oliver Wyman Financial Services"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "solidware",
+      "employer_name": "Solidware",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "solidware_co_ltd",
+          "unit_name": "Solidware Co., Ltd.",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Solidware Co., Ltd."
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "ailys_co_ltd",
+      "employer_name": "ailys Co., Ltd.",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "unnamed_company",
+      "employer_name": "Unnamed Company",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UN",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "UN_GA",
+          "unit_name": "General Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNGA"
+          ]
+        },
+        {
+          "unit_id": "UN_SC",
+          "unit_name": "Security Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UNSC"
+          ]
+        },
+        {
+          "unit_id": "UN_ECOSOC",
+          "unit_name": "Economic and Social Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ECOSOC"
+          ]
+        },
+        {
+          "unit_id": "UN_Secretariat",
+          "unit_name": "Secretariat",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "Carnegie Mellon University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "College of Engineering",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u2",
+          "unit_name": "School of Computer Science",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u3",
+          "unit_name": "Tepper School of Business",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "HEC Paris",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "Department of Economics and Decision Sciences",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "Department of Management",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "u6",
+          "unit_name": "HEC Paris MBA Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Sophie Soowon Eom",
+  "processing_report": {
+    "total_orgs_input": 16,
+    "orgs_categorized": 16,
+    "sectors_processed": [
+      "private",
+      "io",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "private",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

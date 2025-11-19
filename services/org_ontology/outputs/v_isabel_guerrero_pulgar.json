@@ -1,0 +1,144 @@
+{
+  "employers": [
+    {
+      "employer_id": "WB",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "WB_HQ",
+          "unit_name": "World Bank Headquarters",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "World Bank Main Office",
+            "World Bank Central Office"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "BVLF",
+      "employer_name": "Bernard Van Leer Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Netherlands",
+      "org_units": [
+        {
+          "unit_id": "BVLF_Board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "IGG",
+      "employer_name": "Imago Global Grassroots",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "IGG_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "SEWG",
+      "employer_name": "Social Enterprise Working Group",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "SEWG_Committee",
+          "unit_name": "Steering Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "harvard_kennedy_school",
+      "employer_name": "Harvard Kennedy School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "hks_faculty",
+          "unit_name": "Faculty of Harvard Kennedy School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard Kennedy School Faculty"
+          ]
+        },
+        {
+          "unit_id": "hks_trustee_board",
+          "unit_name": "Harvard Kennedy School Trustee Board",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Board of Trustees, Harvard Kennedy School"
+          ]
+        }
+      ]
+    }
+  ],
+  "person_name": "V Isabel Guerrero Pulgar",
+  "processing_report": {
+    "total_orgs_input": 5,
+    "orgs_categorized": 5,
+    "sectors_processed": [
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "io",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 3,
+        "orgs_processed": 3,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 1,
+        "orgs_processed": 1,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

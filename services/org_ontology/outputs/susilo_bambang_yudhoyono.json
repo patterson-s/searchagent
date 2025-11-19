@@ -1,0 +1,366 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Indonesia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Cabinet of President Abdurrahman Wahid",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Wahid's Cabinet"
+          ]
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Megawati's Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Onward Indonesia Cabinet",
+          "unit_type": "executive_office",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Indonesian Military (TNI)",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Indonesia",
+      "org_units": [
+        {
+          "unit_id": "U004",
+          "unit_name": "ABRI",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Military of Indonesia (ABRI)"
+          ]
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Indonesian Army",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U006",
+          "unit_name": "Kostrad (Army Strategic Reserve)",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Kostrad"
+          ]
+        },
+        {
+          "unit_id": "U007",
+          "unit_name": "Indonesian Army Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U008",
+          "unit_name": "Army Information Department",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U009",
+          "unit_name": "KODAM Jaya",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Jaya (Jakarta) Military"
+          ]
+        },
+        {
+          "unit_id": "U010",
+          "unit_name": "Kodam II/Sriwijaya",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U011",
+          "unit_name": "Kodam IX/Udayana",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U012",
+          "unit_name": "IV/Diponegoro Military Area Command",
+          "unit_type": "other",
+          "parent_unit_id": "U005",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U013",
+          "unit_name": "Indonesian Military Academy",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "AKABRI (Indonesian Armed Forces Academy)"
+          ]
+        },
+        {
+          "unit_id": "U014",
+          "unit_name": "Infantry Trainers' School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U015",
+          "unit_name": "Defense University of Indonesia",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Republic of Indonesia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Indonesia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Asia-Pacific Economic Cooperation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "APEC Economic Committee",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "APEC"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Association of Southeast Asian Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "ASEAN Summit",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "ASEAN"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Club de Madrid",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Club de Madrid General Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Club de Madrid"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Global Green Growth Institute",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "GGGI Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Global Green Growth Institute",
+            "GGGI"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "United Nations Peacekeeping Force",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Peacekeeping Force"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Bogor Agricultural University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Indonesia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Sepuluh Nopember Institute of Technology (ITS)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Indonesia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Webster University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Army Staff College (Seskoad)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Indonesia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "US Army Command and General Staff College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Vocational Education Development Center",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "Indonesia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Fort Benning",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    }
+  ],
+  "person_name": "Susilo Bambang Yudhoyono",
+  "processing_report": {
+    "total_orgs_input": 47,
+    "orgs_categorized": 47,
+    "sectors_processed": [
+      "govt",
+      "io",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 24,
+        "orgs_processed": 24,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 7,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

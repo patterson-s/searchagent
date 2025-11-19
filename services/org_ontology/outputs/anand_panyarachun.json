@@ -1,0 +1,590 @@
+{
+  "employers": [
+    {
+      "employer_id": "E001",
+      "employer_name": "Government of Thailand",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "U001",
+          "unit_name": "Ministry of Foreign Affairs of Thailand",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Foreign Affairs, Thailand",
+            "Thai Foreign Ministry",
+            "Thailand's Ministry of Foreign Affairs"
+          ]
+        },
+        {
+          "unit_id": "U002",
+          "unit_name": "Embassy of Thailand to the Federal Republic of Germany",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "Federal Republic of Germany",
+            "type": "foreign_state"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "U003",
+          "unit_name": "Embassy of Thailand to the United States",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United States",
+            "type": "foreign_state"
+          },
+          "variant_names": [
+            "Royal Thai Embassy, Washington D.C."
+          ]
+        },
+        {
+          "unit_id": "U004",
+          "unit_name": "Permanent Mission of Thailand to the United Nations",
+          "unit_type": "embassy_or_mission",
+          "parent_unit_id": "U001",
+          "hierarchy_level": 2,
+          "counterparty": {
+            "name": "United Nations",
+            "type": "international_organization"
+          },
+          "variant_names": []
+        },
+        {
+          "unit_id": "U005",
+          "unit_name": "Commission on Southern Thailand",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U006",
+          "unit_name": "National Economic and Social Advisory Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U007",
+          "unit_name": "National Reconciliation Commission (NRC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U008",
+          "unit_name": "National Reform Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U009",
+          "unit_name": "Thai Constitution Drafting Assembly",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Constitution Drafting Assembly",
+            "Thai Constitutional Assembly"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E002",
+      "employer_name": "Government of Canada",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "E003",
+      "employer_name": "Government of the United States",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "e1",
+      "employer_name": "American International Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "AIG Board"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "e2",
+      "employer_name": "Saha Union Public Co, Ltd",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "u2",
+          "unit_name": "Saha-Union Group",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e3",
+      "employer_name": "Siam Commercial Bank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "u3",
+          "unit_name": "Siam Commercial Bank PCL",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e4",
+      "employer_name": "General Electric (GE)",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u4",
+          "unit_name": "GE's Asia Pacific Advisory Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Asia Pacific Advisory Board of GE"
+          ]
+        },
+        {
+          "unit_id": "u5",
+          "unit_name": "International Advisory Board of General Electric Company (GE)",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e5",
+      "employer_name": "IBM",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u6",
+          "unit_name": "IBM Asia Pacific Board",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e6",
+      "employer_name": "Unocal Asia Pacific Ventures",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "u7",
+          "unit_name": "Asia-Pacific Advisory Board of Unocal Asia-Pacific Ventures, Ltd.",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "e7",
+      "employer_name": "Sime Darby Berhad",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Malaysia",
+      "org_units": []
+    },
+    {
+      "employer_id": "e8",
+      "employer_name": "The Carlyle Group",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "e9",
+      "employer_name": "Toyota Motor Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Japan",
+      "org_units": []
+    },
+    {
+      "employer_id": "e10",
+      "employer_name": "Federation of Thai Industries",
+      "employer_type": "other",
+      "sector": "private",
+      "country": "Thailand",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "UN High-Level Panel on Threats, Challenges and Change",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "UNICEF",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "International Finance Corporation (IFC)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "ASEAN",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "ASEAN Task Force",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Asia Pacific Leadership Forum on HIV/AIDS and Development (APLF)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Cambridge Thai Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "International Committee of the Red Cross (ICRC)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Kenan Institute Asia",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "People’s Alliance for Democracy (PAD)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Thailand",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "Thailand Business Council for Sustainable Development (TBCSD)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Thailand",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "Thailand Development Research Institute (TDRI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Thailand",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Transparency International (TI)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Germany",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "Trilateral Commission",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "U Thant Institute",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Myanmar",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Asian Institute of Technology (AIT)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_trustees",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Board of Trustees of the Asian Institute of Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Asian University of Science and Technology (AUST)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Council",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Council of Asian University of Science and Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Thailand Environment Institute (TEI)",
+      "employer_type": "ngo",
+      "sector": "academic",
+      "country": "Thailand",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Council of Trustees",
+          "unit_type": "board_of_trustees",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Council of Trustees of Thailand Environment Institute"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Dulwich College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "United Nations High Commissioner for Refugees (UNHCR)",
+      "employer_type": "international_organization",
+      "sector": "academic",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U5",
+          "unit_name": "Informal Advisory Group",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Informal Advisory Group, United Nations High Commissioner for Refugees"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Council on Foreign Relations",
+      "employer_type": "ngo",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "International Advisory Board",
+          "unit_type": "board_of_trustees",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "International Advisory Board of Council on Foreign Relations (New York)"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "The University of Hong Kong (HKU)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Hong Kong",
+      "org_units": []
+    }
+  ],
+  "person_name": "Anand Panyarachun",
+  "processing_report": {
+    "total_orgs_input": 68,
+    "orgs_categorized": 68,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 21,
+        "orgs_processed": 21,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 19,
+        "orgs_processed": 17,
+        "orgs_skipped": 2,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 10,
+        "orgs_processed": 10,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 7,
+        "orgs_processed": 7,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "French Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Conseil d'Analyse Économique",
+          "unit_type": "advisory_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "French Council of Economic Advisors",
+            "Conseil d’Analyse Economique"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Corps des Ponts",
+          "unit_type": "technical_corps",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Corps des Ponts et Chaussées",
+            "Corps of Bridges, Waters and Forests"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Toulouse School of Economics (TSE)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Industrial Economics Institute (IDEI)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IDEI"
+          ]
+        },
+        {
+          "unit_id": "1.2",
+          "unit_name": "Institute for Advanced Study in Toulouse (IAST)",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "IAST",
+            "Institute of Advanced Study in Toulouse"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "University of Toulouse 1 Capitole",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Institut d'Economie Industrielle",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Université Paris Dauphine",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Massachusetts Institute of Technology (MIT)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "5",
+      "employer_name": "University of Lausanne",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Switzerland",
+      "org_units": []
+    },
+    {
+      "employer_id": "6",
+      "employer_name": "University of Montreal",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Canada",
+      "org_units": []
+    },
+    {
+      "employer_id": "7",
+      "employer_name": "University of Rome Tor Vergata",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Italy",
+      "org_units": []
+    },
+    {
+      "employer_id": "8",
+      "employer_name": "Université libre de Bruxelles",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Belgium",
+      "org_units": []
+    },
+    {
+      "employer_id": "9",
+      "employer_name": "École Polytechnique",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "10",
+      "employer_name": "École des Hautes Etudes en Sciences Sociales (EHESS)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "11",
+      "employer_name": "École nationale des ponts et chaussées (ENPC)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "12",
+      "employer_name": "Athens University of Economics and Business",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Greece",
+      "org_units": []
+    },
+    {
+      "employer_id": "13",
+      "employer_name": "London Business School",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "14",
+      "employer_name": "Lycée Henri Poincaré",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "15",
+      "employer_name": "CNRS",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "16",
+      "employer_name": "CERAS, Paris",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "France",
+      "org_units": []
+    },
+    {
+      "employer_id": "17",
+      "employer_name": "Institut de France",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "France",
+      "org_units": [
+        {
+          "unit_id": "17.1",
+          "unit_name": "Académie des Sciences morales et politiques",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "18",
+      "employer_name": "American Academy of Arts and Sciences",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "19",
+      "employer_name": "American Economic Association",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "20",
+      "employer_name": "Econometric Society",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "21",
+      "employer_name": "European Economic Association",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "22",
+      "employer_name": "Royal Society of Edinburgh",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": []
+    },
+    {
+      "employer_id": "23",
+      "employer_name": "Society for the Advancement of Economic Theory",
+      "employer_type": "other",
+      "sector": "academic",
+      "country": null,
+      "org_units": []
+    }
+  ],
+  "person_name": "Jean Tirole",
+  "processing_report": {
+    "total_orgs_input": 54,
+    "orgs_categorized": 54,
+    "sectors_processed": [
+      "govt",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [
+      "NGO: Skipped 4 orgs - JSON parsing failed"
+    ],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 4,
+        "orgs_processed": 0,
+        "orgs_skipped": 4,
+        "complete": false
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 40,
+        "orgs_processed": 40,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

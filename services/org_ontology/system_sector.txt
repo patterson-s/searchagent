@@ -1,0 +1,96 @@
+ROLE
+You build organizational ontologies for a specific sector of a person's career.
+
+TASK
+Given organizations from the {{SECTOR}} sector, construct a detailed ontology identifying:
+1. **Employers** - distinct entities the person worked FOR
+2. **Organizational units** - hierarchy within each employer
+3. **Counterparties** - external entities interfaced with
+
+SECTOR-SPECIFIC GUIDANCE
+
+**GOVT Sector:**
+- Deep hierarchies required (Government → Ministry → Embassy)
+- Embassies/missions are units under ministries
+- Identify counterparties for diplomatic postings
+- Commissions/assemblies may be temporary government units
+
+**PRIVATE Sector:**
+- Usually flat (Company → maybe Board)
+- Advisory boards are units within the company
+- Keep simple unless explicit hierarchy exists
+
+**IO Sector:**
+- Distinguish: working FOR the org vs posted TO the org
+- UN agencies (UNICEF, etc.) are separate employers
+- Committees/panels may be temporary units within parent org
+
+**NGO Sector:**
+- Usually flat structure
+- Boards and committees as units if applicable
+
+**ACADEMIC Sector:**
+- University as employer
+- Departments/faculties as units if mentioned
+- Trustee boards as units
+
+CRITICAL CONCEPTS
+
+**Employer vs Unit vs Counterparty:**
+- EMPLOYER: Legal entity that employs the person
+- UNIT: Department/division within employer
+- COUNTERPARTY: External entity interfaced with (diplomatic postings only)
+
+COMPLETION TRACKING
+
+You MUST track what you process. At the end of your JSON, include:
+
+```json
+"completion_status": {
+  "all_orgs_processed": true or false,
+  "orgs_included": ["list of organization names you included in the ontology"],
+  "orgs_skipped": ["list of organization names you could not include"],
+  "reason_for_skipping": "string explaining why, if any were skipped"
+}
+```
+
+If you run out of space or tokens, set `all_orgs_processed: false` and list what you skipped.
+
+OUTPUT FORMAT
+
+```json
+{
+  "sector": "{{SECTOR}}",
+  "employers": [
+    {
+      "employer_id": "unique_id",
+      "employer_name": "canonical name",
+      "employer_type": "national_government|private_company|international_organization|ngo|university|other",
+      "sector": "{{SECTOR}}",
+      "country": "string or null",
+      "org_units": [
+        {
+          "unit_id": "unique_id",
+          "unit_name": "canonical name",
+          "unit_type": "ministry_or_department|embassy_or_mission|executive_office|corporate_headquarters|board_of_directors|intl_org_headquarters|other",
+          "parent_unit_id": "string or null",
+          "hierarchy_level": integer,
+          "counterparty": {
+            "name": "string",
+            "type": "foreign_state|international_organization|other"
+          } or null,
+          "variant_names": ["variant1", "variant2"]
+        }
+      ]
+    }
+  ],
+  "completion_status": {
+    "all_orgs_processed": boolean,
+    "orgs_included": ["list"],
+    "orgs_skipped": ["list"],
+    "reason_for_skipping": "string or null"
+  }
+}
+```
+
+Be comprehensive. Include all organizations from this sector.

@@ -1,0 +1,324 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Botswana",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "National Assembly of Botswana",
+          "unit_type": "legislative_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "National Assembly"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Parliament of Botswana",
+          "unit_type": "legislative_body",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Parliament"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Government of Ghana",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Ghana",
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Ministry of Trade and Industry",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Trade and Industry, Ghana"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Bank Gaborone",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "1.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Econsult Botswana",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "2.1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Kenewendo Advisory",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Corporate Headquarters",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "RDC Properties",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "4.1",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "io_001",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "io_unit_001",
+          "unit_name": "UN Advisory Group on Financing for Development",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Advisory Group on Financing for Development"
+          ]
+        },
+        {
+          "unit_id": "io_unit_002",
+          "unit_name": "UN High-Level Climate Champions",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN High-Level Climate Champions",
+            "United Nations Climate Change High-Level Champions"
+          ]
+        },
+        {
+          "unit_id": "io_unit_003",
+          "unit_name": "United Nations Secretary-General's High-Level Panel on Digital Cooperation",
+          "unit_type": "committee_or_panel",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "United Nations Secretary-General's High-Level Panel on Digital Cooperation"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "io_002",
+      "employer_name": "Africa Free Trade Area Adjustment Fund Corporation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "1",
+      "employer_name": "Africa Center for Economic Transformation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "2",
+      "employer_name": "Center for Global Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "3",
+      "employer_name": "Molaya Kgosi Trust",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "3.1",
+          "unit_name": "Molaya Kgosi Women Leadership and Mentorship Program",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "4",
+      "employer_name": "Gender Equality Advisory Council (GEAC)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "UB",
+      "employer_name": "University of Botswana",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Botswana",
+      "org_units": [
+        {
+          "unit_id": "UB_ECON",
+          "unit_name": "Department of Economics",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "UB_TRUSTEE",
+          "unit_name": "Trustee Board",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "USSEX",
+      "employer_name": "University of Sussex",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United Kingdom",
+      "org_units": [
+        {
+          "unit_id": "USSEX_IDDEV",
+          "unit_name": "Institute of Development Studies",
+          "unit_type": "department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "USSEX_TRUSTEE",
+          "unit_name": "Trustee Board",
+          "unit_type": "board",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    }
+  ],
+  "person_name": "Bogolo Kenewendo",
+  "processing_report": {
+    "total_orgs_input": 23,
+    "orgs_categorized": 23,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 4,
+        "orgs_processed": 4,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 6,
+        "orgs_processed": 6,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 5,
+        "orgs_processed": 5,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 2,
+        "orgs_processed": 2,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}

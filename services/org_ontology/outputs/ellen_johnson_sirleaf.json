@@ -1,0 +1,658 @@
+{
+  "employers": [
+    {
+      "employer_id": "E1",
+      "employer_name": "Government of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Ministry of Finance",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Ministry of Finance, Liberia"
+          ]
+        },
+        {
+          "unit_id": "U2",
+          "unit_name": "Treasury Department",
+          "unit_type": "ministry_or_department",
+          "parent_unit_id": "U1",
+          "hierarchy_level": 2,
+          "counterparty": null,
+          "variant_names": [
+            "Treasury Department (Ministry of Finance)",
+            "Treasury Department (Ministry of Finance), Liberia",
+            "Treasury Department, Liberia"
+          ]
+        },
+        {
+          "unit_id": "U3",
+          "unit_name": "Liberian Senate",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U4",
+          "unit_name": "Commission on Good Governance",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        },
+        {
+          "unit_id": "U5",
+          "unit_name": "Governance Reform Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Governance Reform Commission of the National Transitional Government of Liberia"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "National Transitional Government of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "U6",
+          "unit_name": "Governance Reform Commission",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Governance Reform Commission of the National Transitional Government of Liberia"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Government of Liberia (Tolbert administration)",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Government of the Republic of Liberia",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Charles Taylor's government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "General Doe's government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Ministry (Liberia)",
+      "employer_type": "other",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Liberian Government",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E9",
+      "employer_name": "U.S. Congress",
+      "employer_type": "national_government",
+      "sector": "govt",
+      "country": "United States",
+      "org_units": [],
+      "counterparty": {
+        "name": "Government of Liberia",
+        "type": "foreign_state"
+      }
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Citibank",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Citicorp",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Citicorp, Africa Regional Office",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "HSBC",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U2",
+          "unit_name": "Equator Bank",
+          "unit_type": "corporate_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "HSBC Equator Bank",
+            "Equator Bank, part of the Hong Kong Bank Group"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Kormah Development Corporation",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U3",
+          "unit_name": "Kormah Development and Investment Corporation",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Liberia Bank for Economic Development and Investment",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": "Liberia",
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Auto-repair shop",
+      "employer_type": "private_company",
+      "sector": "private",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U4",
+          "unit_name": "automobile spare parts and repair shop",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "United Nations",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "United Nations Development Programme (UNDP)",
+          "unit_type": "intl_org_headquarters",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "UN Development Programme"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "World Bank",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "World Health Organization (WHO)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Economic Community of West African States (ECOWAS)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Mano River Union",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Organisation of African Unity (OAU)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": [],
+      "variant_names": [
+        "Organization of African Unity"
+      ]
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "U.S. International Development Finance Corporation",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Independent Panel for Pandemic Preparedness and Response (IPPR)",
+      "employer_type": "international_organization",
+      "sector": "io",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "AEF",
+      "employer_name": "Africa Europe Foundation (AEF)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "AEF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "BF",
+      "employer_name": "Brenthurst Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "South Africa",
+      "org_units": [
+        {
+          "unit_id": "BF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "CWWL",
+      "employer_name": "Council of Women World Leaders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "EJSPC",
+      "employer_name": "Ellen Johnson Sirleaf Presidential Center for Women and Development",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Liberia",
+      "org_units": [
+        {
+          "unit_id": "EJSPC_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "ICG",
+      "employer_name": "International Crisis Group (USA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "ICG_Board",
+          "unit_name": "Board of Trustees",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "IIWPL",
+      "employer_name": "International Institute for Women in Political Leadership",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "MF",
+      "employer_name": "Mastercard Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Canada",
+      "org_units": [
+        {
+          "unit_id": "MF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "NF",
+      "employer_name": "Nobel Foundation",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "Sweden",
+      "org_units": [
+        {
+          "unit_id": "NF_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "OSIWA",
+      "employer_name": "Open Society Initiative for West Africa (OSIWA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": [
+        {
+          "unit_id": "OSIWA_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "Synergos",
+      "employer_name": "Synergos",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "Synergos_Board",
+          "unit_name": "Board of Directors",
+          "unit_type": "board_of_directors",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": []
+        }
+      ]
+    },
+    {
+      "employer_id": "TE",
+      "employer_name": "The Elders",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": null,
+      "org_units": []
+    },
+    {
+      "employer_id": "WWP",
+      "employer_name": "Women Waging Peace (USA)",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "AAA",
+      "employer_name": "American Academy of Achievement",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "ALUS",
+      "employer_name": "Association of Liberia in the United States",
+      "employer_type": "ngo",
+      "sector": "ngo",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E1",
+      "employer_name": "Dartmouth College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E2",
+      "employer_name": "Emory University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E3",
+      "employer_name": "Georgetown University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E4",
+      "employer_name": "Ghana Institute of Management and Public Administration (GIMPA)",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "Ghana",
+      "org_units": []
+    },
+    {
+      "employer_id": "E5",
+      "employer_name": "Harvard University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": [
+        {
+          "unit_id": "U1",
+          "unit_name": "Harvard Kennedy School",
+          "unit_type": "other",
+          "parent_unit_id": null,
+          "hierarchy_level": 1,
+          "counterparty": null,
+          "variant_names": [
+            "Harvard University’s John F. Kennedy School of Government"
+          ]
+        }
+      ]
+    },
+    {
+      "employer_id": "E6",
+      "employer_name": "Indiana University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E7",
+      "employer_name": "Madison Business College",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E8",
+      "employer_name": "Marquette University",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E9",
+      "employer_name": "The University of Tampa",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E10",
+      "employer_name": "University of Colorado at Boulder",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    },
+    {
+      "employer_id": "E11",
+      "employer_name": "University of Wisconsin",
+      "employer_type": "university",
+      "sector": "academic",
+      "country": "United States",
+      "org_units": []
+    }
+  ],
+  "person_name": "Ellen Johnson Sirleaf",
+  "processing_report": {
+    "total_orgs_input": 84,
+    "orgs_categorized": 84,
+    "sectors_processed": [
+      "govt",
+      "private",
+      "io",
+      "ngo",
+      "academic"
+    ],
+    "warnings": [],
+    "sector_details": [
+      {
+        "sector": "govt",
+        "orgs_input": 17,
+        "orgs_processed": 17,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "private",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "io",
+        "orgs_input": 11,
+        "orgs_processed": 11,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "ngo",
+        "orgs_input": 14,
+        "orgs_processed": 14,
+        "orgs_skipped": 0,
+        "complete": true
+      },
+      {
+        "sector": "academic",
+        "orgs_input": 13,
+        "orgs_processed": 13,
+        "orgs_skipped": 0,
+        "complete": true
+      }
+    ]
+  }
+}
