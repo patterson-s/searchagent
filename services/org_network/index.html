@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organization Network Editor</title>
+    <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/cytoscape-cose-bilkent@4.1.0/cytoscape-cose-bilkent.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+        #sidebar {
+            width: 350px;
+            padding: 15px;
+            box-sizing: border-box;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+        }
+        #cy {
+            flex: 1;
+            height: 100%;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .filter-section {
+            margin-bottom: 15px;
+        }
+        .filter-section label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .sector-filter label {
+            display: inline-block;
+            margin-right: 8px;
+            font-weight: normal;
+        }
+        .legend {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .legend-color {
+            width: 14px;
+            height: 14px;
+            margin-right: 6px;
+            border-radius: 3px;
+        }
+        #stats {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        #node-info {
+            margin-top: 20px;
+        }
+        #node-info h3 {
+            margin-top: 0;
+        }
+        form label {
+            font-weight: bold;
+            margin-top: 8px;
+            display: block;
+        }
+        form input, form select {
+            width: 100%;
+            padding: 4px;
+            margin-bottom: 6px;
+            box-sizing: border-box;
+        }
+        #edit-people {
+            background: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 3px;
+            max-height: 150px;
+            overflow-y: auto;
+            font-size: 0.9em;
+        }
+        button {
+            margin: 3px 2px;
+            padding: 5px 8px;
+            font-size: 0.9em;
+        }
+        .highlighted {
+            border-color: #f1c40f !important;
+            border-width: 5px !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Organization Network</h2>
+
+        <div>
+            <button onclick="changeLayout('cose')">Force Layout</button>
+            <button onclick="changeLayout('breadthfirst')">Hierarchy</button>
+            <button onclick="changeLayout('circle')">Circle</button>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #e74c3c;"></div>
+                <span>Government</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #3498db;"></div>
+                <span>International Org</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #2ecc71;"></div>
+                <span>NGO</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #f39c12;"></div>
+                <span>Private</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #9b59b6;"></div>
+                <span>Academic</span>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <label for="search">Search Organization Name:</label>
+            <input type="text" id="search" placeholder="Type to search..." oninput="searchNodes()">
+        </div>
+
+        <div class="filter-section">
+            <label>Filter by Sector (frontend only):</label>
+            <div class="sector-filter">
+                <label><input type="checkbox" value="govt" checked onchange="filterSector()"> Government</label>
+                <label><input type="checkbox" value="io" checked onchange="filterSector()"> IO</label>
+                <label><input type="checkbox" value="ngo" checked onchange="filterSector()"> NGO</label>
+                <label><input type="checkbox" value="private" checked onchange="filterSector()"> Private</label>
+                <label><input type="checkbox" value="academic" checked onchange="filterSector()"> Academic</label>
+            </div>
+        </div>
+
+        <div id="stats">
+            Loading stats...
+        </div>
+
+        <div id="node-info" style="display:none; margin-top: 20px;">
+            <h3>Selected Organization</h3>
+            <form onsubmit="event.preventDefault(); saveNode();">
+                <label>Name:</label>
+                <input type="text" id="edit-name">
+
+                <label>Sector:</label>
+                <select id="edit-sector">
+                    <option value="govt">Government</option>
+                    <option value="io">International Organization</option>
+                    <option value="ngo">NGO</option>
+                    <option value="private">Private</option>
+                    <option value="academic">Academic</option>
+                </select>
+
+                <label>Country:</label>
+                <input type="text" id="edit-country">
+
+                <label>People (read-only):</label>
+                <div id="edit-people">None</div>
+
+                <button type="button" onclick="saveNode()">Save Changes</button>
+                <button type="button" onclick="cancelEdit()">Cancel</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <button onclick="saveGraph()">Save All Changes</button>
+            <button onclick="exportJSON()">Export JSON</button>
+        </div>
+    </div>
+
+    <div id="cy"></div>
+
+    <script>
+        let cy;
+        let currentNode = null;
+        let graphData = null;
+
+        const sectorColors = {
+            'govt': '#e74c3c',
+            'io': '#3498db',
+            'ngo': '#2ecc71',
+            'private': '#f39c12',
+            'academic': '#9b59b6'
+        };
+
+        async function loadGraph() {
+            try {
+                const response = await fetch('/api/graph');
+                if (!response.ok) {
+                    const error = await response.json();
+                    console.error('Failed to load graph:', error);
+                    alert('Error loading graph: ' + (error.error || 'Unknown error'));
+                    return;
+                }
+                graphData = await response.json();
+                console.log('Loaded graph data:', graphData);
+
+                if (typeof cytoscape !== 'undefined' && typeof cytoscapeCoseBilkent !== 'undefined') {
+                    cytoscape.use(cytoscapeCoseBilkent);
+                }
+
+                initCytoscape();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading graph:', error);
+                alert('Failed to load graph: ' + error.message);
+            }
+        }
+
+        function initCytoscape() {
+            const elements = [];
+
+            graphData.nodes.forEach(node => {
+                elements.push({
+                    data: {
+                        id: node.id,
+                        label: node.name,
+                        ...node
+                    }
+                });
+            });
+
+            graphData.edges.forEach(edge => {
+                elements.push({
+                    data: {
+                        // keep existing id if present; otherwise Cytoscape auto-generates
+                        id: edge.id || (edge.source + '-' + edge.target + '-' + (edge.type || 'edge')),
+                        ...edge
+                    }
+                });
+            });
+
+            cy = cytoscape({
+                container: document.getElementById('cy'),
+                elements: elements,
+                style: [
+                    {
+                        selector: 'node',
+                        style: {
+                            'background-color': function (ele) {
+                                return sectorColors[ele.data('sector')] || '#95a5a6';
+                            },
+                            'label': 'data(label)',
+                            'width': function (ele) {
+                                const count = ele.data('people_count') || 1;
+                                return Math.min(20 + count * 3, 80);
+                            },
+                            'height': function (ele) {
+                                const count = ele.data('people_count') || 1;
+                                return Math.min(20 + count * 3, 80);
+                            },
+                            'text-valign': 'center',
+                            'text-halign': 'center',
+                            'font-size': '10px',
+                            'text-wrap': 'wrap',
+                            'text-max-width': '100px'
+                        }
+                    },
+                    {
+                        selector: 'node[type = "employer"]',
+                        style: {
+                            'shape': 'round-rectangle',
+                            'border-width': 3,
+                            'border-color': '#34495e'
+                        }
+                    },
+                    {
+                        selector: 'node[type = "unit"]',
+                        style: {
+                            'shape': 'rectangle',
+                            'border-width': 1,
+                            'border-color': '#7f8c8d'
+                        }
+                    },
+                    {
+                        selector: 'edge',
+                        style: {
+                            'width': 2,
+                            'line-color': '#bdc3c7',
+                            'target-arrow-color': '#7f8c8d',
+                            'target-arrow-shape': 'triangle',
+                            'curve-style': 'bezier'
+                        }
+                    },
+                    {
+                        selector: 'edge[type = "parent_unit"]',
+                        style: {
+                            'line-color': '#e67e22',
+                            'target-arrow-color': '#e67e22'
+                        }
+                    }
+                ],
+                layout: {
+                    name: 'cose',
+                    animate: false,
+                    nodeRepulsion: 8000,
+                    idealEdgeLength: 100
+                }
+            });
+
+            cy.on('tap', 'node', function (evt) {
+                const node = evt.target;
+                selectNode(node);
+            });
+        }
+
+        function changeLayout(layoutName) {
+            if (!cy) return;
+            let layoutOptions;
+            if (layoutName === 'breadthfirst') {
+                layoutOptions = {
+                    name: 'breadthfirst',
+                    directed: true,
+                    spacingFactor: 1.5
+                };
+            } else if (layoutName === 'circle') {
+                layoutOptions = {
+                    name: 'circle',
+                    spacingFactor: 2
+                };
+            } else {
+                layoutOptions = {
+                    name: 'cose',
+                    animate: false,
+                    nodeRepulsion: 8000,
+                    idealEdgeLength: 100
+                };
+            }
+            cy.layout(layoutOptions).run();
+        }
+
+        function selectNode(node) {
+            currentNode = node;
+            const data = node.data();
+
+            document.getElementById('edit-name').value = data.name || '';
+            document.getElementById('edit-sector').value = data.sector || 'govt';
+            document.getElementById('edit-country').value = data.country || '';
+
+            const peopleDiv = document.getElementById('edit-people');
+            const people = data.people || [];
+            peopleDiv.innerHTML = people.length ? people.join(', ') : 'None';
+
+            document.getElementById('node-info').style.display = 'block';
+        }
+
+        function saveNode() {
+            if (!currentNode) return;
+
+            const data = currentNode.data();
+            const updates = {
+                name: document.getElementById('edit-name').value,
+                sector: document.getElementById('edit-sector').value,
+                country: document.getElementById('edit-country').value
+            };
+
+            currentNode.data('name', updates.name);
+            currentNode.data('label', updates.name);
+            currentNode.data('sector', updates.sector);
+            currentNode.data('country', updates.country);
+
+            // reflect in graphData for saveGraph/export
+            if (graphData && graphData.nodes) {
+                for (const n of graphData.nodes) {
+                    if (n.id === data.id) {
+                        Object.assign(n, updates);
+                        break;
+                    }
+                }
+            }
+
+            fetch(`/api/node/${data.id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updates)
+            }).then(r => r.json()).then(resp => {
+                console.log('Node updated:', resp);
+            }).catch(err => {
+                console.error('Failed to update node:', err);
+            });
+        }
+
+        function cancelEdit() {
+            document.getElementById('node-info').style.display = 'none';
+            currentNode = null;
+        }
+
+        async function saveGraph() {
+            if (!graphData) return;
+            try {
+                const response = await fetch('/api/graph', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(graphData)
+                });
+                const result = await response.json();
+                alert(`Graph saved. Backup: ${result.backup || 'none'}`);
+            } catch (error) {
+                console.error('Error saving graph:', error);
+                alert('Failed to save graph: ' + error.message);
+            }
+        }
+
+        function exportJSON() {
+            if (!graphData) return;
+            const dataStr = JSON.stringify(graphData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'organization_graph.json';
+            link.click();
+        }
+
+        function filterSector() {
+            if (!cy) return;
+
+            const checkboxes = document.querySelectorAll('.sector-filter input[type="checkbox"]');
+            const activeSectors = Array.from(checkboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            cy.nodes().forEach(node => {
+                const visible = activeSectors.includes(node.data('sector'));
+                node.style('display', visible ? 'element' : 'none');
+            });
+
+            cy.edges().forEach(edge => {
+                const srcVisible = edge.source().style('display') !== 'none';
+                const tgtVisible = edge.target().style('display') !== 'none';
+                edge.style('display', (srcVisible && tgtVisible) ? 'element' : 'none');
+            });
+        }
+
+        function searchNodes() {
+            if (!cy) return;
+            const query = document.getElementById('search').value.toLowerCase();
+
+            if (!query) {
+                cy.nodes().forEach(node => {
+                    node.removeClass('highlighted');
+                    if (node.data('type') === 'employer') {
+                        node.style('border-width', 3);
+                        node.style('border-color', '#34495e');
+                    } else {
+                        node.style('border-width', 1);
+                        node.style('border-color', '#7f8c8d');
+                    }
+                });
+                return;
+            }
+
+            cy.nodes().forEach(node => {
+                const name = (node.data('name') || '').toLowerCase();
+                if (name.includes(query)) {
+                    node.addClass('highlighted');
+                    node.style('border-width', 5);
+                    node.style('border-color', '#f1c40f');
+                } else {
+                    node.removeClass('highlighted');
+                    if (node.data('type') === 'employer') {
+                        node.style('border-width', 3);
+                        node.style('border-color', '#34495e');
+                    } else {
+                        node.style('border-width', 1);
+                        node.style('border-color', '#7f8c8d');
+                    }
+                }
+            });
+        }
+
+        function updateStats() {
+            if (!graphData || !graphData.stats) {
+                document.getElementById('stats').textContent = 'No stats available';
+                return;
+            }
+            const stats = graphData.stats;
+            document.getElementById('stats').innerHTML = `
+                <strong>Total Organizations:</strong> ${stats.total_organizations}<br>
+                <strong>Total Units:</strong> ${stats.total_units}<br>
+                <strong>Total Nodes:</strong> ${stats.total_nodes}<br>
+                <strong>Total Edges:</strong> ${stats.total_edges}<br>
+                <strong>Sectors:</strong> ${stats.sectors.join(', ')}
+            `;
+        }
+
+        loadGraph();
+    </script>
+</body>
+</html>

@@ -4,3 +4,4 @@ python-dotenv
 beautifulsoup4
 tqdm
 cohere
+flask==3.0.0
