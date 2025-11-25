@@ -9,7 +9,7 @@ from extractor import top_passages, score_passage
 
 SEARCH_TEMPLATE = '{name} biography OR CV OR career OR education OR appointed OR minister OR ambassador OR director'
 MAX_RESULTS = 20
-OUTPUT_DIR = Path("output")
+OUTPUT_DIR = Path("outputs")
 
 def read_names_from_json(filepath: str) -> List[str]:
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -81,7 +81,7 @@ def process_person(name: str, max_results: int) -> List[Dict[str, Any]]:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python batch_search.py <input_json_file>")
+        print("Usage: python batch.py <input_json_file>")
         sys.exit(1)
     
     input_file = sys.argv[1]

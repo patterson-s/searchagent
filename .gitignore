@@ -1,4 +1,5 @@
 data/
-output/
+search/serper_01/outputs/
 services/birthfinder/archive/
 services/careerconsolidator/
+output/
